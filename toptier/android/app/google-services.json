@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "907282449519",
+    "project_id": "toptier-ad2b5",
+    "storage_bucket": "toptier-ad2b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907282449519:android:4ee06273ef7602539eb99a",
+        "android_client_info": {
+          "package_name": "com.example.toptier"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABj8i-nobzLyaW1IXx_cyKobvwm1qL6VQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

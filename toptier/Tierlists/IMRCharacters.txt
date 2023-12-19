@@ -1,0 +1,4916 @@
+var CHARACTERS = [
+    {
+        "id": 1357,
+        "name": "Agatha",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/10/agatha-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "39049",
+            "atk": "4303",
+            "def": "3646",
+            "speed": "1010"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/agatha/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Eternal Sect",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "01",
+        "advancement": 0
+    },
+    {
+        "id": 727,
+        "name": "Aisha",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/aisha-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "40449",
+            "atk": "4044",
+            "def": "4044",
+            "speed": "990"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/aisha/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Nameless Brotherhood",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "02",
+        "advancement": 0
+    },
+    {
+        "id": 1515,
+        "name": "Aisi",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/10/aisi-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "25803",
+            "atk": "2943",
+            "def": "2609",
+            "speed": "970"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/aisi/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "The Forgotten",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "03",
+        "advancement": 0
+    },
+    {
+        "id": 697,
+        "name": "Alahan",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/alahan-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "40449",
+            "atk": "4022",
+            "def": "3997",
+            "speed": "995"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/alahan/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Sunset Sages",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "04",
+        "advancement": 0
+    },
+    {
+        "id": 1365,
+        "name": "Amalic",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/10/amalic-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "40449",
+            "atk": "4092",
+            "def": "3922",
+            "speed": "992"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/amalic/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "The Forgotten",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "05",
+        "advancement": 0
+    },
+    {
+        "id": 1307,
+        "name": "Andrew",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/10/andrew-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "17144",
+            "atk": "1714",
+            "def": "1654",
+            "speed": "985"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/andrew/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Holy Light Parliament",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "06",
+        "advancement": 0
+    },
+    {
+        "id": 473,
+        "name": "Anna",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/anna-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "39226",
+            "atk": "4401",
+            "def": "3880",
+            "speed": "985"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/anna/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Wizard's Eye",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "07",
+        "advancement": 0
+    },
+    {
+        "id": 264,
+        "name": "Arella",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/arella-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "16806",
+            "atk": "1825",
+            "def": "1577",
+            "speed": "985"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/arella/",
+        "rarity": "Elite",
+        "title": null,
+        "tribe": "Dragon Tribe",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "08",
+        "advancement": 0
+    },
+    {
+        "id": 172,
+        "name": "Ariel",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/ariel-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "39278",
+            "atk": "4228",
+            "def": "3861",
+            "speed": "995"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/ariel/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Dragon Tribe",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "09",
+        "advancement": 0
+    },
+    {
+        "id": 1331,
+        "name": "Asindo",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/10/asindo-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "40449",
+            "atk": "3835",
+            "def": "3834",
+            "speed": "1020"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/asindo/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Eternal Sect",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "10",
+        "advancement": 0
+    },
+    {
+        "id": 781,
+        "name": "Astic",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/astic-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "28202",
+            "atk": "2522",
+            "def": "2791",
+            "speed": "970"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/astic/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Sunset Sages",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "11",
+        "advancement": 0
+    },
+    {
+        "id": 625,
+        "name": "Bakkins",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/bakkins-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "26028",
+            "atk": "2943",
+            "def": "2457",
+            "speed": "980"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Blue Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/bakkins/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Sword Harbor Guards",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "12",
+        "advancement": 0
+    },
+    {
+        "id": 292,
+        "name": "Bandit",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/bandit-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "5527",
+            "atk": "619",
+            "def": "605",
+            "speed": "965"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/bandit/",
+        "rarity": "Common",
+        "title": null,
+        "tribe": "Sunset Sages",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "13",
+        "advancement": 0
+    },
+    {
+        "id": 393,
+        "name": "Ben Austin",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/ben-austin-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "41392",
+            "atk": "4069",
+            "def": "4069",
+            "speed": "1030"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/ben-austin/",
+        "rarity": "Mythic",
+        "title": null,
+        "tribe": "Sword Harbor Guards",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "14",
+        "advancement": 0
+    },
+    {
+        "id": 1048,
+        "name": "Besmok",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/besmok-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "38806",
+            "atk": "4317",
+            "def": "3880",
+            "speed": "994"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/besmok/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Doom Legion",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "15",
+        "advancement": 0
+    },
+    {
+        "id": 1411,
+        "name": "Biseden",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/10/biseden-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "25803",
+            "atk": "2943",
+            "def": "2609",
+            "speed": "970"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Blue Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/biseden/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Eternal Sect",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "16",
+        "advancement": 0
+    },
+    {
+        "id": 1024,
+        "name": "Blackstone",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/blackstone-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "16806",
+            "atk": "1765",
+            "def": "1637",
+            "speed": "985"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/blackstone/",
+        "rarity": "Elite",
+        "title": null,
+        "tribe": "Nameless Brotherhood",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "17",
+        "advancement": 0
+    },
+    {
+        "id": 235,
+        "name": "Blade",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/blade-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "28785",
+            "atk": "2457",
+            "def": "2732",
+            "speed": "970"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Blue Mark",
+        "type": "Defense",
+        "link": "https://gachax.com/infinite-magicraid/character/blade/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Dragon Tribe",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "18",
+        "advancement": 0
+    },
+    {
+        "id": 37,
+        "name": "Brynhild",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/brynhild-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "45848",
+            "atk": "3667",
+            "def": "4514",
+            "speed": "990"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Defense",
+        "link": "https://gachax.com/infinite-magicraid/character/brynhild/",
+        "rarity": "Mythic",
+        "title": null,
+        "tribe": "Dragon Tribe",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "19",
+        "advancement": 0
+    },
+    {
+        "id": 611,
+        "name": "Capello",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/capello-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "28852",
+            "atk": "2515",
+            "def": "2732",
+            "speed": "970"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Defense",
+        "link": "https://gachax.com/infinite-magicraid/character/capello/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Sword Harbor Guards",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "20",
+        "advancement": 0
+    },
+    {
+        "id": 1219,
+        "name": "Carrie",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/carrie1.png",
+        "image": null,
+        "stats": {
+            "hp": "40435",
+            "atk": "4280",
+            "def": "3810",
+            "speed": "990"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/carrie/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Eternal Sect",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "21",
+        "advancement": 0
+    },
+    {
+        "id": 919,
+        "name": "Dale",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/dale-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "26028",
+            "atk": "2696",
+            "def": "2573",
+            "speed": "990"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Blue Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/dale/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Foresters",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "22",
+        "advancement": 0
+    },
+    {
+        "id": 1108,
+        "name": "Dario",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/dario-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "38335",
+            "atk": "4280",
+            "def": "3950",
+            "speed": "995"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Blue Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/dario/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Eternal Sect",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "23",
+        "advancement": 0
+    },
+    {
+        "id": 811,
+        "name": "Dem",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/dem-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "16806",
+            "atk": "1765",
+            "def": "1637",
+            "speed": "985"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/dem/",
+        "rarity": "Elite",
+        "title": null,
+        "tribe": "Sunset Sages",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "24",
+        "advancement": 0
+    },
+    {
+        "id": 1509,
+        "name": "Deschanel",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/10/deschanel-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "26240",
+            "atk": "2742",
+            "def": "2611",
+            "speed": "982"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/deschanel/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "The Forgotten",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "25",
+        "advancement": 0
+    },
+    {
+        "id": 800,
+        "name": "Dorsille",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/dorsille-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "16544",
+            "atk": "1808",
+            "def": "1620",
+            "speed": "985"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/dorsille/",
+        "rarity": "Elite",
+        "title": null,
+        "tribe": "Sunset Sages",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "26",
+        "advancement": 0
+    },
+    {
+        "id": 500,
+        "name": "Eden",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/eden-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "26678",
+            "atk": "2667",
+            "def": "2667",
+            "speed": "980"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/eden/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Wizard's Eye",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "27",
+        "advancement": 0
+    },
+    {
+        "id": 840,
+        "name": "Egea",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/egea-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "26453",
+            "atk": "2813",
+            "def": "2609",
+            "speed": "975"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/egea/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Nameless Brotherhood",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "28",
+        "advancement": 0
+    },
+    {
+        "id": 1062,
+        "name": "Eilat",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/eilat-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "41149",
+            "atk": "3833",
+            "def": "4256",
+            "speed": "985"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Defense",
+        "link": "https://gachax.com/infinite-magicraid/character/eilat/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Doom Legion",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "29",
+        "advancement": 0
+    },
+    {
+        "id": 1263,
+        "name": "Elaina",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/elaina-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "37635",
+            "atk": "4280",
+            "def": "3810",
+            "speed": "1010"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/elaina/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Holy Light Parliament",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "30",
+        "advancement": 0
+    },
+    {
+        "id": 1225,
+        "name": "Elleena",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/elleena-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "40449",
+            "atk": "4280",
+            "def": "3739",
+            "speed": "995"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/elleena/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Holy Light Parliament",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "31",
+        "advancement": 0
+    },
+    {
+        "id": 362,
+        "name": "Ellic",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/ellic-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "41639",
+            "atk": "3758",
+            "def": "4282",
+            "speed": "985"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Defense",
+        "link": "https://gachax.com/infinite-magicraid/character/ellic/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Wizard's Eye",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "32",
+        "advancement": 0
+    },
+    {
+        "id": 657,
+        "name": "Eric",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/eric-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "40169",
+            "atk": "4289",
+            "def": "3800",
+            "speed": "992"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Blue Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/eric/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Nameless Brotherhood",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "33",
+        "advancement": 0
+    },
+    {
+        "id": 806,
+        "name": "Essin",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/essin-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "16206",
+            "atk": "1808",
+            "def": "1654",
+            "speed": "985"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/essin/",
+        "rarity": "Elite",
+        "title": null,
+        "tribe": "Sunset Sages",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "34",
+        "advancement": 0
+    },
+    {
+        "id": 956,
+        "name": "Fairy",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/fairy-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "10578",
+            "atk": "1057",
+            "def": "1057",
+            "speed": "970"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/fairy/",
+        "rarity": "Rare",
+        "title": null,
+        "tribe": "Foresters",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "35",
+        "advancement": 0
+    },
+    {
+        "id": 1034,
+        "name": "Fanatic",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/fanatic-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "11301",
+            "atk": "976",
+            "def": "1066",
+            "speed": "970"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Blue Mark",
+        "type": "Defense",
+        "link": "https://gachax.com/infinite-magicraid/character/fanatic/",
+        "rarity": "Rare",
+        "title": null,
+        "tribe": "Nameless Brotherhood",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "36",
+        "advancement": 0
+    },
+    {
+        "id": 1300,
+        "name": "Fegan",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/fegan-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "27552",
+            "atk": "2457",
+            "def": "2726",
+            "speed": "985"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Defense",
+        "link": "https://gachax.com/infinite-magicraid/character/fegan/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Holy Light Parliament",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "37",
+        "advancement": 0
+    },
+    {
+        "id": 1151,
+        "name": "Feist",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/feist-icon-1.jpg",
+        "image": null,
+        "stats": {
+            "hp": "27978",
+            "atk": "2732",
+            "def": "2667",
+            "speed": "965"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/feist/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Doom Legion",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "38",
+        "advancement": 0
+    },
+    {
+        "id": 1237,
+        "name": "Fiona",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/fiona-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "39049",
+            "atk": "3904",
+            "def": "3904",
+            "speed": "1020"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/fiona/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Holy Light Parliament",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "39",
+        "advancement": 0
+    },
+    {
+        "id": 652,
+        "name": "Firewater",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/firewater-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "16206",
+            "atk": "1765",
+            "def": "1637",
+            "speed": "990"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/firewater/",
+        "rarity": "Elite",
+        "title": null,
+        "tribe": "Sword Harbor Guards",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "40",
+        "advancement": 0
+    },
+    {
+        "id": 1286,
+        "name": "Frey",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/frey-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "25803",
+            "atk": "2813",
+            "def": "2544",
+            "speed": "985"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Blue Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/frey/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Holy Light Parliament",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "41",
+        "advancement": 0
+    },
+    {
+        "id": 1558,
+        "name": "Frich",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/10/frich-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "41009",
+            "atk": "3833",
+            "def": "4256",
+            "speed": "986"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Defense",
+        "link": "https://gachax.com/infinite-magicraid/character/frich/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Nameless Brotherhood",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "42",
+        "advancement": 0
+    },
+    {
+        "id": 947,
+        "name": "Frith",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/frith-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "17144",
+            "atk": "1714",
+            "def": "1714",
+            "speed": "980"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/frith/",
+        "rarity": "Elite",
+        "title": null,
+        "tribe": "Foresters",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "43",
+        "advancement": 0
+    },
+    {
+        "id": 269,
+        "name": "Geeva",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/geeva-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "16206",
+            "atk": "1841",
+            "def": "1620",
+            "speed": "985"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Blue Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/geeva/",
+        "rarity": "Elite",
+        "title": null,
+        "tribe": "Dragon Tribe",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "44",
+        "advancement": 0
+    },
+    {
+        "id": 707,
+        "name": "Gerina",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/gerina-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "40449",
+            "atk": "4139",
+            "def": "3908",
+            "speed": "993"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/gerina/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Nameless Brotherhood",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "45",
+        "advancement": 0
+    },
+    {
+        "id": 943,
+        "name": "Glary",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/glary-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "17144",
+            "atk": "1714",
+            "def": "1654",
+            "speed": "985"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Blue Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/glary/",
+        "rarity": "Elite",
+        "title": null,
+        "tribe": "Foresters",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "46",
+        "advancement": 0
+    },
+    {
+        "id": 1203,
+        "name": "Gordo",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/gordo-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "18082",
+            "atk": "1663",
+            "def": "1731",
+            "speed": "975"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Defense",
+        "link": "https://gachax.com/infinite-magicraid/character/gordo/",
+        "rarity": "Elite",
+        "title": null,
+        "tribe": "Doom Legion",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "47",
+        "advancement": 0
+    },
+    {
+        "id": 1391,
+        "name": "Gramndi",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/10/gramndi-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "41835",
+            "atk": "4280",
+            "def": "4020",
+            "speed": "965"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Defense",
+        "link": "https://gachax.com/infinite-magicraid/character/gramndi/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "The Forgotten",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "48",
+        "advancement": 0
+    },
+    {
+        "id": 158,
+        "name": "Greta",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/greta-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "41163",
+            "atk": "3809",
+            "def": "4069",
+            "speed": "1010"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/greta/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Dragon Tribe",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "49",
+        "advancement": 0
+    },
+    {
+        "id": 838,
+        "name": "Gru",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/gru-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "45363",
+            "atk": "3739",
+            "def": "4139",
+            "speed": "970"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Defense",
+        "link": "https://gachax.com/infinite-magicraid/character/gru/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Foresters",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "50",
+        "advancement": 0
+    },
+    {
+        "id": 662,
+        "name": "Guard",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/guard-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "10405",
+            "atk": "1083",
+            "def": "1049",
+            "speed": "970"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/guard/",
+        "rarity": "Rare",
+        "title": null,
+        "tribe": "Sword Harbor Guards",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "51",
+        "advancement": 0
+    },
+    {
+        "id": 747,
+        "name": "Guhanna",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/guhanna-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "40309",
+            "atk": "4120",
+            "def": "3969",
+            "speed": "991"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Blue Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/guhanna/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Sunset Sages",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "52",
+        "advancement": 0
+    },
+    {
+        "id": 1438,
+        "name": "Guna",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/10/guna-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "26028",
+            "atk": "2820",
+            "def": "2554",
+            "speed": "982"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/guna/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Eternal Sect",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "53",
+        "advancement": 0
+    },
+    {
+        "id": 1145,
+        "name": "Gunner",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/gunner-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "41009",
+            "atk": "3880",
+            "def": "4209",
+            "speed": "986"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Defense",
+        "link": "https://gachax.com/infinite-magicraid/character/gunner/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Doom Legion",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "54",
+        "advancement": 0
+    },
+    {
+        "id": 590,
+        "name": "Gustave",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/gustave-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "40435",
+            "atk": "4280",
+            "def": "4090",
+            "speed": "970"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/gustave/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Nameless Brotherhood",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "55",
+        "advancement": 0
+    },
+    {
+        "id": 381,
+        "name": "HAL9000",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/hal9000-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "43263",
+            "atk": "3669",
+            "def": "4139",
+            "speed": "990"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Blue Mark",
+        "type": "Defense",
+        "link": "https://gachax.com/infinite-magicraid/character/hal9000/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Wizard's Eye",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "56",
+        "advancement": 0
+    },
+    {
+        "id": 993,
+        "name": "Hardac",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/hardac-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "29128",
+            "atk": "2513",
+            "def": "2693",
+            "speed": "971"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Defense",
+        "link": "https://gachax.com/infinite-magicraid/character/hardac/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Nameless Brotherhood",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "57",
+        "advancement": 0
+    },
+    {
+        "id": 152,
+        "name": "Hezonja",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/hezonja-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "39035",
+            "atk": "4350",
+            "def": "3950",
+            "speed": "985"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/hezonja/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Dragon Tribe",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "58",
+        "advancement": 0
+    },
+    {
+        "id": 1338,
+        "name": "Hisaro",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/10/hisaro-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "37635",
+            "atk": "4350",
+            "def": "3880",
+            "speed": "1000"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Blue Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/hisaro/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "The Forgotten",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "59",
+        "advancement": 0
+    },
+    {
+        "id": 133,
+        "name": "Hoff",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/hoff-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "40449",
+            "atk": "4209",
+            "def": "3950",
+            "speed": "995"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/hoff/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Dragon Tribe",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "60",
+        "advancement": 0
+    },
+    {
+        "id": 1427,
+        "name": "Holder",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/10/holder-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "25803",
+            "atk": "2813",
+            "def": "2609",
+            "speed": "980"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/holder/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Eternal Sect",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "61",
+        "advancement": 0
+    },
+    {
+        "id": 275,
+        "name": "Hordo",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/hordo-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "18682",
+            "atk": "1620",
+            "def": "1714",
+            "speed": "975"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Defense",
+        "link": "https://gachax.com/infinite-magicraid/character/hordo/",
+        "rarity": "Elite",
+        "title": null,
+        "tribe": "Dragon Tribe",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "62",
+        "advancement": 0
+    },
+    {
+        "id": 732,
+        "name": "Horus",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/horus-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "40920",
+            "atk": "4279",
+            "def": "3763",
+            "speed": "990"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/horus/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Sunset Sages",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "63",
+        "advancement": 0
+    },
+    {
+        "id": 1526,
+        "name": "Iguli",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/10/iguli-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "25803",
+            "atk": "2878",
+            "def": "2609",
+            "speed": "970"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/iguli/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "The Forgotten",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "64",
+        "advancement": 0
+    },
+    {
+        "id": 303,
+        "name": "Imp",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/imp-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "9855",
+            "atk": "1083",
+            "def": "1049",
+            "speed": "975"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/imp/",
+        "rarity": "Rare",
+        "title": null,
+        "tribe": "",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "65",
+        "advancement": 0
+    },
+    {
+        "id": 1075,
+        "name": "Jennifer",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/jennifer-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "39226",
+            "atk": "4289",
+            "def": "3894",
+            "speed": "992"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Blue Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/jennifer/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Doom Legion",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "66",
+        "advancement": 0
+    },
+    {
+        "id": 254,
+        "name": "Joseph",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/joseph-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "28202",
+            "atk": "2515",
+            "def": "2797",
+            "speed": "970"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Defense",
+        "link": "https://gachax.com/infinite-magicraid/character/joseph/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Dragon Tribe",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "67",
+        "advancement": 0
+    },
+    {
+        "id": 457,
+        "name": "Justy",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/justy-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "25803",
+            "atk": "2748",
+            "def": "2609",
+            "speed": "985"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/justy/",
+        "rarity": "Elite",
+        "title": null,
+        "tribe": "Sword Harbor Guards",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "68",
+        "advancement": 0
+    },
+    {
+        "id": 1277,
+        "name": "Kaedo",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/kaedo-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "27552",
+            "atk": "2602",
+            "def": "2541",
+            "speed": "988"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/kaedo/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Holy Light Parliament",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "69",
+        "advancement": 0
+    },
+    {
+        "id": 1346,
+        "name": "Karid",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/10/karid-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "40449",
+            "atk": "4228",
+            "def": "3861",
+            "speed": "990"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/karid/",
+        "rarity": "",
+        "title": null,
+        "tribe": "Eternal Sect",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "70",
+        "advancement": 0
+    },
+    {
+        "id": 442,
+        "name": "Katherine",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/katherine-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "41849",
+            "atk": "3974",
+            "def": "4114",
+            "speed": "980"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/katherine/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Sword Harbor Guards",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "71",
+        "advancement": 0
+    },
+    {
+        "id": 106,
+        "name": "Kristian",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/kristian-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "27552",
+            "atk": "2522",
+            "def": "2726",
+            "speed": "980"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Blue Mark",
+        "type": "Defense",
+        "link": "https://gachax.com/infinite-magicraid/character/kristian/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Sword Harbor Guards",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "72",
+        "advancement": 0
+    },
+    {
+        "id": 1028,
+        "name": "Kumma",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/kumma-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "19357",
+            "atk": "1493",
+            "def": "1834",
+            "speed": "970"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Defense",
+        "link": "https://gachax.com/infinite-magicraid/character/kumma/",
+        "rarity": "Common",
+        "title": null,
+        "tribe": "Nameless Brotherhood",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "73",
+        "advancement": 0
+    },
+    {
+        "id": 1100,
+        "name": "Lam",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/lam-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "39532",
+            "atk": "4228",
+            "def": "3953",
+            "speed": "990"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/lam/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Eternal Sect",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "74",
+        "advancement": 0
+    },
+    {
+        "id": 1312,
+        "name": "Leewar",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/10/leewar-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "18006",
+            "atk": "1765",
+            "def": "1577",
+            "speed": "980"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/leewar/",
+        "rarity": "Elite",
+        "title": null,
+        "tribe": "Holy Light Parliament",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "75",
+        "advancement": 0
+    },
+    {
+        "id": 1010,
+        "name": "Lester",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/lester-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "25803",
+            "atk": "2813",
+            "def": "2674",
+            "speed": "975"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/lester/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Nameless Brotherhood",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "76",
+        "advancement": 0
+    },
+    {
+        "id": 1169,
+        "name": "Leuf",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/leuf-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "26288",
+            "atk": "2729",
+            "def": "2515",
+            "speed": "980"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Blue Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/leuf/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Doom Legion",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "77",
+        "advancement": 0
+    },
+    {
+        "id": 1404,
+        "name": "Lia",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/10/lia-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "26453",
+            "atk": "2813",
+            "def": "2674",
+            "speed": "970"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/lia/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "The Forgotten",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "78",
+        "advancement": 0
+    },
+    {
+        "id": 1176,
+        "name": "Liz",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/liz-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "25153",
+            "atk": "2813",
+            "def": "2609",
+            "speed": "985"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/liz/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Doom Legion",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "79",
+        "advancement": 0
+    },
+    {
+        "id": 988,
+        "name": "Lomas",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/lomas-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "25153",
+            "atk": "2781",
+            "def": "2667",
+            "speed": "983"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Blue Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/lomas/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Nameless Brotherhood",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "80",
+        "advancement": 0
+    },
+    {
+        "id": 1521,
+        "name": "Longbeard",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/10/longbeard-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "25835",
+            "atk": "2836",
+            "def": "2570",
+            "speed": "981"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/longbeard/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "The Forgotten",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "81",
+        "advancement": 0
+    },
+    {
+        "id": 327,
+        "name": "Looter",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/looter-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "9855",
+            "atk": "1138",
+            "def": "994",
+            "speed": "975"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/looter/",
+        "rarity": "Rare",
+        "title": null,
+        "tribe": "Eternal Sect",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "82",
+        "advancement": 0
+    },
+    {
+        "id": 971,
+        "name": "Lucifer",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/lucifer-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "39978",
+            "atk": "4444",
+            "def": "4114",
+            "speed": "1010"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/lucifer/",
+        "rarity": "Mythic",
+        "title": null,
+        "tribe": "Doom Legion",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "83",
+        "advancement": 0
+    },
+    {
+        "id": 579,
+        "name": "Lukea",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/lukea-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "40678",
+            "atk": "4514",
+            "def": "3974",
+            "speed": "1010"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/lukea/",
+        "rarity": "Mythic",
+        "title": null,
+        "tribe": "Nameless Brotherhood",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "84",
+        "advancement": 0
+    },
+    {
+        "id": 819,
+        "name": "Luna",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/luna-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "43492",
+            "atk": "4139",
+            "def": "4139",
+            "speed": "1000"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/luna/",
+        "rarity": "Mythic",
+        "title": null,
+        "tribe": "Foresters",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "85",
+        "advancement": 0
+    },
+    {
+        "id": 793,
+        "name": "Lutz",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/lutz-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "24503",
+            "atk": "2878",
+            "def": "2544",
+            "speed": "990"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Blue Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/lutz/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Sunset Sages",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "86",
+        "advancement": 0
+    },
+    {
+        "id": 424,
+        "name": "Luz",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/luz-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "38106",
+            "atk": "4303",
+            "def": "3810",
+            "speed": "995"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/luz/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Sword Harbor Guards",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "87",
+        "advancement": 0
+    },
+    {
+        "id": 1090,
+        "name": "Madlaina",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/madlaina-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "39978",
+            "atk": "4444",
+            "def": "4114",
+            "speed": "1010"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/madlaina/",
+        "rarity": "Mythic",
+        "title": null,
+        "tribe": "Eternal Sect",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "88",
+        "advancement": 0
+    },
+    {
+        "id": 1398,
+        "name": "Mae",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/10/mae-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "38106",
+            "atk": "4303",
+            "def": "3880",
+            "speed": "1000"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/mae/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "The Forgotten",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "89",
+        "advancement": 0
+    },
+    {
+        "id": 885,
+        "name": "Maeve",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/maeve-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "39156",
+            "atk": "4303",
+            "def": "3915",
+            "speed": "990"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/maeve/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Foresters",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "90",
+        "advancement": 0
+    },
+    {
+        "id": 517,
+        "name": "Magis",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/magis-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "26028",
+            "atk": "2667",
+            "def": "2667",
+            "speed": "985"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/magis/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Wizard's Eye",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "91",
+        "advancement": 0
+    },
+    {
+        "id": 1443,
+        "name": "Maguire",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/10/maguire-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "29143",
+            "atk": "2463",
+            "def": "2885",
+            "speed": "970"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Defense",
+        "link": "https://gachax.com/infinite-magicraid/character/maguire/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Eternal Sect",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "92",
+        "advancement": 0
+    },
+    {
+        "id": 900,
+        "name": "Malassa",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/malassa-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "25153",
+            "atk": "2813",
+            "def": "2609",
+            "speed": "985"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/malassa/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Foresters",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "93",
+        "advancement": 0
+    },
+    {
+        "id": 906,
+        "name": "Maphka",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/maphka-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "26095",
+            "atk": "2729",
+            "def": "2612",
+            "speed": "986"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/maphka/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Doom Legion",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "94",
+        "advancement": 0
+    },
+    {
+        "id": 1120,
+        "name": "Margarita",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/margarita-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "39035",
+            "atk": "4350",
+            "def": "3880",
+            "speed": "990"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Blue Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/margarita/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Doom Legion",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "95",
+        "advancement": 0
+    },
+    {
+        "id": 1293,
+        "name": "Maya",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/maya-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "26028",
+            "atk": "2667",
+            "def": "2602",
+            "speed": "985"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Blue Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/maya/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Holy Light Parliament",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "96",
+        "advancement": 0
+    },
+    {
+        "id": 877,
+        "name": "Megan",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/megan-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "38711",
+            "atk": "4392",
+            "def": "3871",
+            "speed": "990"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/megan/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Foresters",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "97",
+        "advancement": 0
+    },
+    {
+        "id": 340,
+        "name": "Melchio",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/melchio-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "39978",
+            "atk": "4444",
+            "def": "4114",
+            "speed": "1010"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/melchio/",
+        "rarity": "Mythic",
+        "title": null,
+        "tribe": "Wizard's Eye",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "98",
+        "advancement": 0
+    },
+    {
+        "id": 114,
+        "name": "Melia",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/melia-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "39035",
+            "atk": "4420",
+            "def": "3810",
+            "speed": "990"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/melia/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Dragon Tribe",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "99",
+        "advancement": 0
+    },
+    {
+        "id": 430,
+        "name": "Melina",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/melina-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "40449",
+            "atk": "4106",
+            "def": "3983",
+            "speed": "990"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/melina/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Sword Harbor Guards",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "100",
+        "advancement": 0
+    },
+    {
+        "id": 1566,
+        "name": "Melter",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/10/melter-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "26126",
+            "atk": "2726",
+            "def": "2612",
+            "speed": "984"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/melter/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Sunset Sages",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "101",
+        "advancement": 0
+    },
+    {
+        "id": 1182,
+        "name": "Mobis",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/mobis-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "25638",
+            "atk": "2333",
+            "def": "3001",
+            "speed": "972"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Defense",
+        "link": "https://gachax.com/infinite-magicraid/character/mobis/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Doom Legion",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "102",
+        "advancement": 0
+    },
+    {
+        "id": 1189,
+        "name": "Mondschka",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/mondschka-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "28202",
+            "atk": "2522",
+            "def": "2726",
+            "speed": "975"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Defense",
+        "link": "https://gachax.com/infinite-magicraid/character/mondschka/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Doom Legion",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "103",
+        "advancement": 0
+    },
+    {
+        "id": 1000,
+        "name": "Moo",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/moo-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "27103",
+            "atk": "2813",
+            "def": "2609",
+            "speed": "970"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Defense",
+        "link": "https://gachax.com/infinite-magicraid/character/moo/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Nameless Brotherhood",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "104",
+        "advancement": 0
+    },
+    {
+        "id": 981,
+        "name": "Mori",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/mori-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "25803",
+            "atk": "2813",
+            "def": "2544",
+            "speed": "985"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Blue Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/mori/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Nameless Brotherhood",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "105",
+        "advancement": 0
+    },
+    {
+        "id": 1448,
+        "name": "Moro",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/10/moro-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "17406",
+            "atk": "1705",
+            "def": "1697",
+            "speed": "980"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/moro/",
+        "rarity": "Elite",
+        "title": null,
+        "tribe": "Eternal Sect",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "106",
+        "advancement": 0
+    },
+    {
+        "id": 526,
+        "name": "Muller",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/muller-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "28202",
+            "atk": "2522",
+            "def": "2726",
+            "speed": "975"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Defense",
+        "link": "https://gachax.com/infinite-magicraid/character/muller/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Wizard's Eye",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "107",
+        "advancement": 0
+    },
+    {
+        "id": 682,
+        "name": "Mutu",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/mutu-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "37635",
+            "atk": "4280",
+            "def": "3950",
+            "speed": "1000"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/mutu/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Nameless Brotherhood",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "108",
+        "advancement": 0
+    },
+    {
+        "id": 756,
+        "name": "Nasakhma",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/nasakhma-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "40449",
+            "atk": "4044",
+            "def": "3974",
+            "speed": "995"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Blue Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/nasakhma/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Sunset Sages",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "109",
+        "advancement": 0
+    },
+    {
+        "id": 188,
+        "name": "Naseal",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/naseal-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "43734",
+            "atk": "3527",
+            "def": "4373",
+            "speed": "980"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Blue Mark",
+        "type": "Defense",
+        "link": "https://gachax.com/infinite-magicraid/character/naseal/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Dragon Tribe",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "110",
+        "advancement": 0
+    },
+    {
+        "id": 179,
+        "name": "Natalie",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/natalie-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "38106",
+            "atk": "4261",
+            "def": "3922",
+            "speed": "1000"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Blue Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/natalie/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Dragon Tribe",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "111",
+        "advancement": 0
+    },
+    {
+        "id": 226,
+        "name": "Naya",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/naya-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "25803",
+            "atk": "2878",
+            "def": "2674",
+            "speed": "970"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Blue Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/naya/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Dragon Tribe",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "112",
+        "advancement": 0
+    },
+    {
+        "id": 485,
+        "name": "Nid Rold",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/nid-rold-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "40449",
+            "atk": "4209",
+            "def": "3810",
+            "speed": "995"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/nid-rold/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Wizard's Eye",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "113",
+        "advancement": 0
+    },
+    {
+        "id": 667,
+        "name": "Nita",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/nita-ico.jpg",
+        "image": null,
+        "stats": {
+            "hp": "40692",
+            "atk": "4303",
+            "def": "3974",
+            "speed": "1030"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Blue Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/nita/",
+        "rarity": "Mythic",
+        "title": null,
+        "tribe": "Sunset Sages",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "114",
+        "advancement": 0
+    },
+    {
+        "id": 1213,
+        "name": "Nordak",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/nordak-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "44206",
+            "atk": "3763",
+            "def": "4373",
+            "speed": "1010"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Defense",
+        "link": "https://gachax.com/infinite-magicraid/character/nordak/",
+        "rarity": "Mythic",
+        "title": null,
+        "tribe": "Holy Light Parliament",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "115",
+        "advancement": 0
+    },
+    {
+        "id": 1163,
+        "name": "Norma",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/norma-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "26678",
+            "atk": "2667",
+            "def": "2667",
+            "speed": "980"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Blue Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/norma/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Doom Legion",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "116",
+        "advancement": 0
+    },
+    {
+        "id": 617,
+        "name": "Oboro",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/oboro-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "25803",
+            "atk": "2813",
+            "def": "2544",
+            "speed": "985"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/oboro/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Sword Harbor Guards",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "117",
+        "advancement": 0
+    },
+    {
+        "id": 925,
+        "name": "Ofner",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/ofner-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "26028",
+            "atk": "2732",
+            "def": "2667",
+            "speed": "980"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/ofner/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Foresters",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "118",
+        "advancement": 0
+    },
+    {
+        "id": 1124,
+        "name": "Okmin",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/okmin-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "39035",
+            "atk": "4350",
+            "def": "3950",
+            "speed": "985"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/okmin/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Doom Legion",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "119",
+        "advancement": 0
+    },
+    {
+        "id": 314,
+        "name": "Oracle",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/oracle-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "10578",
+            "atk": "1057",
+            "def": "1002",
+            "speed": "975"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/oracle/",
+        "rarity": "Rare",
+        "title": null,
+        "tribe": "Holy Light Parliament",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "120",
+        "advancement": 0
+    },
+    {
+        "id": 930,
+        "name": "Pacchino",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/pachhino-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "27328",
+            "atk": "2755",
+            "def": "2515",
+            "speed": "980"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/pacchino/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Foresters",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "121",
+        "advancement": 0
+    },
+    {
+        "id": 288,
+        "name": "Patrol",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/patrol-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "6657",
+            "atk": "599",
+            "def": "662",
+            "speed": "950"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Blue Mark",
+        "type": "Defense",
+        "link": "https://gachax.com/infinite-magicraid/character/patrol/",
+        "rarity": "Common",
+        "title": null,
+        "tribe": "Sword Harbor Guards",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "122",
+        "advancement": 0
+    },
+    {
+        "id": 572,
+        "name": "Patrol-1",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/patrol-1-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "9855",
+            "atk": "1093",
+            "def": "994",
+            "speed": "980"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/patrol-1/",
+        "rarity": "Rare",
+        "title": null,
+        "tribe": "Wizard's Eye",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "123",
+        "advancement": 0
+    },
+    {
+        "id": 559,
+        "name": "Phil",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/phil-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "16544",
+            "atk": "1714",
+            "def": "1714",
+            "speed": "985"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Blue Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/phil/",
+        "rarity": "Elite",
+        "title": null,
+        "tribe": "Wizard's Eye",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "124",
+        "advancement": 0
+    },
+    {
+        "id": 1057,
+        "name": "Phocas",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/phocas-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "39049",
+            "atk": "3904",
+            "def": "4184",
+            "speed": "1000"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/phocas/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Doom Legion",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "125",
+        "advancement": 0
+    },
+    {
+        "id": 646,
+        "name": "Price",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/price-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "19019",
+            "atk": "1586",
+            "def": "1714",
+            "speed": "975"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/price/",
+        "rarity": "Elite",
+        "title": null,
+        "tribe": "Sword Harbor Guards",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "126",
+        "advancement": 0
+    },
+    {
+        "id": 815,
+        "name": "Protector",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/protector-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "10751",
+            "atk": "1086",
+            "def": "1011",
+            "speed": "970"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Defense",
+        "link": "https://gachax.com/infinite-magicraid/character/protector/",
+        "rarity": "Rare",
+        "title": null,
+        "tribe": "Sunset Sages",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "127",
+        "advancement": 0
+    },
+    {
+        "id": 331,
+        "name": "Raider",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/raider-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "6592",
+            "atk": "609",
+            "def": "609",
+            "speed": "955"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/raider/",
+        "rarity": "Common",
+        "title": null,
+        "tribe": "Nameless Brotherhood",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "128",
+        "advancement": 0
+    },
+    {
+        "id": 966,
+        "name": "Ranger",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/ranger-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "11301",
+            "atk": "1086",
+            "def": "1121",
+            "speed": "955"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Blue Mark",
+        "type": "Defense",
+        "link": "https://gachax.com/infinite-magicraid/character/ranger/",
+        "rarity": "Rare",
+        "title": null,
+        "tribe": "Foresters",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "129",
+        "advancement": 0
+    },
+    {
+        "id": 244,
+        "name": "Reeves",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/reeves-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "26028",
+            "atk": "2820",
+            "def": "2515",
+            "speed": "985"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/reeves/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Dragon Tribe",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "130",
+        "advancement": 0
+    },
+    {
+        "id": 642,
+        "name": "Reggie",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/reggie-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "17144",
+            "atk": "1774",
+            "def": "1774",
+            "speed": "970"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/reggie/",
+        "rarity": "Elite",
+        "title": null,
+        "tribe": "Sword Harbor Guards",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "131",
+        "advancement": 0
+    },
+    {
+        "id": 774,
+        "name": "Reliant",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/reliant-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "27328",
+            "atk": "2602",
+            "def": "2732",
+            "speed": "975"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/reliant/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Sunset Sages",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "132",
+        "advancement": 0
+    },
+    {
+        "id": 1270,
+        "name": "Roselea",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/roselea-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "25153",
+            "atk": "2878",
+            "def": "2544",
+            "speed": "985"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/roselea/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Holy Light Parliament",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "133",
+        "advancement": 0
+    },
+    {
+        "id": 631,
+        "name": "Ross",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/ross-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "26678",
+            "atk": "2602",
+            "def": "2667",
+            "speed": "985"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/ross/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Sword Harbor Guards",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "134",
+        "advancement": 0
+    },
+    {
+        "id": 787,
+        "name": "Ruen",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/ruen-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "29143",
+            "atk": "2421",
+            "def": "2797",
+            "speed": "970"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Defense",
+        "link": "https://gachax.com/infinite-magicraid/character/ruen/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Sunset Sages",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "135",
+        "advancement": 0
+    },
+    {
+        "id": 1532,
+        "name": "Rumble",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/10/rumble-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "30085",
+            "atk": "2333",
+            "def": "2726",
+            "speed": "975"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Defense",
+        "link": "https://gachax.com/infinite-magicraid/character/rumble/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "The Forgotten",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "136",
+        "advancement": 0
+    },
+    {
+        "id": 505,
+        "name": "Sadora",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/sadora-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "26678",
+            "atk": "2709",
+            "def": "2625",
+            "speed": "980"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/sadora/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Wizard's Eye",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "137",
+        "advancement": 0
+    },
+    {
+        "id": 1543,
+        "name": "Safar",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/10/safar-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "17144",
+            "atk": "1841",
+            "def": "1586",
+            "speed": "980"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Blue Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/safar/",
+        "rarity": "Elite",
+        "title": null,
+        "tribe": "The Forgotten",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "138",
+        "advancement": 0
+    },
+    {
+        "id": 713,
+        "name": "Sana",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/sana-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "40449",
+            "atk": "4082",
+            "def": "4007",
+            "speed": "990"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/sana/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Sunset Sages",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "139",
+        "advancement": 0
+    },
+    {
+        "id": 1249,
+        "name": "Schilder",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/schilder-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "41863",
+            "atk": "3809",
+            "def": "4279",
+            "speed": "980"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Defense",
+        "link": "https://gachax.com/infinite-magicraid/character/schilder/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Holy Light Parliament",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "140",
+        "advancement": 0
+    },
+    {
+        "id": 829,
+        "name": "Serena",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/serena-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "39049",
+            "atk": "4184",
+            "def": "3904",
+            "speed": "1000"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/serena/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Foresters",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "141",
+        "advancement": 0
+    },
+    {
+        "id": 335,
+        "name": "Servant-0",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/servant-0-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "5527",
+            "atk": "619",
+            "def": "555",
+            "speed": "970"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/servant-0/",
+        "rarity": "Common",
+        "title": null,
+        "tribe": "Wizard's Eye",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "142",
+        "advancement": 0
+    },
+    {
+        "id": 768,
+        "name": "Shapotite",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/shapotite-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "28852",
+            "atk": "2522",
+            "def": "2726",
+            "speed": "970"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/shapotite/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Sunset Sages",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "143",
+        "advancement": 0
+    },
+    {
+        "id": 1454,
+        "name": "Shipp",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/10/shipp-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "16806",
+            "atk": "1825",
+            "def": "1697",
+            "speed": "975"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Blue Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/shipp/",
+        "rarity": "Elite",
+        "title": null,
+        "tribe": "Eternal Sect",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "144",
+        "advancement": 0
+    },
+    {
+        "id": 218,
+        "name": "Shtar",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/shtar-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "25803",
+            "atk": "2813",
+            "def": "2544",
+            "speed": "985"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/shtar/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Dragon Tribe",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "145",
+        "advancement": 0
+    },
+    {
+        "id": 418,
+        "name": "Sigmund",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/sigmund-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "44663",
+            "atk": "3669",
+            "def": "4279",
+            "speed": "970"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Defense",
+        "link": "https://gachax.com/infinite-magicraid/character/sigmund/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Sword Harbor Guards",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "146",
+        "advancement": 0
+    },
+    {
+        "id": 600,
+        "name": "Sinton",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/sinton-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "43263",
+            "atk": "3739",
+            "def": "4209",
+            "speed": "980"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Blue Mark",
+        "type": "Defense",
+        "link": "https://gachax.com/infinite-magicraid/character/sinton/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Nameless Brotherhood",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "147",
+        "advancement": 0
+    },
+    {
+        "id": 684,
+        "name": "Slackdo",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/slackdo-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "39086",
+            "atk": "4261",
+            "def": "3908",
+            "speed": "990"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/slackdo/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Sunset Sages",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "148",
+        "advancement": 0
+    },
+    {
+        "id": 1548,
+        "name": "Slivelle",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/10/slivelle-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "39749",
+            "atk": "4190",
+            "def": "3969",
+            "speed": "990"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/slivelle/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Wizard's Eye",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "149",
+        "advancement": 0
+    },
+    {
+        "id": 1040,
+        "name": "Smith",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/smith-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "9855",
+            "atk": "1138",
+            "def": "994",
+            "speed": "975"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/smith/",
+        "rarity": "Rare",
+        "title": null,
+        "tribe": "Nameless Brotherhood",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "150",
+        "advancement": 0
+    },
+    {
+        "id": 411,
+        "name": "Soli",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/soli-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "42556",
+            "atk": "3800",
+            "def": "4171",
+            "speed": "980"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Defense",
+        "link": "https://gachax.com/infinite-magicraid/character/soli/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Sword Harbor Guards",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "151",
+        "advancement": 0
+    },
+    {
+        "id": 565,
+        "name": "Sopu",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/sopu-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "17144",
+            "atk": "1654",
+            "def": "1714",
+            "speed": "985"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/sopu/",
+        "rarity": "Elite",
+        "title": null,
+        "tribe": "Wizard's Eye",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "152",
+        "advancement": 0
+    },
+    {
+        "id": 351,
+        "name": "Space",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/space-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "39049",
+            "atk": "4044",
+            "def": "3904",
+            "speed": "1010"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/space/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Wizard's Eye",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "153",
+        "advancement": 0
+    },
+    {
+        "id": 912,
+        "name": "Stan",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/stan-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "27552",
+            "atk": "2457",
+            "def": "2791",
+            "speed": "975"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Blue Mark",
+        "type": "Defense",
+        "link": "https://gachax.com/infinite-magicraid/character/stan/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Foresters",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "154",
+        "advancement": 0
+    },
+    {
+        "id": 1018,
+        "name": "Sticco",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/sticco-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "16806",
+            "atk": "1901",
+            "def": "1560",
+            "speed": "980"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/sticco/",
+        "rarity": "Elite",
+        "title": null,
+        "tribe": "Nameless Brotherhood",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "155",
+        "advancement": 0
+    },
+    {
+        "id": 299,
+        "name": "Supporter",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/supporter-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "6027",
+            "atk": "619",
+            "def": "605",
+            "speed": "960"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/supporter/",
+        "rarity": "Common",
+        "title": null,
+        "tribe": "Foresters",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "156",
+        "advancement": 0
+    },
+    {
+        "id": 936,
+        "name": "Sylvan",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/sylvan-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "26678",
+            "atk": "2732",
+            "def": "2602",
+            "speed": "980"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/sylvan/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Foresters",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "157",
+        "advancement": 0
+    },
+    {
+        "id": 554,
+        "name": "Sylvester",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/sylvester-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "27046",
+            "atk": "2904",
+            "def": "2675",
+            "speed": "978"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/sylvester/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Wizard's Eye",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "158",
+        "advancement": 0
+    },
+    {
+        "id": 892,
+        "name": "Taff",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/taff-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "40449",
+            "atk": "4044",
+            "def": "4044",
+            "speed": "990"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/taff/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Foresters",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "159",
+        "advancement": 0
+    },
+    {
+        "id": 952,
+        "name": "Taurs",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/taurs-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "16037",
+            "atk": "1935",
+            "def": "1603",
+            "speed": "980"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/taurs/",
+        "rarity": "Elite",
+        "title": null,
+        "tribe": "Foresters",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "160",
+        "advancement": 0
+    },
+    {
+        "id": 206,
+        "name": "Teres",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/teres-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "26418",
+            "atk": "2755",
+            "def": "2554",
+            "speed": "984"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/teres/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Dragon Tribe",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "161",
+        "advancement": 0
+    },
+    {
+        "id": 742,
+        "name": "Timi",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/timi-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "40169",
+            "atk": "4040",
+            "def": "3993",
+            "speed": "996"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/timi/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Nameless Brotherhood",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "162",
+        "advancement": 0
+    },
+    {
+        "id": 1208,
+        "name": "Timona",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/timona-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "16544",
+            "atk": "1714",
+            "def": "1654",
+            "speed": "990"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Blue Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/timona/",
+        "rarity": "Elite",
+        "title": null,
+        "tribe": "Doom Legion",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "163",
+        "advancement": 0
+    },
+    {
+        "id": 1118,
+        "name": "Turf",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/turf-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "39506",
+            "atk": "4209",
+            "def": "4044",
+            "speed": "985"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Blue Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/turf/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Eternal Sect",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "164",
+        "advancement": 0
+    },
+    {
+        "id": 1321,
+        "name": "Ulcaster",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/10/ulcaster-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "40678",
+            "atk": "4514",
+            "def": "3974",
+            "speed": "1010"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/ulcaster/",
+        "rarity": "Mythic",
+        "title": null,
+        "tribe": "The Forgotten",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "165",
+        "advancement": 0
+    },
+    {
+        "id": 373,
+        "name": "Valentin",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/valentin-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "39035",
+            "atk": "4350",
+            "def": "3810",
+            "speed": "995"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Blue Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/valentin/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Wizard's Eye",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "166",
+        "advancement": 0
+    },
+    {
+        "id": 1376,
+        "name": "Vedar",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/10/vedar-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "30085",
+            "atk": "2457",
+            "def": "2667",
+            "speed": "970"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Defense",
+        "link": "https://gachax.com/infinite-magicraid/character/vedar/",
+        "rarity": "Elite",
+        "title": null,
+        "tribe": "Eternal Sect",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "167",
+        "advancement": 0
+    },
+    {
+        "id": 123,
+        "name": "Vera",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/vera-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "39049",
+            "atk": "4044",
+            "def": "4044",
+            "speed": "1000"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/vera/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Dragon Tribe",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "168",
+        "advancement": 0
+    },
+    {
+        "id": 492,
+        "name": "Vero",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/vero-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "26386",
+            "atk": "2739",
+            "def": "2638",
+            "speed": "981"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Blue Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/vero/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Wizard's Eye",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "169",
+        "advancement": 0
+    },
+    {
+        "id": 471,
+        "name": "Verto",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/verto-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "26028",
+            "atk": "2667",
+            "def": "2667",
+            "speed": "985"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/verto/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Sword Harbor Guards",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "170",
+        "advancement": 0
+    },
+    {
+        "id": 539,
+        "name": "Visley",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/visley-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "26678",
+            "atk": "2667",
+            "def": "2667",
+            "speed": "980"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/visley/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Wizard's Eye",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "171",
+        "advancement": 0
+    },
+    {
+        "id": 721,
+        "name": "Walter",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/walter-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "39035",
+            "atk": "4350",
+            "def": "3950",
+            "speed": "985"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/walter/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Sunset Sages",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "172",
+        "advancement": 0
+    },
+    {
+        "id": 284,
+        "name": "Warrior",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/warrior-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "6027",
+            "atk": "619",
+            "def": "605",
+            "speed": "960"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/warrior/",
+        "rarity": "Common",
+        "title": null,
+        "tribe": "Dragon Tribe",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "173",
+        "advancement": 0
+    },
+    {
+        "id": 197,
+        "name": "Wim",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/wim-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "28628",
+            "atk": "2667",
+            "def": "2667",
+            "speed": "965"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Red Mark",
+        "type": "Defense",
+        "link": "https://gachax.com/infinite-magicraid/character/wim/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Dragon Tribe",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "174",
+        "advancement": 0
+    },
+    {
+        "id": 1432,
+        "name": "Winnex",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/10/winnex-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "26028",
+            "atk": "2667",
+            "def": "2667",
+            "speed": "985"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/winnex/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Eternal Sect",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "175",
+        "advancement": 0
+    },
+    {
+        "id": 959,
+        "name": "Wolsey",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/wolsey-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "27310",
+            "atk": "2794",
+            "def": "2731",
+            "speed": "980"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/wolsey/",
+        "rarity": "Epic",
+        "title": null,
+        "tribe": "Nameless Brotherhood",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "176",
+        "advancement": 0
+    },
+    {
+        "id": 402,
+        "name": "Xia",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/xia-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "37635",
+            "atk": "4420",
+            "def": "3810",
+            "speed": "1000"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/xia/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Sword Harbor Guards",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "177",
+        "advancement": 0
+    },
+    {
+        "id": 321,
+        "name": "Yeti",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/yeti-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "11301",
+            "atk": "1031",
+            "def": "1121",
+            "speed": "960"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Blue Mark",
+        "type": "Defense",
+        "link": "https://gachax.com/infinite-magicraid/character/yeti/",
+        "rarity": "Rare",
+        "title": null,
+        "tribe": "The Forgotten",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "178",
+        "advancement": 0
+    },
+    {
+        "id": 448,
+        "name": "Yoko",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/09/yoko-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "37635",
+            "atk": "4280",
+            "def": "3950",
+            "speed": "1000"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Blue Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/yoko/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Sword Harbor Guards",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "179",
+        "advancement": 0
+    },
+    {
+        "id": 1298,
+        "name": "Zachzulu",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/10/zachzulu-icon.png",
+        "image": null,
+        "stats": {
+            "hp": "41863",
+            "atk": "4139",
+            "def": "3739",
+            "speed": "995"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/zachzulu/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "Eternal Sect",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "180",
+        "advancement": 0
+    },
+    {
+        "id": 1538,
+        "name": "Zold",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/10/zold-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "18006",
+            "atk": "1705",
+            "def": "1757",
+            "speed": "970"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Green Mark",
+        "type": "Attack",
+        "link": "https://gachax.com/infinite-magicraid/character/zold/",
+        "rarity": "Elite",
+        "title": null,
+        "tribe": "The Forgotten",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "181",
+        "advancement": 0
+    },
+    {
+        "id": 1378,
+        "name": "Zyra",
+        "icon": "https://gachax.com/infinite-magicraid/wp-content/uploads/sites/22/2022/10/zyra-icon.jpg",
+        "image": null,
+        "stats": {
+            "hp": "39049",
+            "atk": "3904",
+            "def": "3904",
+            "speed": "1020"
+        },
+        "resonance": null,
+        "class": null,
+        "element": "Force Mark",
+        "type": "Support",
+        "link": "https://gachax.com/infinite-magicraid/character/zyra/",
+        "rarity": "Legend",
+        "title": null,
+        "tribe": "The Forgotten",
+        "jp_only": null,
+        "weapon": {
+            "name": null,
+            "image": null
+        },
+        "arrPos": "182",
+        "advancement": 0
+    }
+];
