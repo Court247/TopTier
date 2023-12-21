@@ -33,9 +33,9 @@ class GameInfo {
       required this.description,
       required this.stats,
       required this.link,
-      required this.isFavorite,
-      required this.canAdd,
-      required this.isOwned});
+      this.isFavorite = false,
+      this.canAdd = true,
+      this.isOwned = false});
 
   /// Documentation for ToJson
   ///
@@ -43,7 +43,7 @@ class GameInfo {
   ///
   /// Turns a single instance into json String
   ToJson() {
-    Map data = new Map();
+    Map data = new Map<String, dynamic>();
     data['id'] = this.id;
     data['name'] = this.name;
     data['title'] = this.title;
@@ -59,6 +59,26 @@ class GameInfo {
     data['link'] = this.link;
     data['stats'] = this.stats;
     data['isFavorite'] = this.isFavorite;
+    data['canAdd'] = this.canAdd;
+    data['isOwned'] = this.isOwned;
     return data;
+  }
+
+  FromJson(Map<String, dynamic> json) {
+    id = json['id'];
+    name = json['name'];
+    title = json['title'];
+    image = json['image'];
+    characterClass = json['class'];
+    element = json['element'];
+    horoscope = json['horoscope'];
+    rarity = json['rarity'];
+    rating = json['rating'];
+    artifact = json['artifact'];
+    sets = json['sets'];
+    description = json['description'];
+    link = json['link'];
+    stats = json['stats'];
+    isFavorite = json['isFavorite'];
   }
 }

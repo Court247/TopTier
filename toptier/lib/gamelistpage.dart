@@ -1,6 +1,8 @@
 import 'dart:ui';
 
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:toptier/Games.dart';
 import 'dislytetierlistpage.dart';
 import 'epic7tierlistpage.dart';
@@ -34,17 +36,18 @@ class TopTierGamesPage extends StatefulWidget {
 }
 
 class TopTierGamesPageState extends State<TopTierGamesPage> {
+  late final db;
   final gameSearch = TextEditingController();
   List<Games> games = [];
   List<GameInfo> gameInfo = [];
   List<Games> gamingList = [];
-  List sel = ['Epic7.txt', 'Dislyte.txt'];
+  List<String> gameNames = ['Epic7', 'Dislyte'];
   List creators = ['Epic7x', 'Gachax'];
   late Gaming game;
-  late List<String> iconImages = [
-    '${WebClient.gameServer}Epic7/Epic7Logo.jpg',
-    '${WebClient.gameServer}Dislyte/DislyteLogo.jpg'
-  ];
+  // late List<String> iconImages = [
+  //   '${WebClient.gameServer}Epic7/Epic7Logo.jpg',
+  //   '${WebClient.gameServer}Dislyte/DislyteLogo.jpg'
+  // ];
   List<Color> colorings = [
     Colors.white,
     Colors.pink.shade50,
@@ -55,46 +58,53 @@ class TopTierGamesPageState extends State<TopTierGamesPage> {
   @override
   initState() {
     super.initState();
+    db = Provider.of<FirebaseFirestore>(context, listen: false);
     getCharacters();
   }
 
   /// Documentation for getCharacters
   /// > _`@returns: [void]`_
   ///
-  /// Gets the characters from the Web server calling the WebClient class.
+  /// Gets the characters from the collection.
   /// Sets the variables in proper spaces using the setCharacters method
   void getCharacters() async {
-    var server = '${WebClient.gameServer}';
     int i = 0;
-
-    //Uses sel list to call to WebClient to get response
-    while (i < sel.length) {
-      server = '${WebClient.gameServer}${sel[i]}';
-
-      // Gets response json string
-      var temp = WebClient(server).getInfo();
-
-      //Converts from Future<String> to String
-      var getInfo = await temp;
-
-      //Calls Gaming constructor
-      game = Gaming(getInfo.gameName, getInfo.characters);
-
-      // Calls [setCharacter] method to allocate instance lists with json data
-      game.setCharacters();
-
-      //Calls [setState] to notify build that the lists have changed
-      setState(() {
-        gameInfo = gameInfo + game.gameInfos;
-        game.addGame(gameInfo);
-        gameInfo = [];
-        games = games + game.games;
-      });
+    while (i < gameNames.length) {
+      final gameName = gameNames[i];
+      final gameRef = db.collection(gameName);
+      final gameDoc = await gameRef.get();
+      final gameData = gameDoc.docs.map((doc) => doc.data()).toList();
+      gameData
+          .map((data) => gameInfo.add(GameInfo(
+              name: data['name'],
+              title: data['title'],
+              image: data['image'],
+              characterClass: data['class'],
+              element: data['element'],
+              horoscope: data['horoscope'],
+              rarity: data['rarity'],
+              rating: data['rating'],
+              artifact: data['artifact'],
+              sets: data['sets'],
+              description: data['description'],
+              stats: data['stats'],
+              link: data['link'],
+              isFavorite: data['isFavorite'],
+              canAdd: data['canAdd'],
+              isOwned: data['isOwned'])))
+          .toList();
+      addToGames(gameInfo, gameName);
+      gameInfo = [];
       i++;
     }
-
-    ///sets gameList to games
     gamingList = games;
+  }
+
+  addToGames(List<GameInfo> gameInfo, String gameName) {
+    gameInfo.sort((a, b) => a.name.compareTo(
+        b.name)); // Assuming 'name' is the property you want to sort by
+
+    setState(() => games.add(Games(gameName: gameName, characters: gameInfo)));
   }
 
   /// Documentation for searchGame
@@ -195,10 +205,6 @@ class TopTierGamesPageState extends State<TopTierGamesPage> {
                 itemBuilder: (context, index) {
                   final g = gamingList[index];
                   return ListTile(
-                    leading: Image.network(
-                      iconImages[index],
-                      fit: BoxFit.cover,
-                    ),
                     title: Text(
                       '${g.gameName}',
                       style: TextStyle(

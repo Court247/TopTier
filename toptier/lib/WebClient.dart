@@ -7,9 +7,6 @@ import 'GameParser.dart';
 class WebClient {
   var server;
 
-  ///sets a constant variable
-  static const gameServer = 'https://toptier.azurewebsites.net/';
-
   ///unnamed constructor
   WebClient(this.server);
 

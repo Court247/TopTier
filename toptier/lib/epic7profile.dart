@@ -170,7 +170,7 @@ class Epic7CharacterState extends State<Epic7Character> {
                             fontSize: 15, fontWeight: FontWeight.bold),
                       ),
                       Text(
-                        '${character.rarity} stars',
+                        '${character.rarity}★',
                         style: const TextStyle(
                           fontSize: 15,
                         ),

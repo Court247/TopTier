@@ -6,8 +6,8 @@ import 'Generate.dart';
 import 'Info.dart';
 
 void main() async {
-  String file = 'D:\\TopTier\\Tierlists\\Epic7Tier.txt';
-  String file2 = 'D:\\TopTier\\Tierlists\\Epic7Characters.txt';
+  String file = 'D:\\TopTier\\toptier\\Tierlists\\Epic7Tier.txt';
+  String file2 = 'D:\\TopTier\\toptier\\Tierlists\\Epic7Characters.txt';
 
   var d = GameList().readJson(file);
   var c = GameList().readJson(file2);
@@ -17,9 +17,9 @@ void main() async {
   var info = Info(y['Characters']);
   var info2 = Info(z['Characters']);
 
-  List<GameInfo> gameInfo = GameList().setGameInfoList(info);
+  List<GameInfo> gameInfo = GameList().setGameInfoList(info, info2);
 
-  File zt = File('D:\\TopTier\\Tierlists\\Epic7.txt');
+  File zt = File('D:\\TopTier\\toptier\\Tierlists\\Epic7.txt');
 
   gameInfo = GameList().removeEachTag(gameInfo);
   var generateGame = Generate(gameName: 'Epic7', characters: gameInfo);
@@ -54,7 +54,7 @@ class GameList {
     gameInfo.add(character);
   }
 
-  setGameInfoList(gameData) {
+  setGameInfoList(gameData, gameData2) {
     int i = 0;
 
     while (i < gameData.characters.length) {
@@ -64,15 +64,21 @@ class GameList {
         title: gameData.characters[i]['title'],
         characterClass: gameData.characters[i]['class'],
         element: gameData.characters[i]['element'],
-        rarity: gameData.characters[i]['rarity'] + '★',
+        rarity: gameData.characters[i]['rarity'],
         rating: gameData.characters[i]['rating'],
         sets: gameData.characters[i]['sets'],
         description: gameData.characters[i]['description'],
         link: gameData.characters[i]['link'],
-        horoscope: gameData.characters[i]['horoscope'] ?? null,
-        artifact: gameData.characters[i]['tierlist_artifacts'] ?? null,
-        stats: gameData.characters[i]['stats'] ?? null,
-        id: gameData.characters[i]['id'] ?? null,
+        horoscope: gameData.characters[i]['horoscope'] ??
+            gameData2[findCharacter(gameData2, gameData[i]['name'])]
+                ['horoscope'],
+        artifact: gameData.characters[i]['tierlist_artifacts'] ??
+            gameData2[findCharacter(gameData2, gameData[i]['name'])]
+                ['artifact'],
+        stats: gameData.characters[i]['stats'] ??
+            gameData2[findCharacter(gameData2, gameData[i]['name'])]['stats'],
+        id: gameData.characters[i]['id'] ??
+            gameData2[findCharacter(gameData2, gameData[i]['name'])]['id'],
       ));
       i++;
     }
