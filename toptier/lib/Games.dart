@@ -3,9 +3,13 @@ import 'GameInfo.dart';
 ///Games class for holding the List of Characters and the game name
 class Games {
   String gameName;
+  String creator;
   List<GameInfo> characters;
 
-  Games({required this.gameName, required this.characters});
+  Games(
+      {required this.gameName,
+      required this.creator,
+      required this.characters});
 
   /// Documentation for toJson
   ///

@@ -5,10 +5,11 @@ import 'Games.dart';
 class Gaming {
   List<dynamic> characters = [];
   String gameName;
+  String creator;
   late List<GameInfo> gameInfos;
   late List<Games> games;
 
-  Gaming(this.gameName, this.characters) {
+  Gaming(this.gameName, this.creator, this.characters) {
     gameInfos = [];
     games = [];
   }
@@ -56,6 +57,7 @@ class Gaming {
   /// > _`@returns: [void]`_
   /// Adds Game instance into List<Game>
   void addGame(List<GameInfo> gameInfo) {
-    games.add(Games(gameName: gameName, characters: gameInfos));
+    games.add(
+        Games(gameName: gameName, creator: creator, characters: gameInfos));
   }
 }

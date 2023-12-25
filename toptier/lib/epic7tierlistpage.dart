@@ -9,11 +9,13 @@ import 'GameInfo.dart';
 ///Widget that shows the list of Epic7 Tierlists
 class Epic7 extends StatelessWidget {
   final String gameName;
+  final String creator;
   final List<GameInfo> gameInfo;
 
   const Epic7({
     super.key,
     required this.gameName,
+    required this.creator,
     required this.gameInfo,
   });
 
@@ -42,6 +44,7 @@ class Epic7 extends StatelessWidget {
       body: SafeArea(
         child: Epic7Tier(
           gameName: gameName,
+          creator: creator,
           gameInfo: gameInfo,
         ),
       ),
@@ -51,27 +54,31 @@ class Epic7 extends StatelessWidget {
 
 class Epic7Tier extends StatefulWidget {
   final String gameName;
+  final String creator;
   final List<GameInfo> gameInfo;
 
   const Epic7Tier({
     super.key,
     required this.gameName,
+    required this.creator,
     required this.gameInfo,
   });
 
   @override
   State<Epic7Tier> createState() =>
-      _Epic7TierState(gameName: gameName, gameInfo: gameInfo);
+      _Epic7TierState(gameName: gameName, creator: creator, gameInfo: gameInfo);
 }
 
 class _Epic7TierState extends State<Epic7Tier> {
   String gameName;
+  String creator;
   final List<GameInfo> gameInfo;
   late List<GameInfo> gInfo = gameInfo;
   final characterSearch = TextEditingController();
 
   _Epic7TierState({
     required this.gameName,
+    required this.creator,
     required this.gameInfo,
   });
 

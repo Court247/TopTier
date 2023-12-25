@@ -9,11 +9,13 @@ import 'favoritesprovider.dart';
 ///Widget that shows the list of Dislyte Tierlists
 class Dislyte extends StatelessWidget {
   final String gameName;
+  final String creator;
   final List<GameInfo> gameInfo;
 
   Dislyte({
     super.key,
     required this.gameName,
+    required this.creator,
     required this.gameInfo,
   });
 
@@ -40,6 +42,7 @@ class Dislyte extends StatelessWidget {
       body: SafeArea(
         child: DislyteTier(
           gameName: gameName,
+          creator: creator,
           gameInfo: gameInfo,
         ),
       ),
@@ -49,29 +52,34 @@ class Dislyte extends StatelessWidget {
 
 class DislyteTier extends StatefulWidget {
   final String gameName;
+  final String creator;
   final List<GameInfo> gameInfo;
 
   const DislyteTier({
     super.key,
     required this.gameName,
+    required this.creator,
     required this.gameInfo,
   });
 
   @override
   State<DislyteTier> createState() => _DislyteTierState(
         gameName: gameName,
+        creator: creator,
         gameInfo: gameInfo,
       );
 }
 
 class _DislyteTierState extends State<DislyteTier> {
   String gameName;
+  String creator;
   final List<GameInfo> gameInfo;
   late List<GameInfo> gInfo = gameInfo;
   final characterSearch = TextEditingController();
 
   _DislyteTierState({
     required this.gameName,
+    required this.creator,
     required this.gameInfo,
   });
 

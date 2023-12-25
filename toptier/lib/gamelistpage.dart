@@ -1,15 +1,16 @@
 import 'dart:ui';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:firebase_app_check/firebase_app_check.dart';
+
 import 'package:toptier/Games.dart';
 import 'dislytetierlistpage.dart';
 import 'epic7tierlistpage.dart';
-
 import 'Gaming.dart';
 import 'GameInfo.dart';
-import 'WebClient.dart';
 import 'favorites.dart';
 
 class TopTierGames extends StatelessWidget {
@@ -37,17 +38,13 @@ class TopTierGamesPage extends StatefulWidget {
 
 class TopTierGamesPageState extends State<TopTierGamesPage> {
   late final db;
+  late final storage;
   final gameSearch = TextEditingController();
   List<Games> games = [];
   List<GameInfo> gameInfo = [];
   List<Games> gamingList = [];
-  List<String> gameNames = ['Epic7', 'Dislyte'];
-  List creators = ['Epic7x', 'Gachax'];
   late Gaming game;
-  // late List<String> iconImages = [
-  //   '${WebClient.gameServer}Epic7/Epic7Logo.jpg',
-  //   '${WebClient.gameServer}Dislyte/DislyteLogo.jpg'
-  // ];
+  late List gameNames;
   List<Color> colorings = [
     Colors.white,
     Colors.pink.shade50,
@@ -59,7 +56,21 @@ class TopTierGamesPageState extends State<TopTierGamesPage> {
   initState() {
     super.initState();
     db = Provider.of<FirebaseFirestore>(context, listen: false);
-    getCharacters();
+    storage = Provider.of<FirebaseStorage>(context, listen: false);
+    //getCharacters();
+    listAllFiles();
+    //getPath('Epic7');
+  }
+
+  listAllFiles({int retryCount = 0}) async {
+    final storageRef = storage.ref().child("Tierlists/");
+    final listResult = await storageRef.listAll();
+
+    for (var ref in listResult.items) {
+      setState(() {
+        gameNames.add(ref.name);
+      });
+    }
   }
 
   /// Documentation for getCharacters
@@ -69,8 +80,9 @@ class TopTierGamesPageState extends State<TopTierGamesPage> {
   /// Sets the variables in proper spaces using the setCharacters method
   void getCharacters() async {
     int i = 0;
-    while (i < gameNames.length) {
-      final gameName = gameNames[i];
+    while (i < games.length) {
+      final gameName = games[i].gameName;
+      final creator = games[i].creator;
       final gameRef = db.collection(gameName);
       final gameDoc = await gameRef.get();
       final gameData = gameDoc.docs.map((doc) => doc.data()).toList();
@@ -93,18 +105,47 @@ class TopTierGamesPageState extends State<TopTierGamesPage> {
               canAdd: data['canAdd'],
               isOwned: data['isOwned'])))
           .toList();
-      addToGames(gameInfo, gameName);
+      addToGames(gameInfo, gameName, creator);
       gameInfo = [];
       i++;
     }
     gamingList = games;
   }
 
-  addToGames(List<GameInfo> gameInfo, String gameName) {
+  void addCollection() async {
+    // Add a new collection
+    // ...
+
+    // Increment the count
+    var countDoc = await db.collection('metadata').doc('collectionCount').get();
+    var count = countDoc.data()['count'];
+    await db
+        .collection('metadata')
+        .doc('collectionCount')
+        .update({'count': count + 1});
+  }
+
+  addToGames(List<GameInfo> gameInfo, String gameName, String creator) {
     gameInfo.sort((a, b) => a.name.compareTo(
         b.name)); // Assuming 'name' is the property you want to sort by
 
-    setState(() => games.add(Games(gameName: gameName, characters: gameInfo)));
+    setState(() => games.add(
+        Games(gameName: gameName, creator: creator, characters: gameInfo)));
+  }
+
+  getPath(gameName) async {
+    String? url;
+    try {
+      Reference ref = storage.ref('Tierlists/${gameName}.txt');
+
+      url = await ref.getDownloadURL();
+      // Use the URL to download or read the file
+    } catch (e) {
+      // Handle any errors
+      print(e);
+    }
+    print(url);
+    return url;
   }
 
   /// Documentation for searchGame
@@ -214,7 +255,7 @@ class TopTierGamesPageState extends State<TopTierGamesPage> {
                       ),
                     ),
                     subtitle: Text(
-                      ' Created by: ${creators[index]}',
+                      ' Created by: ${g.creator}',
                       style: const TextStyle(fontStyle: FontStyle.italic),
                     ),
                     selected: false,
@@ -237,6 +278,7 @@ class TopTierGamesPageState extends State<TopTierGamesPage> {
                             MaterialPageRoute(
                                 builder: (context) => Epic7(
                                       gameName: g.gameName,
+                                      creator: g.creator,
                                       gameInfo: g.characters,
                                     )));
                       } else if (g.gameName.toLowerCase() ==
@@ -246,6 +288,7 @@ class TopTierGamesPageState extends State<TopTierGamesPage> {
                             MaterialPageRoute(
                                 builder: (context) => Dislyte(
                                       gameName: g.gameName,
+                                      creator: g.creator,
                                       gameInfo: g.characters,
                                     )));
                       }
