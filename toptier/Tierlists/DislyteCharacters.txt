@@ -2018,5 +2018,4 @@
         "title": "Amunet",
         "jp_only": null,
         "arrPos": "101"
-    },
-]}
+    }]}
