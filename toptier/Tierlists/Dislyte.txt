@@ -3,9 +3,11 @@
   "creator": "Gachax",
   "Characters": [
     {
+      "id": "1855",
       "name": "Ahmed",
+      "title": "Geb",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/06/ahmed-icon.jpg",
-      "class": "Wind",
+      "class": "Support",
       "element": "Wind",
       "horoscope": null,
       "rarity": "5",
@@ -179,9 +181,11 @@
       }
     },
     {
+      "id": "202",
       "name": "Alexa",
+      "title": "Aphrodite",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/alexa-icon.jpg",
-      "class": "Inferno",
+      "class": "Support",
       "element": "Inferno",
       "horoscope": null,
       "rarity": "4",
@@ -309,9 +313,11 @@
       }
     },
     {
+      "id": "569",
       "name": "Anesidora",
+      "title": "Pandora",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/andesidora-icon.jpg",
-      "class": "Shimmer",
+      "class": "Support",
       "element": "Shimmer",
       "horoscope": null,
       "rarity": "4",
@@ -488,9 +494,11 @@
       }
     },
     {
+      "id": "385",
       "name": "Arcana",
+      "title": "Hermes",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/arcana-icon.jpg",
-      "class": "Wind",
+      "class": "Fighter",
       "element": "Wind",
       "horoscope": null,
       "rarity": "4",
@@ -671,9 +679,11 @@
       }
     },
     {
+      "id": "350",
       "name": "Asenath",
+      "title": "Nefertem",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/asenath-icon.jpg",
-      "class": "Shimmer",
+      "class": "Support",
       "element": "Shimmer",
       "horoscope": null,
       "rarity": "4",
@@ -849,9 +859,11 @@
       }
     },
     {
+      "id": "2201",
       "name": "Ashley",
+      "title": "Heimdall",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/09/ashley-icon.jpg",
-      "class": "Wind",
+      "class": "Fighter",
       "element": "Wind",
       "horoscope": null,
       "rarity": "5",
@@ -980,9 +992,11 @@
       }
     },
     {
+      "id": "1974",
       "name": "Aurelius",
+      "title": "Ullr",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/07/aurelius-icon1.jpg",
-      "class": "Flow",
+      "class": "Fighter",
       "element": "Flow",
       "horoscope": null,
       "rarity": "4",
@@ -1110,9 +1124,11 @@
       }
     },
     {
+      "id": "479",
       "name": "Bai Liuli",
+      "title": "White Snow",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/bai-liuli-icon.jpg",
-      "class": "Shimmer",
+      "class": "Fighter",
       "element": "Shimmer",
       "horoscope": null,
       "rarity": "3",
@@ -1291,9 +1307,11 @@
       }
     },
     {
+      "id": "399",
       "name": "Bardon",
+      "title": "Baldr",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/bardon-icon.jpg",
-      "class": "Inferno",
+      "class": "Defender",
       "element": "Inferno",
       "horoscope": null,
       "rarity": "3",
@@ -1419,9 +1437,11 @@
       }
     },
     {
+      "id": "453",
       "name": "Berenice",
+      "title": "Bastet",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/berenice-icon.jpg",
-      "class": "Wind",
+      "class": "Support",
       "element": "Wind",
       "horoscope": null,
       "rarity": "3",
@@ -1546,9 +1566,11 @@
       }
     },
     {
+      "id": "304",
       "name": "Biondina",
+      "title": "Poseidon",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/biondina-icon.jpg",
-      "class": "Flow",
+      "class": "Fighter",
       "element": "Flow",
       "horoscope": null,
       "rarity": "5",
@@ -1676,9 +1698,11 @@
       }
     },
     {
+      "id": "574",
       "name": "Bonnie",
+      "title": "Eris",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/bonnie-icon.jpg",
-      "class": "Shimmer",
+      "class": "Support",
       "element": "Shimmer",
       "horoscope": null,
       "rarity": "4",
@@ -1856,9 +1880,11 @@
       }
     },
     {
+      "id": "2282",
       "name": "Brewster",
+      "title": "Garmr",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/11/brewster-icon.png",
-      "class": "Inferno",
+      "class": "Fighter",
       "element": "Inferno",
       "horoscope": null,
       "rarity": "5",
@@ -1983,9 +2009,11 @@
       }
     },
     {
+      "id": "203",
       "name": "Brynn",
+      "title": "Valkyrie",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/brynn-icon.jpg",
-      "class": "Wind",
+      "class": "Support",
       "element": "Wind",
       "horoscope": null,
       "rarity": "3",
@@ -2112,9 +2140,11 @@
       }
     },
     {
+      "id": "536",
       "name": "Catherine",
+      "title": "Hela",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/catherine-icon.jpg",
-      "class": "Shimmer",
+      "class": "Support",
       "element": "Shimmer",
       "horoscope": null,
       "rarity": "4",
@@ -2289,9 +2319,11 @@
       }
     },
     {
+      "id": "332",
       "name": "Cecilia",
+      "title": "Isis",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/cecilia-icon.jpg",
-      "class": "Shimmer",
+      "class": "Support",
       "element": "Shimmer",
       "horoscope": null,
       "rarity": "5",
@@ -2469,9 +2501,11 @@
       }
     },
     {
+      "id": "364",
       "name": "Celine",
+      "title": "Siren",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/celine-icon.jpg",
-      "class": "Flow",
+      "class": "Controller",
       "element": "Flow",
       "horoscope": null,
       "rarity": "4",
@@ -2597,9 +2631,11 @@
       }
     },
     {
+      "id": "448",
       "name": "Chalmers",
+      "title": "Idun",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/chalmers-icon.jpg",
-      "class": "Shimmer",
+      "class": "Fighter",
       "element": "Shimmer",
       "horoscope": null,
       "rarity": "3",
@@ -2777,9 +2813,11 @@
       }
     },
     {
+      "id": "132",
       "name": "Chang Pu",
+      "title": "Yao Ji",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/chang-pu-icon.jpg",
-      "class": "Flow",
+      "class": "Support",
       "element": "Flow",
       "horoscope": null,
       "rarity": "3",
@@ -3012,9 +3050,11 @@
       }
     },
     {
+      "id": "530",
       "name": "Chloe",
+      "title": "Medea",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/chloe-icon.jpg",
-      "class": "Inferno",
+      "class": "Fighter",
       "element": "Inferno",
       "horoscope": null,
       "rarity": "4",
@@ -3243,9 +3283,11 @@
       }
     },
     {
+      "id": "326",
       "name": "Clara",
+      "title": "Hera",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/clara-icon.jpg",
-      "class": "Inferno",
+      "class": "Support",
       "element": "Inferno",
       "horoscope": null,
       "rarity": "5",
@@ -3422,9 +3464,11 @@
       }
     },
     {
+      "id": "437",
       "name": "David",
+      "title": "Jason",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/david-icon.jpg",
-      "class": "Wind",
+      "class": "Fighter",
       "element": "Wind",
       "horoscope": null,
       "rarity": "3",
@@ -3557,9 +3601,11 @@
       }
     },
     {
+      "id": "585",
       "name": "Dhalia",
+      "title": "Calypso",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/dhalia-icon.jpg",
-      "class": "Flow",
+      "class": "Support",
       "element": "Flow",
       "horoscope": null,
       "rarity": "4",
@@ -3737,9 +3783,11 @@
       }
     },
     {
+      "id": "354",
       "name": "Djoser",
+      "title": "Atum",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/djoser-icon.jpg",
-      "class": "Inferno",
+      "class": "Defender",
       "element": "Inferno",
       "horoscope": null,
       "rarity": "4",
@@ -3867,9 +3915,11 @@
       }
     },
     {
+      "id": "209",
       "name": "Donar",
+      "title": "Thor",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/donar-icon.jpg",
-      "class": "Flow",
+      "class": "Defender",
       "element": "Flow",
       "horoscope": null,
       "rarity": "5",
@@ -3995,9 +4045,11 @@
       }
     },
     {
+      "id": "200",
       "name": "Drew",
+      "title": "Anubis",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/drew-icon.jpg",
-      "class": "Inferno",
+      "class": "Fighter",
       "element": "Inferno",
       "horoscope": null,
       "rarity": "3",
@@ -4173,9 +4225,11 @@
       }
     },
     {
+      "id": "373",
       "name": "Eira",
+      "title": "Freya",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/freya-icon.jpg",
-      "class": "Flow",
+      "class": "Support",
       "element": "Flow",
       "horoscope": null,
       "rarity": "4",
@@ -4302,9 +4356,11 @@
       }
     },
     {
+      "id": "2193",
       "name": "Elliot",
+      "title": "Thoth",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/09/elliot-icon.jpg",
-      "class": "Inferno",
+      "class": "Controller",
       "element": "Inferno",
       "horoscope": null,
       "rarity": "5",
@@ -4478,9 +4534,11 @@
       }
     },
     {
+      "id": "2269",
       "name": "Everett",
+      "title": "Tyr",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/11/everett-icon.png",
-      "class": "Shimmer",
+      "class": "Fighter",
       "element": "Shimmer",
       "horoscope": null,
       "rarity": "5",
@@ -4703,9 +4761,11 @@
       }
     },
     {
+      "id": "193",
       "name": "Fabrice",
+      "title": "Freyer",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/fabrice-icon.jpg",
-      "class": "Wind",
+      "class": "Support",
       "element": "Wind",
       "horoscope": null,
       "rarity": "4",
@@ -4885,9 +4945,11 @@
       }
     },
     {
+      "id": "377",
       "name": "Falken",
+      "title": "Horus",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/falken-icon.jpg",
-      "class": "Inferno",
+      "class": "Defender",
       "element": "Inferno",
       "horoscope": null,
       "rarity": "4",
@@ -5015,9 +5077,11 @@
       }
     },
     {
+      "id": "2311",
       "name": "Fatum Sisters",
+      "title": "Nornir",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/12/fatum-sisters-icon.png",
-      "class": "Flow",
+      "class": "Support",
       "element": "Flow",
       "horoscope": null,
       "rarity": "5",
@@ -5142,9 +5206,11 @@
       }
     },
     {
+      "id": "433",
       "name": "Freddy",
+      "title": "Fenrir",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/freddy-icon.jpg",
-      "class": "Inferno",
+      "class": "Fighter",
       "element": "Inferno",
       "horoscope": null,
       "rarity": "3",
@@ -5325,9 +5391,11 @@
       }
     },
     {
+      "id": "99",
       "name": "Gabrielle",
+      "title": "Njord",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/gabrielle-icon.jpg",
-      "class": "Wind",
+      "class": "Support",
       "element": "Wind",
       "horoscope": null,
       "rarity": "5",
@@ -5507,9 +5575,11 @@
       }
     },
     {
+      "id": "2133",
       "name": "Gaius",
+      "title": "Zeus",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/08/gaius-icon.jpg",
-      "class": "Flow",
+      "class": "Fighter",
       "element": "Flow",
       "horoscope": null,
       "rarity": "5",
@@ -5636,9 +5706,11 @@
       }
     },
     {
+      "id": "424",
       "name": "Hall",
+      "title": "Hodur",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/hall-icon.jpg",
-      "class": "Wind",
+      "class": "Fighter",
       "element": "Wind",
       "horoscope": null,
       "rarity": "3",
@@ -5816,9 +5888,11 @@
       }
     },
     {
+      "id": "206",
       "name": "Helena",
+      "title": "Helen",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/helena-icon.jpg",
-      "class": "Flow",
+      "class": "Support",
       "element": "Flow",
       "horoscope": null,
       "rarity": "3",
@@ -5999,9 +6073,11 @@
       }
     },
     {
+      "id": "511",
       "name": "Heng Yue",
+      "title": "Chang'E",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/heng-yue-icon.jpg",
-      "class": "Flow",
+      "class": "Support",
       "element": "Flow",
       "horoscope": null,
       "rarity": "4",
@@ -6128,9 +6204,11 @@
       }
     },
     {
+      "id": "298",
       "name": "Hyde",
+      "title": "Hades",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/hyde-icon.jpg",
-      "class": "Wind",
+      "class": "Fighter",
       "element": "Wind",
       "horoscope": null,
       "rarity": "5",
@@ -6259,9 +6337,11 @@
       }
     },
     {
+      "id": "2293",
       "name": "Ife",
+      "title": "Meretseger",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/11/ife-icon.png",
-      "class": "Inferno",
+      "class": "Fighter",
       "element": "Inferno",
       "horoscope": null,
       "rarity": "5",
@@ -6386,9 +6466,11 @@
       }
     },
     {
+      "id": "547",
       "name": "Jacob",
+      "title": "Jormungand",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/jacob-icon.jpg",
-      "class": "Wind",
+      "class": "Controller",
       "element": "Wind",
       "horoscope": null,
       "rarity": "4",
@@ -6565,9 +6647,11 @@
       }
     },
     {
+      "id": "475",
       "name": "Jeanne",
+      "title": "Gerd",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/jeanne-icon.jpg",
-      "class": "Flow",
+      "class": "Controller",
       "element": "Flow",
       "horoscope": null,
       "rarity": "3",
@@ -6696,9 +6780,11 @@
       }
     },
     {
+      "id": "2056",
       "name": "Jiang Jiuli",
+      "title": "Chiyou",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/08/jiang-jiuli-icon.jpg",
-      "class": "Shimmer",
+      "class": "Fighter",
       "element": "Shimmer",
       "horoscope": null,
       "rarity": "5",
@@ -6928,9 +7014,11 @@
       }
     },
     {
+      "id": "359",
       "name": "Jiang Man",
+      "title": "Meng Po",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/jiang-man-icon.jpg",
-      "class": "Flow",
+      "class": "Fighter",
       "element": "Flow",
       "horoscope": null,
       "rarity": "4",
@@ -7058,9 +7146,11 @@
       }
     },
     {
+      "id": "254",
       "name": "Jin Yuyao",
+      "title": "Queen Mother",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/jin-yuyao-icon.jpg",
-      "class": "Inferno",
+      "class": "Support",
       "element": "Inferno",
       "horoscope": null,
       "rarity": "5",
@@ -7187,9 +7277,11 @@
       }
     },
     {
+      "id": "369",
       "name": "Kara",
+      "title": "Serket",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/kara-icon.jpg",
-      "class": "Flow",
+      "class": "Fighter",
       "element": "Flow",
       "horoscope": null,
       "rarity": "4",
@@ -7314,9 +7406,11 @@
       }
     },
     {
+      "id": "608",
       "name": "Kaylee",
+      "title": "Anuket",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/kaylee-icon.jpg",
-      "class": "Flow",
+      "class": "Controller",
       "element": "Flow",
       "horoscope": null,
       "rarity": "4",
@@ -7494,9 +7588,11 @@
       }
     },
     {
+      "id": "998",
       "name": "Laura",
+      "title": "Neith",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/laura-icon1.jpg",
-      "class": "Shimmer",
+      "class": "Support",
       "element": "Shimmer",
       "horoscope": null,
       "rarity": "4",
@@ -7671,9 +7767,11 @@
       }
     },
     {
+      "id": "442",
       "name": "Lauren",
+      "title": "Heket",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/lauren-icon.jpg",
-      "class": "Shimmer",
+      "class": "Support",
       "element": "Shimmer",
       "horoscope": null,
       "rarity": "3",
@@ -7800,9 +7898,11 @@
       }
     },
     {
+      "id": "457",
       "name": "Layla",
+      "title": "Medjed",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/layla-icon.jpg",
-      "class": "Shimmer",
+      "class": "Fighter",
       "element": "Shimmer",
       "horoscope": null,
       "rarity": "3",
@@ -7978,9 +8078,11 @@
       }
     },
     {
+      "id": "461",
       "name": "Leon",
+      "title": "Vali",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/leon-icon.jpg",
-      "class": "Flow",
+      "class": "Fighter",
       "element": "Flow",
       "horoscope": null,
       "rarity": "3",
@@ -8157,9 +8259,11 @@
       }
     },
     {
+      "id": "266",
       "name": "Lewis",
+      "title": "Ares",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/lewis-icon.jpg",
-      "class": "Inferno",
+      "class": "Fighter",
       "element": "Inferno",
       "horoscope": null,
       "rarity": "5",
@@ -8335,9 +8439,11 @@
       }
     },
     {
+      "id": "405",
       "name": "Li Ao",
+      "title": "Tao Tie",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/tao-tie-icon.jpg",
-      "class": "Inferno",
+      "class": "Defender",
       "element": "Inferno",
       "horoscope": null,
       "rarity": "3",
@@ -8512,9 +8618,11 @@
       }
     },
     {
+      "id": "2125",
       "name": "Li Guang",
+      "title": "Vermillion Bird",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/08/li-guang-icon.jpg",
-      "class": "Wind",
+      "class": "Fighter",
       "element": "Wind",
       "horoscope": null,
       "rarity": "4",
@@ -8639,9 +8747,11 @@
       }
     },
     {
+      "id": "177",
       "name": "Li Ling",
+      "title": "Nezha",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/li-ling-icon.jpg",
-      "class": "Inferno",
+      "class": "Fighter",
       "element": "Inferno",
       "horoscope": null,
       "rarity": "5",
@@ -8817,9 +8927,11 @@
       }
     },
     {
+      "id": "556",
       "name": "Lin Xiao",
+      "title": "White Tiger",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/lin-xiao-icon.jpg",
-      "class": "Shimmer",
+      "class": "Fighter",
       "element": "Shimmer",
       "horoscope": null,
       "rarity": "4",
@@ -8996,9 +9108,11 @@
       }
     },
     {
+      "id": "562",
       "name": "Long Mian",
+      "title": "Ao Bing",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/long-mian-icon.jpg",
-      "class": "Wind",
+      "class": "Controller",
       "element": "Wind",
       "horoscope": null,
       "rarity": "4",
@@ -9178,9 +9292,11 @@
       }
     },
     {
+      "id": "381",
       "name": "Lu Yi",
+      "title": "Dayi",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/luyi-icon.jpg",
-      "class": "Wind",
+      "class": "Fighter",
       "element": "Wind",
       "horoscope": null,
       "rarity": "4",
@@ -9357,9 +9473,11 @@
       }
     },
     {
+      "id": "321",
       "name": "Lucas",
+      "title": "Apollo",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/lucas-icon.jpg",
-      "class": "Inferno",
+      "class": "Controller",
       "element": "Inferno",
       "horoscope": null,
       "rarity": "5",
@@ -9587,9 +9705,11 @@
       }
     },
     {
+      "id": "516",
       "name": "Luo Yan",
+      "title": "Yanluo Wang",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/luo-yan-icon.jpg",
-      "class": "Wind",
+      "class": "Support",
       "element": "Wind",
       "horoscope": null,
       "rarity": "4",
@@ -9766,9 +9886,11 @@
       }
     },
     {
+      "id": "345",
       "name": "Lynn",
+      "title": "Hathor",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/lynn-icon.jpg",
-      "class": "Wind",
+      "class": "Fighter",
       "element": "Wind",
       "horoscope": null,
       "rarity": "4",
@@ -9897,9 +10019,11 @@
       }
     },
     {
+      "id": "412",
       "name": "Melanie",
+      "title": "Medusa",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/melanie-icon.jpg",
-      "class": "Shimmer",
+      "class": "Controller",
       "element": "Shimmer",
       "horoscope": null,
       "rarity": "3",
@@ -10077,9 +10201,11 @@
       }
     },
     {
+      "id": "125",
       "name": "Mona",
+      "title": "Artemis",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/mona-icon.jpg",
-      "class": "Flow",
+      "class": "Fighter",
       "element": "Flow",
       "horoscope": null,
       "rarity": "4",
@@ -10354,9 +10480,11 @@
       }
     },
     {
+      "id": "288",
       "name": "Narmer",
+      "title": "Ra",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/narmer-icon.jpg",
-      "class": "Inferno",
+      "class": "Fighter",
       "element": "Inferno",
       "horoscope": null,
       "rarity": "5",
@@ -10534,9 +10662,11 @@
       }
     },
     {
+      "id": "1002",
       "name": "Nicole",
+      "title": "Nephthys",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/nicole-icon1.jpg",
-      "class": "Shimmer",
+      "class": "Support",
       "element": "Shimmer",
       "horoscope": null,
       "rarity": "4",
@@ -10710,9 +10840,11 @@
       }
     },
     {
+      "id": "778",
       "name": "Ollie",
+      "title": "Osiris",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/ollie-icon1.jpg",
-      "class": "Flow",
+      "class": "Fighter",
       "element": "Flow",
       "horoscope": null,
       "rarity": "5",
@@ -10940,9 +11072,11 @@
       }
     },
     {
+      "id": "2066",
       "name": "Ophelia",
+      "title": "Thanatos",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/08/ophelia-icon.jpg",
-      "class": "Wind",
+      "class": "Fighter",
       "element": "Wind",
       "horoscope": null,
       "rarity": "5",
@@ -11122,9 +11256,11 @@
       }
     },
     {
+      "id": "540",
       "name": "Pritzker",
+      "title": "Mimir",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/pritzker-icon.jpg",
-      "class": "Inferno",
+      "class": "Controller",
       "element": "Inferno",
       "horoscope": null,
       "rarity": "4",
@@ -11350,9 +11486,11 @@
       }
     },
     {
+      "id": "198",
       "name": "Q",
+      "title": "Eros",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/q-icon.jpg",
-      "class": "Shimmer",
+      "class": "Support",
       "element": "Shimmer",
       "horoscope": null,
       "rarity": "3",
@@ -11478,9 +11616,11 @@
       }
     },
     {
+      "id": "277",
       "name": "Raven",
+      "title": "Odin",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/raven-icon.jpg",
-      "class": "Shimmer",
+      "class": "Fighter",
       "element": "Shimmer",
       "horoscope": null,
       "rarity": "5",
@@ -11656,9 +11796,11 @@
       }
     },
     {
+      "id": "551",
       "name": "Ren Si",
+      "title": "Black Tortoise",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/ren-si-icon.jpg",
-      "class": "Inferno",
+      "class": "Defender",
       "element": "Inferno",
       "horoscope": null,
       "rarity": "4",
@@ -11885,9 +12027,11 @@
       }
     },
     {
+      "id": "312",
       "name": "Sally",
+      "title": "Sif",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/sally-icon.jpg",
-      "class": "Flow",
+      "class": "Support",
       "element": "Flow",
       "horoscope": null,
       "rarity": "5",
@@ -12066,9 +12210,11 @@
       }
     },
     {
+      "id": "391",
       "name": "Sander",
+      "title": "Set",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/sander-icon.jpg",
-      "class": "Inferno",
+      "class": "Controller",
       "element": "Inferno",
       "horoscope": null,
       "rarity": "4",
@@ -12195,9 +12341,11 @@
       }
     },
     {
+      "id": "992",
       "name": "Scylla",
+      "title": "Meredith",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/meredith-icon1.jpg",
-      "class": "Wind",
+      "class": "Support",
       "element": "Wind",
       "horoscope": null,
       "rarity": "4",
@@ -12322,9 +12470,11 @@
       }
     },
     {
+      "id": "336",
       "name": "Sienna",
+      "title": "Gaia",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/sienna-icon.jpg",
-      "class": "Wind",
+      "class": "Support",
       "element": "Wind",
       "horoscope": null,
       "rarity": "5",
@@ -12450,9 +12600,11 @@
       }
     },
     {
+      "id": "270",
       "name": "Tang Xuan",
+      "title": "Sun Wukong",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/tang-xuan-icon.jpg",
-      "class": "Wind",
+      "class": "Fighter",
       "element": "Wind",
       "horoscope": null,
       "rarity": "5",
@@ -12680,9 +12832,11 @@
       }
     },
     {
+      "id": "429",
       "name": "Tang Yun",
+      "title": "Six-Eared Macaque",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/tang-yun-icon.jpg",
-      "class": "Wind",
+      "class": "Fighter",
       "element": "Wind",
       "horoscope": null,
       "rarity": "3",
@@ -12860,9 +13014,11 @@
       }
     },
     {
+      "id": "590",
       "name": "Taylor",
+      "title": "Hercules",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/taylor-icon.jpg",
-      "class": "Shimmer",
+      "class": "Fighter",
       "element": "Shimmer",
       "horoscope": null,
       "rarity": "4",
@@ -13040,9 +13196,11 @@
       }
     },
     {
+      "id": "340",
       "name": "Tevor",
+      "title": "Sphinx",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/tevor-icon.jpg",
-      "class": "Shimmer",
+      "class": "Fighter",
       "element": "Shimmer",
       "horoscope": null,
       "rarity": "5",
@@ -13220,9 +13378,11 @@
       }
     },
     {
+      "id": "261",
       "name": "Tiye",
+      "title": "Nut",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/tiye-icon.jpg",
-      "class": "Flow",
+      "class": "Controller",
       "element": "Flow",
       "horoscope": null,
       "rarity": "5",
@@ -13397,9 +13557,11 @@
       }
     },
     {
+      "id": "293",
       "name": "Triki",
+      "title": "Loki",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/triki-icon.jpg",
-      "class": "Wind",
+      "class": "Controller",
       "element": "Wind",
       "horoscope": null,
       "rarity": "5",
@@ -13574,9 +13736,11 @@
       }
     },
     {
+      "id": "317",
       "name": "Unas",
+      "title": "Shu",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/unas-icon.jpg",
-      "class": "Shimmer",
+      "class": "Support",
       "element": "Shimmer",
       "horoscope": null,
       "rarity": "5",
@@ -13703,9 +13867,11 @@
       }
     },
     {
+      "id": "471",
       "name": "Unky Chai",
+      "title": "Yue Lao",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/unky-chai-icon.jpg",
-      "class": "Inferno",
+      "class": "Support",
       "element": "Inferno",
       "horoscope": null,
       "rarity": "3",
@@ -13830,9 +13996,11 @@
       }
     },
     {
+      "id": "1979",
       "name": "Xiao Yin",
+      "title": "Azure Dragon",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/07/xiao-yin-icon1.jpg",
-      "class": "Flow",
+      "class": "Fighter",
       "element": "Flow",
       "horoscope": null,
       "rarity": "4",
@@ -13960,9 +14128,11 @@
       }
     },
     {
+      "id": "594",
       "name": "Xie Chuyi",
+      "title": "Death Guard Hei",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/xie-chuyi-icon.jpg",
-      "class": "Flow",
+      "class": "Fighter",
       "element": "Flow",
       "horoscope": null,
       "rarity": "4",
@@ -14187,9 +14357,11 @@
       }
     },
     {
+      "id": "601",
       "name": "Xie Yuzhi",
+      "title": "Death Guard Bai",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/xie-yuzhi-icon.jpg",
-      "class": "Wind",
+      "class": "Support",
       "element": "Wind",
       "horoscope": null,
       "rarity": "4",
@@ -14364,9 +14536,11 @@
       }
     },
     {
+      "id": "467",
       "name": "Ye Suhua",
+      "title": "Shao Siming",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/ye-suhua-icon.jpg",
-      "class": "Shimmer",
+      "class": "Support",
       "element": "Shimmer",
       "horoscope": null,
       "rarity": "3",
@@ -14541,9 +14715,11 @@
       }
     },
     {
+      "id": "2330",
       "name": "Yun Chuan",
+      "title": "Yang Jian",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/12/yun-chuan-icon.png",
-      "class": "Wind",
+      "class": "Fighter",
       "element": "Wind",
       "horoscope": null,
       "rarity": "5",
@@ -14668,9 +14844,11 @@
       }
     },
     {
+      "id": "418",
       "name": "Zelmer",
+      "title": "Sekhmet",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/05/zelmer-icon.jpg",
-      "class": "Wind",
+      "class": "Fighter",
       "element": "Wind",
       "horoscope": null,
       "rarity": "3",
@@ -14798,9 +14976,11 @@
       }
     },
     {
+      "id": "1967",
       "name": "Zora",
+      "title": "Amunet",
       "image": "https://gachax.com/dislyte/wp-content/uploads/sites/13/2022/07/zora-icon1-1.jpg",
-      "class": "Flow",
+      "class": "Fighter",
       "element": "Flow",
       "horoscope": null,
       "rarity": "5",

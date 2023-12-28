@@ -3,16 +3,16 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import 'GameInfo.dart';
-import 'dislyteprofile.dart';
+import 'characterprofile.dart';
 import 'favoritesprovider.dart';
 
-///Widget that shows the list of Dislyte Tierlists
-class Dislyte extends StatelessWidget {
+///Widget that shows the list of CharacterTierList Tierlists
+class CharacterTierList extends StatelessWidget {
   final String gameName;
   final String creator;
   final List<GameInfo> gameInfo;
 
-  Dislyte({
+  CharacterTierList({
     super.key,
     required this.gameName,
     required this.creator,
@@ -40,7 +40,7 @@ class Dislyte extends StatelessWidget {
         ],
       ),
       body: SafeArea(
-        child: DislyteTier(
+        child: CharacterTierListPage(
           gameName: gameName,
           creator: creator,
           gameInfo: gameInfo,
@@ -50,12 +50,12 @@ class Dislyte extends StatelessWidget {
   }
 }
 
-class DislyteTier extends StatefulWidget {
+class CharacterTierListPage extends StatefulWidget {
   final String gameName;
   final String creator;
   final List<GameInfo> gameInfo;
 
-  const DislyteTier({
+  const CharacterTierListPage({
     super.key,
     required this.gameName,
     required this.creator,
@@ -63,21 +63,21 @@ class DislyteTier extends StatefulWidget {
   });
 
   @override
-  State<DislyteTier> createState() => _DislyteTierState(
+  State<CharacterTierListPage> createState() => _CharacterTierListPageState(
         gameName: gameName,
         creator: creator,
         gameInfo: gameInfo,
       );
 }
 
-class _DislyteTierState extends State<DislyteTier> {
+class _CharacterTierListPageState extends State<CharacterTierListPage> {
   String gameName;
   String creator;
   final List<GameInfo> gameInfo;
   late List<GameInfo> gInfo = gameInfo;
   final characterSearch = TextEditingController();
 
-  _DislyteTierState({
+  _CharacterTierListPageState({
     required this.gameName,
     required this.creator,
     required this.gameInfo,
@@ -139,12 +139,14 @@ class _DislyteTierState extends State<DislyteTier> {
                   fontFamily: 'Horizon',
                   color: Colors.pink.shade200),
             ),
-            subtitle: Text(
-              '${character.title}',
-              style: const TextStyle(
-                fontStyle: FontStyle.italic,
-              ),
-            ),
+            subtitle: character.title != null
+                ? Text(
+                    '${character.title}',
+                    style: const TextStyle(
+                      fontStyle: FontStyle.italic,
+                    ),
+                  )
+                : null,
             shape: BeveledRectangleBorder(
                 borderRadius: BorderRadius.circular(8.5),
                 side: BorderSide(
@@ -169,12 +171,15 @@ class _DislyteTierState extends State<DislyteTier> {
             ),
             onTap: () {
               Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                      builder: (context) => DislyteProfile(
-                            gameName: gameName,
-                            character: character,
-                          )));
+                context,
+                MaterialPageRoute(
+                  builder: (context) => CharacterProfile(
+                    gameName: gameName,
+                    creator: creator,
+                    character: character,
+                  ),
+                ),
+              );
             },
           );
         },

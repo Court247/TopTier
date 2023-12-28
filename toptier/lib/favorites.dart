@@ -1,7 +1,6 @@
 import 'package:favorite_button/favorite_button.dart';
 import 'package:flutter/material.dart';
-import 'package:toptier/dislyteprofile.dart';
-import 'package:toptier/epic7profile.dart';
+
 import 'package:provider/provider.dart';
 import 'package:toptier/favoritesprovider.dart';
 
@@ -205,25 +204,7 @@ class _FavoriteListState extends State<FavoriteList> {
                     provider.addFav(favs);
                   },
                 ),
-                onTap: () {
-                  if (favs.horoscope != null) {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => Epic7Profile(
-                                  gameName: 'Epic7',
-                                  character: favs,
-                                )));
-                  } else {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => DislyteProfile(
-                                  gameName: 'Dislyte',
-                                  character: favs,
-                                )));
-                  }
-                },
+                onTap: () {},
               );
             },
           )),

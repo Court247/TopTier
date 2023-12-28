@@ -1,153 +1,439 @@
-,Name:,Faction,Element,Class,PvP,PvE,Guild Boss,,Over All Rating,Rank,Buffs,Debuffs,Hover over to see abilitys info,,,,Exclusives,Subs,Early Game Gear,,Mid Game Gear,,End Game,,Artifact #1,Artifact #2,Artifact #3
-Mythic,,"*disclaimer* gear and ranking may change as we learn more about the game... these are my opinion, you may agree or disagree, each person has there own preference.",,,,,,,,,,,,,CTRL+F TO SEARCH CHAMPION/BUFFS/DEBUFFS,,,,,*if you see anything you disagree on dm me on discord RexHeart#2313,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,Brynhild,,,,3.6,4,3.4,11,3.67,A,1.RES Buff ,1.Silence  2.Hypnotize,,,,,,1. DEF 2.SPD  3.C.RATE  4.C.DMG,N/A,N/A,,,,,"Main Stat- C.rate        Sub stat- C.dmg, Spd, Def Rate","Main Stat- Effect Hit        Sub stat- C.Rate, C.Dmg, Spd,Def Rate","Main Stat- Speed        Sub stat- C.Rate,C.Dmg,Def Rate"
-,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,Ben Austin,,,,3.7,3.4,5,12.1,4.03,S,1.RES Buff ,1.DEF Down II  2.Effect RES II,,,,,,1. Spd 2.Effect Hit,N/A,N/A,,,,,"Main Stat- Hp          Sub stat- Speed, Effect Res, Effect Hit","Main Stat- Effect Hit        Sub stat- Effect Hit, Effect Res, Spd","Main Stat- Speed        Sub stat- Hp Rate, Effect Hit"
-,Lucifer,,,,5,5,5,15,5.00,SS,1.Stealth,1.Severe Wound                                                2.DEF Down II,,,,,,1. DEF 2.SPD  3.C.rate  4.C.dmg,N/A,N/A,,,,,"Main Stat- C.rate      Sub stat- Speed,Atk Rate, C.dmg","Main Stat- Effect Hit      Sub stat- C.rate C.dmg, Speed","Main Stat- Speed        Sub stat- Hp Rate, Effect Hit"
-,Luna,,,,5,5,5,15,5.00,SS,1.Stealth 2.Heal,1.Hypnotize,,,,,,1. Hp         2.Spd  3.Healing Effect ,N/A,N/A,,,,,"Main Stat- Hp      Sub stat- Speed,Hp Rate, Healing Effect","Main Stat- HP           Sub stat-effect res,Speed","Main Stat- Speed        Sub stat- Healing Effect, Hp Rate"
-,Ulcaster,,,,4,4.3,4,12.3,4.10,S,1.ATK Up II,1.Horrify 2.DEF Down II,,,,,,1. ATK 2.C.RATE  3.C.DMG,N/A,N/A,,,,,"Main Stat- C.rate      Sub stat- Speed,ATK rate, C.Dmg,C.Rate","Main Stat- Effect Hit      Sub stat- C.rate C.dmg, Speed","Main Stat- Speed        Sub stat- Atk Rate, C.Rate, C.Dmg"
-,Nita,,,,3.2,5,3,11.2,3.73,A,1.Heal,1.Poison 2.Deep Poisoning,,,,,,1. SPD 2.Effect Hit  3.Mastery,N/A,N/A,,,,,"Main Stat-Mastery     Sub stat- Speed, Effect Hit, Mastery","Main Stat- Effect Hit      Sub stat- Speed, Effect Hit, Mastery","Main Stat- Speed        Sub stat- Effect Hit, Mastery"
-,Nordak,,,,5,3.8,3,11.8,3.93,A,1.Shield 2.DEF Up I 3.C.Rate Up I 4.C.DMG Up I 5.SPD Up I 6.Effect Res Up I 7.Consolidation I 8. DMG Immunity,,,,,,,1.Hp      2.Def  3.Spd,N/A,N/A,,,,,"Main Stat-Def        Sub stat- Speed, Def Rate, Hp Rate","Main Stat- Def      Sub stat- Speed, Effect Res","Main Stat- Speed        Sub stat- Def Rate, Hp Rate"
-,Madlaina,,,,4,3.8,3.2,11,3.67,A,,1. DEF Down II,,,,,,1. Atk 2.C.Rate  3.C.Dmg ,N/A,N/A,,,,,"Main Stat- C.rate      Sub stat- Speed,ATK rate, C.Dmg,C.Rate","Main Stat- Effect Hit      Sub stat- Speed, C.Rate, C.dmg","Main Stat- Speed        Sub stat- Atk Rate, C.Rate, C.Dmg"
-,Lukea,,,,4,4,5,13,4.33,S,,1.Bleed,,,,,,1. Atk 2.Effect Hit  3.C.rate  4.C.dmg 5.Mastery,N/A,N/A,,,,,"Main Stat-Mastery     Sub stat- Speed, C.Rate, C.Dmg, Effect Hit","Main Stat- Effect Hit      Sub stat- Speed, C.Rate, C.dmg, Effect Hit","Main Stat- Speed        Sub stat- Effect Hit, Atk Rate, Mastery, C.rate"
-,Melchio,,,,3.7,4.2,3.6,11.5,3.83,A,,1.Tenacity Down I 2.Stun 3.Tenacity Down II,,,,,,1. Atk 2.C.Rate  3.C.Dmg  4.Effect Hit,N/A,N/A,,,,,"Main Stat- C.rate      Sub stat- Speed,ATK rate, C.Dmg,C.Rate","Main Stat- Effect Hit      Sub stat- Speed, C.Rate, C.dmg,Effect Hit","Main Stat- Speed        Sub stat- Atk Rate, C.Rate, C.Dmg, Effect Hit"
-,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Legendary,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,Melia,,,,4.7,5,5,14.7,4.90,SS,,1.HP Burning,,,,,,1. Hp 2.Effect Hit  3.Mastery,,,,,,,"Main Stat- Mastery      Sub stat- Speed,Effect Hit","Main Stat- Effect Hit      Sub stat- Speed,Effect Hit,Mastery ","Main Stat- Speed        Sub stat- Hp Rate, Effect Hit, Mastery"
-,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,Vera,,,,3.5,3.5,3,10,3.33,B,1.Stealth 2.C.RATE Up II 3.Heal,1.Silence,,,,,,1. Hp       2.Spd  3.Healing Effect,,,,,,,"Main Stat- Hp            Sub stat- Speed, Hp Rate, ","Main Stat- Hp            Sub stat- Speed,Effect Res","Main Stat- Speed        Sub stat- Hp Rate, Healing Effect"
-,Hoff,,,,3.8,4.2,4,12,4.00,S,,1.Effect RES Down II 2.DEF Down II 3.Tenacity Down II 4.HP Burning,,,,,,1. Atk 2.Effect Hit  3.Spd  ,,,,,,,"Main Stat-Hp          Sub stat- Speed, Effect Hit, Hp Rate, Def Rate","Main Stat-Effect Hit    Sub stat- Speed,Effect Hit, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit"
-,Hezonja,,,,4.6,5,4,13.6,4.53,SS,,1.HP Burning,,,,,,1. Hp 2.Effect Hit  5.Mastery,,,,,,,"Main Stat-Hp           Sub stat- Speed, Effect Hit, Hp Rate, Def Rate","Main Stat-Effect Hit    Sub stat- Speed,Effect Hit, ","Main Stat- Speed        Sub stat- Effect Hit,  Hp Rate"
-,Greta,,,,3.2,4,2.6,9.8,3.27,B,,1.Freeze 2.Feebleness II 3.DEF Down II,,,,,,1. Atk   2.C.rate  3.C.dmg ,,,,,,,"Main Stat-C.Rate           Sub stat- C.Rate, C.Dmg, Atk Rate","Main Stat-Atk    Sub stat- Speed,C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.Rate, C.Dmg"
-,Ariel,,,,4,4,4,12,4.00,S,1.Stealth,,,,,,,1. Atk   2.C.rate  3.C.dmg ,,,,,,,"Main Stat-C.Rate           Sub stat- C.Rate, C.Dmg, Atk Rate","Main Stat-Atk    Sub stat- Speed,C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.Rate, C.Dmg"
-,Natalie,,,,3.8,3.5,3,10.3,3.43,B,,1.Bleed 2.Effect Res Down II,,,,,,1. Atk 2.Effect Hit  5.Mastery,,,,,,,"Main Stat-Mastery        Sub stat- Atk Rate, Effect Hit, Mastery","Main Stat-Effect Hit    Sub stat- Atk Rate, Effect Hit, Mastery","Main Stat- Speed        Sub stat- Effect Hit, Mastery, Atk Rate"
-,Naseal,,,,3.4,3.6,2,9,3.00,B,1.Ally Protection ,1.Freeze 2.Stun,,,,,,1. Hp 2.Effect Hit ,,,,,,,"Main Stat- Hp      Sub stat- Speed,Effect Hit, Hp Rate","Main Stat- Effect Hit     Sub stat- Speed,Effect Hit, Hp Rate","Main Stat- Speed        Sub stat- Effect Hit, Hp Rate"
-,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,Xia,,,,5,4,3.6,12.6,4.20,S,,,,,,,,1. Atk   2.C.rate  3.C.dmg ,,,,,,,"Main Stat-C.Rate           Sub stat- C.Rate, C.Dmg, Atk Rate","Main Stat-Atk    Sub stat- Speed,C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.Rate, C.Dmg"
-,Soli,,,,5,3.3,2.4,10.7,3.57,A,1.Shield 2.Ally Protection,1.DEF Down I 2.Stun 3.Provoke 4.Consolidation II,,,,,,1. Hp 2.Effect Hit 3. Def,,,,,,,"Main Stat-Def          Sub stat- Def Rate, Hp Rate, Effect Res","Main Stat-Effect Res    Sub stat- Hp Rate, Def Rate, Effect Res","Main Stat- Speed        Sub stat- Def Rate, Effect Res, Hp Rate"
-,Sigmund,,,,4,5,4.6,13.6,4.53,SS,1.Shield,1.Hp Burning,,,,,,1. Def 2.Effect Hit 3. Hp 4. Mastery,,,,,,,"Main Stat-Def          Sub stat- Def Rate, Effect Hit, Hp Rate","Main Stat-Effect Hit    Sub stat- Hp Rate, Def Rate, Effect hit, ","Main Stat- Speed        Sub stat- Def Rate, Effect Res, Hp Rate, Effect Hit"
-,Luz,,,,4,4,4,12,4.00,S,,1.DEF Down II,,,,,,1. Atk 2.Effect Hit  3.C.rate  4.C.dmg 5.Mastery,,,,,,,"Main Stat-C.Rate         Sub stat- C.Rate, C.Dmg, Effect Hit, Atk Rate","Main Stat-Effect Hit    Sub stat- C.Rate, C.Dmg, Effect Hit, Atk Rate","Main Stat- Speed        Sub stat- C.Rate, C.Dmg, Atk Rate, Effect Hit"
-,Melina,,,,4.2,3.7,2.6,10.5,3.50,A,1.Effect RES Up I,,,,,,,1. Hp      2.Spd,,,,,,,"Main Stat-Hp        Sub stat- Spd, Hp Rate, Effect Res","Main Stat-Hp        Sub stat- Spd, Hp Rate, Effect Rex","Main Stat- Speed        Sub stat- Hp Rate, Effect Res"
-,Katherine,,,,5,5,5,15,5.00,SS,1.Counterattack 2.Shield,1.Feebleness II,,,,,,1. Hp 2.Effect Hit 3.Spd,,,,,,,"Main Stat-Hp        Sub stat- Spd, Hp Rate, Effect Hit, Spd","Main Stat-Effect Hit        Sub stat- Spd, Effect Hit, Hp Rate","Main Stat- Speed        Sub stat- Hp Rate, Effect Hit, Spd"
-,Yoko,,,,5,4,3.2,12.2,4.07,S,1.Shield,,,,,,,1. Atk   2.C.rate  3.C.dmg ,,,,,,,"Main Stat-C.Rate           Sub stat- C.Rate, C.Dmg, Atk Rate","Main Stat-Atk    Sub stat- Speed,C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.Rate, C.Dmg"
-,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,Slackdo,,,,3.7,3.5,3,10.2,3.40,B,,1.RES Buff,,,,,,1. Atk 2.Effect Hit 3.Spd,,,,,,,"Main Stat-Atk          Sub stat- Speed, Effect Hit, Hp Rate, Atk Rate","Main Stat-Effect Hit    Sub stat- Speed,Atk Rate, Effect Res","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit"
-,Alahan,,,,5,3,3,11,3.67,A,1.Shield 2. ATK Up II,1.Stun,,,,,,1. Hp 2.Effect Hit 3.Spd,,,,,,,"Main Stat-Hp          Sub stat- Speed, Effect Hit, Hp Rate, Def Rate","Main Stat-Effect Hit    Sub stat- Speed,Effect Hit, Hp Rate","Main Stat- Speed        Sub stat- Hp Rate, Effect Hit, Spd"
-,Sana,,,,4,4,3.8,11.8,3.93,A,1.C.RATE Up II,,,,,,,1. Atk   2.C.rate  3.C.dmg ,,,,,,,"Main Stat-C.Rate           Sub stat- C.Rate, C.Dmg, Atk Rate","Main Stat-Atk    Sub stat- Speed,C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.Rate, C.Dmg"
-,Walter,,,,5,4.3,4,13.3,4.43,S,,1.Poison,,,,,,1. Atk   2.Effect Hit 3.Mastery,,,,,,,"Main Stat-Mastery           Sub stat- Atk Rate, Effect Hit, Mastery","Main Stat-Effect Hit    Sub stat- Speed,Effect Hit, Effect Res","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Mastery"
-,Horus,,,,3.5,4,3.6,11.1,3.70,A,,1.Inferior Severe Wound,,,,,,1. Atk   2.C.rate  3.C.dmg ,,,,,,,"Main Stat-C.Rate           Sub stat- C.Rate, C.Dmg, Atk Rate","Main Stat-Atk    Sub stat- Speed,C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.Rate, C.Dmg"
-,Guhanna,,,,3.7,3.6,2.8,10.1,3.37,B,1.SPD Up I 2.ATK Up I,1.Inferior Severe Wound 2.SPD Down II,,,,,,1. Hp 2.Healing Effect      3.Spd,,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect Res","Main Stat-Healing Effect    Sub stat- Speed,Hp Rate, Effect Res","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd"
-,Nasakhma,,,,5,3.6,2.3,10.9,3.63,A,,1.Inferior Severe Wound 2.Horrify 3.HP Connection,,,,,,1. Hp 2.Effect Hit ,,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect Res","Main Stat-Effect Hit   Sub stat- Speed,Hp Rate, Effect Res","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd"
-,Serena,,,,4,4,3.2,11.2,3.73,A,1.Stealth 2.Shield,,,,,,,1. Atk   2.C.rate  3.C.dmg ,,,,,,,"Main Stat-C.Rate           Sub stat- C.Rate, C.Dmg, Atk Rate","Main Stat-Atk    Sub stat- Speed,C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.Rate, C.Dmg"
-,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,Gru,,,,4.3,4.3,3.5,12.1,4.03,S,1.HP Up I 2.Ally Protection,,,,,,,1. Hp,,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect Res","Main Stat-Hp   Sub stat- Speed,Hp Rate, Effect Res","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd"
-,Megan,,,,5,3.8,3.6,12.4,4.13,S,1.C.RATE Up II,1.Inferior Severe Wound 2.Severe Wound 3.DEF Down I 4.Tenacity Down I,,,,,,1. Atk   2.C.Dmg 3.Effect Hit,,,,,,,"Main Stat-C.Rate           Sub stat- C.Rate,Atk Rate, C.Dmg, Effect Hit","Main Stat-Effect Hit   Sub stat- Speed,C.Dmg, Atk Rate","Main Stat- Speed        Sub stat- Atk Rate, C.Dmg, Effect Hit"
-,Maeve,,,,4,4.4,5,13.4,4.47,S,,1.Hypnotize 2.DEF Down II,,,,,,1. Atk   2.C.rate  3.C.dmg ,,,,,,,"Main Stat-C.Rate           Sub stat- C.Rate, C.Dmg, Atk Rate","Main Stat-Atk    Sub stat- Speed,C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.Rate, C.Dmg"
-,Taff,,,,3.7,3.6,3.2,10.5,3.50,A,1.Heal,1.Poison 2.Deep Poisoning 3.Intertwined,,,,,,1. Atk 2.Effect Hit 3. Mastery,,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit. Hp Rate, Mastery","Main Stat-Effect Hit    Sub stat- Effect Hit, Atk Rate, Hp Rate, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Hp Rate, Mastery"
-,Besmok,,,,3.7,4.6,5,13.3,4.43,S,1.ATK UP II 2.C.DMG Up II,1.Tenacity Down I,,,,,,1. Atk   2.C.rate  3.C.dmg ,,,,,,,"Main Stat-C.Rate           Sub stat- C.Rate, C.Dmg, Atk Rate","Main Stat-Atk    Sub stat- Speed,C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.Rate, C.Dmg"
-,Phocas,,,,5,4.4,4,13.4,4.47,S,1.Immortal 2.ATK Up II,1.ATK Down I,,,,,,1. Hp         2.Spd,,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect Res","Main Stat-Hp   Sub stat- Speed,Hp Rate, Effect Res","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd"
-,Eilat,,,,3.6,3.1,2.4,9.1,3.03,B,1.RES Debuff 2.DEF Up II 3.DMG Reflect Up I,1.Effect Hit Down II 2.Provoke,,,,,,1. Hp     2.Effect Hit  3.Def  ,,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect Res, Def Rate","Main Stat-Effect Hit   Sub stat- Speed,Hp Rate, Effect Res, Def Rate","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd, Def Rate"
-,Jennifer,,,,3.4,3.4,2.8,9.6,3.20,B,1.Stealth,1.Severe Wound,,,,,,1. Atk 2.Effect Hit  3.C.rate  4.C.dmg ,,,,,,,"Main Stat-C.Rate           Sub stat- C.Rate, C.Dmg, Atk Rate, Effect Hit","Main Stat-Effect Hit    Sub stat- Speed,C.Rate, C.Dmg, Effect Hit","Main Stat- Speed        Sub stat- Atk Rate, C.Rate, C.Dmg, Effect Hit"
-,Margarita,,,,4.5,4,3.7,12.2,4.07,S,,,,,,,,1. Atk   2.C.rate  3.C.dmg ,,,,,,,"Main Stat-C.Rate           Sub stat- C.Rate, C.Dmg, Atk Rate","Main Stat-Atk    Sub stat- Speed,C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.Rate, C.Dmg"
-,Okmin,,,,4.2,3.9,3.9,12,4.00,S,,1.Burn 2.HP Burning,,,,,,1. Hp     2.Atk  3.Effect Hit  4.Mastery,,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit. Hp Rate, Mastery","Main Stat-Effect Hit    Sub stat- Effect Hit, Atk Rate, Hp Rate, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Hp Rate, Mastery"
-,Gunner,,,,3.5,3.8,3.1,10.4,3.47,B,1.Shield,1.Burn 2.HP Burning,,,,,,1. Def 2.Effect Hit  5.Mastery,,,,,,,"Main Stat-Def           Sub stat- Def Rate, Effect Hit. Hp Rate, Mastery","Main Stat-Effect Hit    Sub stat- Effect Hit, Def Rate, Hp Rate, Mastery","Main Stat- Speed        Sub stat- Def Rate, Effect Hit, Hp Rate, Mastery"
-,Elleena,,,,4,3.7,3.6,11.3,3.77,A,1.Counterattack 2.Effect Hit Up II,1.Bleed,,,,,,1. Atk     2.Effect Hit  ,,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Speed, Effect Hit, Mastery","Main Stat-Effect Hit   Sub stat- Speed,Atk Rate, Effect Hit, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Speed, Mastery"
-,Fiona,,,,4.7,4.3,3.3,12.3,4.10,S,1.Revive 2.ATK Up II 3.Stealth,1.Inferior Severe Wound 2.Stun 3.Freeze 4.Silence 4.Hypnotize 5.Provoke 6.Horrify,,,,,,1. Hp     2.Effect Hit  3.Spd,,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect hit, Effect Res","Main Stat-Effect Hit   Sub stat- Speed,Hp Rate, Effect Res, Effect Hit","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd,Effect Hit"
-,Schilder,,,,4,3.4,2.5,9.9,3.30,B,1.DEF Up I 2.Shield,1.DEF Down I 2.Shield,,,,,,1. Def,,,,,,,"Main Stat-Def           Sub stat- Def Rate, Speed, Effect Res","Main Stat-Def   Sub stat- Speed,Def Rate, Effect Res","Main Stat- Speed        Sub stat- Def Rate, Effect Res, Spd"
-,Elaina,,,,3.4,4,3.3,10.7,3.57,A,,1.DEF Down I,,,,,,1. Hp     2.Spd,,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect Res","Main Stat-Hp   Sub stat- Speed,Hp Rate, Effect Res","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd"
-,Hisaro,,,,3.2,3.4,2.8,9.4,3.13,B,,1.Bleed 2.Inferior Severe Wound 3. Severe Wound,,,,,,1. Atk        2.Effect Hit ,,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Speed, Effect Hit, Mastery","Main Stat-Effect Hit   Sub stat- Speed,Atk Rate, Effect Hit, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Speed, Mastery"
-,Amalic,,,,3.3,3.6,3,9.9,3.30,B,,1.Freeze 2.DEF Down II 3.Tenacity Down II,,,,,,1. Spd 2.Effect Hit  ,,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Speed, Effect Hit, ","Main Stat-Effect Hit   Sub stat- Speed,Atk Rate, Effect Hit, ","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Speed,"
-,Zyra,,,,4,3.3,2.8,10.1,3.37,B,,1.ATK Down I 2.DEF Down I 3.Silence 4.Freeze 5.Stun 6.Hypnotize 7.Horrify,,,,,,1. Atk        2.Effect Hit  3.Spd,,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Speed, Effect Hit, ","Main Stat-Effect Hit   Sub stat- Speed,Atk Rate, Effect Hit,","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Speed,"
-,Gramndi,,,,4.1,3.8,3.2,11.1,3.70,A,,1.SPD Down I 2.SPD Down II 3.Freeze,,,,,,1. Hp         2.Effect Hit  3. Def,,,,,,,"Main Stat-Def           Sub stat- Def Rate, Speed, Effect Hit,Hp Rate","Main Stat-Effect Hit   Sub stat- Speed,Def Rate, Effect Hit, Hp Rate","Main Stat- Speed        Sub stat- Def Rate, Effect Hit, Speed, Hp Rate"
-,Mae,,,,3.7,4,3.4,11.1,3.70,A,,1.Horrify 2.ATK Down II,,,,,,1. Atk        2.Effect Hit  ,,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Speed, Effect Hit,Hp Rate","Main Stat-Effect Hit   Sub stat- Speed,Atk Rate, Effect Hit, Hp Rate","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Speed, Hp Rate"
-,Lam,,,,3.7,3.2,3,9.9,3.30,B,1.DMG Immunity,,,,,,,1. Hp     ,,,,,,,"Main Stat-Hp           Sub stat-Spd, Hp Rate,Effect Res, Atk Rate","Main Stat-Hp   Sub stat- Speed,Atk Rate, Effect Res, Hp Rate","Main Stat- Speed        Sub stat- Spd, Effect Res, Speed, Hp Rate"
-,Dario,,,,4.5,5,3.6,13.1,4.37,S,,,,,,,,1. Atk ,,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Speed, C.Rate, C.Dmg","Main Stat-Atk   Sub stat- Speed,Atk Rate, C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.Rate, C.Dmg,Effect Res"
-,Turf,,,,3.8,4,4,11.8,3.93,A,1.Shield 2.Counterattack,1.Poison 2.Deep Poison,,,,,,1. Atk 2.Effect Hit   3.Mastery,,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit, Mastery, Effect Res","Main Stat-Effect Hit   Sub stat- Atk Rate, Mastery, Effect Hit, Effect Res","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Mastery"
-,Carrie,,,,3.7,3.9,3.2,10.8,3.60,A,,1.Horrify,,,,,,1. Atk        2.Effect Hit  3.Spd,,,,,,,"Main Stat-Atk           Sub stat- Speed, Hp Rate,Effect Res, Atk Rate","Main Stat-Effect Res   Sub stat- Speed,Atk Rate, ","Main Stat- Speed        Sub stat- Atk Rate, Spd,Effect Res"
-,Zachzulu,,,,3.7,3.4,3,10.1,3.37,B,,1.ATK Down I,,,,,,1. Atk   2.C.rate  3.C.dmg ,,,,,,,"Main Stat-Atk           Sub stat- Speed, C.rate, C.Dmg, Atk Rate","Main Stat-Atk   Sub stat- Speed,Atk Rate, C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.rate,C.Dmg"
-,Asindo,,,,5,4,2,11,3.67,A,,1.Silence,,,,,,1. Spd       2.Effect Hit  ,,,,,,,"Main Stat-Hp           Sub stat- Speed, Effect Hit,Effect Res","Main Stat-Effect Hit   Sub stat- Speed, Effect Res","Main Stat- Speed        Sub stat- Effect Hit, Effect Rex"
-,Karid,,,,3.6,3.4,3.2,10.2,3.40,B,,1.RES Buff 2.Horrify,,,,,,1. Atk   2.Spd  3.C.dmg ,,,,,,,"Main Stat-C.Rate           Sub stat- Speed, Effect Hit, C.Dmg","Main Stat-Effect Hit   Sub stat- Speed,Atk Rate, C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.rate,C.Dmg"
-,Agatha,,,,4.5,4,3.6,12.1,4.03,S,1.Heal 2.Shield,1.Inferior Severe Wound 2.Severe Wound,,,,,,1. Atk   2.C.rate  3.C.dmg ,,,,,,,"Main Stat-Atk           Sub stat- Speed, C.rate, C.Dmg, Atk Rate","Main Stat-Atk   Sub stat- Speed,Atk Rate, C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.rate,C.Dmg"
-,Gustave,,,,3.8,3.4,2.8,10,3.33,B,1.Immortal,,,,,,,1. Atk   2.C.rate  3.C.dmg ,,,,,,,"Main Stat-Atk           Sub stat- Speed, C.rate, C.Dmg, Atk Rate","Main Stat-Atk   Sub stat- Speed,Atk Rate, C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.rate,C.Dmg"
-,Sinton,,,,5,3.4,2,10.4,3.47,B,1.DEF Up II,1.Provoke,,,,,,1. Hp 2.Effect Hit               3.Def  ,,,,,,,"Main Stat-Def           Sub stat- Def Rate, Speed, Effect Hit,Hp Rate","Main Stat-Effect Hit   Sub stat- Speed,Def Rate, Effect Hit, Hp Rate","Main Stat- Speed        Sub stat- Def Rate, Effect Hit, Speed, Hp Rate"
-,Eric,,,,4,4,3.2,11.2,3.73,A,,1.Burn 2.Stun 3.DEF Down II,,,,,,1. Atk 2.Effect Hit  3.Mastery,,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit. Hp Rate, Mastery","Main Stat-Effect Hit    Sub stat- Effect Hit, Atk Rate, Hp Rate, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Hp Rate, Mastery"
-,Mutu,,,,3.8,4.2,3.4,11.4,3.80,A,1.ATK Up I 2.ATK Up II,,,,,,,1. Atk   2.C.rate  3.C.dmg ,,,,,,,"Main Stat-Atk           Sub stat- Speed, C.rate, C.Dmg, Atk Rate","Main Stat-Atk   Sub stat- Speed,Atk Rate, C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.rate,C.Dmg"
-,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,Gerina,,,,3.7,3.2,2.9,9.8,3.27,B,1.Immortal 2.Heal,1.DEF Down I,,,,,,1. Hp         2.Spd  3.Healing Effect ,,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect Res","Main Stat-Healing Effect    Sub stat- Speed,Hp Rate, Effect Res","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd"
-,Aisha,,,,5,4.2,3.7,12.9,4.30,S,1.DMG Immunity,,,,,,,1. Atk   2.C.rate  3.C.dmg ,,,,,,,"Main Stat-Atk           Sub stat- Speed, C.rate, C.Dmg, Atk Rate","Main Stat-Atk   Sub stat- Speed,Atk Rate, C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.rate,C.Dmg"
-,Timi,,,,3.4,4,3.6,11,3.67,A,1.Consolidation I,1.SPD Down II 2.ATK Down II 3.C.RATE Down II,,,,,,1. Hp         2.Spd  3.Effect Hit,,,,,,,"Main Stat-Hp           Sub stat- Speed, Effect Hit,Effect Res","Main Stat-Effect Hit   Sub stat- Speed, Effect Res","Main Stat- Speed        Sub stat- Effect Hit, Effect Rex"
-,Frich,,,,,,,0,,,1.Taunt 2. Shield                          3.Res Debuff 1                            4.DMG Reflect 1,1.Provoke 2. Attack Down        3 C.Dmg Down 2,,,,,,1. Hp         2.Def  3.Effect Hit 4.Tenacity,,,,,,,"Main Stat-Def           Sub stat- Def Rate, Tenacity, Effect Hit,Hp Rate","Main Stat-Effect Hit   Sub stat- Tenacity,Def Rate, Effect Hit, Hp Rate","Main Stat- Speed        Sub stat- Def Rate, Effect Hit,Tenacity, Hp Rate"
-,Space,,,,4,4,4,12,4.00,S,1.SPD Up I 1.Heal,1.SPD Down II,,,,,,1. Spd          2.Effect Hit ,,,,,,,"Main Stat-Hp           Sub stat- Speed, Effect Hit,Effect Res","Main Stat-Effect Hit   Sub stat- Speed, Effect Res","Main Stat- Speed        Sub stat- Effect Hit, Effect Rex"
-,Ellic,,,,3.8,3.4,2.9,10.1,3.37,B,1.DEF Up II 2.Tenacity Up I 3.Consolidation II,1.Stun,,,,,,1. Hp         2.Def  3.Effect Hit,,,,,,,"Main Stat-Def           Sub stat- Def Rate, Speed, Effect Hit,Hp Rate","Main Stat-Effect Hit   Sub stat- Speed,Def Rate, Effect Hit, Hp Rate","Main Stat- Speed        Sub stat- Def Rate, Effect Hit, Speed, Hp Rate"
-,Valentin,,,,5,3.8,3.5,12.3,4.10,S,1.Stealth,1.DEF Down I,,,,,,1. Atk   2.C.rate  3.C.dmg ,,,,,,,"Main Stat-Atk           Sub stat- Speed, C.rate, C.Dmg, Atk Rate","Main Stat-Atk   Sub stat- Speed,Atk Rate, C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.rate,C.Dmg"
-,Hal9000,,,,3.9,3,2.2,9.1,3.03,B,1.Taunt 2.Immortal 3.Consolidation I,,,,,,,1.Hp,,,,,,,"Main Stat-Hp        Sub stat- Spd, Hp Rate, Effect Res","Main Stat-Hp        Sub stat- Spd, Hp Rate, Effect Rex","Main Stat- Speed        Sub stat- Hp Rate, Effect Res"
-,Anna,,,,3.4,3.7,3.5,10.6,3.53,A,,1.Burn,,,,,,1. Atk 2.Effect Hit  3.Mastery,,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit. Hp Rate, Mastery","Main Stat-Effect Hit    Sub stat- Effect Hit, Atk Rate, Hp Rate, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Hp Rate, Mastery"
-,Nid Rold,,,,3.8,4,3.3,11.1,3.70,A,,1.Bleed,,,,,,1. Atk 2.Effect Hit  3.Mastery,,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit. Hp Rate, Mastery","Main Stat-Effect Hit    Sub stat- Effect Hit, Atk Rate, Hp Rate, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Hp Rate, Mastery"
-,Slivelle,,,,5,5,3,13,4.33,S,1.Control Immunity 2.ATK Up II,1.DEF Down I,,,,,,1. Atk     2.C.dmg ,,,,,,,"Main Stat-Atk           Sub stat- Speed, C.Dmg, Atk Rate","Main Stat-Atk   Sub stat- Speed,Atk Rate, , C.Dmg","Main Stat- Speed        Sub stat- Atk Rate,,C.Dmg"
-Epic,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,Wim,,,,4,4,2.2,10.2,3.40,B,1.Consolidation I 2.Shield,,,,,,,1. Hp,,,,,,,"Main Stat-Hp        Sub stat- Spd, Hp Rate, Effect Res","Main Stat-Hp        Sub stat- Spd, Hp Rate, Effect Rex","Main Stat- Speed        Sub stat- Hp Rate, Effect Res"
-,Teres,,,,3.1,3.6,3,9.7,3.23,B,,1.Effect RES Down I 2.Burn 3. Def Down I,,,,,,1. Atk 2.Effect Hit  ,,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit. Hp Rate, Mastery","Main Stat-Effect Hit    Sub stat- Effect Hit, Atk Rate, Hp Rate, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Hp Rate, Mastery"
-,Shtar,,,,3,2.8,2.4,8.2,2.73,C,1.C.RATE Up I 2.C.RATE Up II 3.Immortal,1.DEF Down I,,,,,,1. Atk 2.C.rate  3.C.dmg ,,,,,,,"Main Stat-Atk           Sub stat- Speed, C.rate, C.Dmg, Atk Rate","Main Stat-Atk   Sub stat- Speed,Atk Rate, C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.rate,C.Dmg"
-,Naya,,,,2.8,3.3,3.5,9.6,3.20,B,1.ATK Up I,1.Bleed 2. DEF Down I 3.DEF Down II,,,,,,1. Atk 2.Effect Hit  3.Mastery,,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit. Hp Rate, Mastery","Main Stat-Effect Hit    Sub stat- Effect Hit, Atk Rate, Hp Rate, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Hp Rate, Mastery"
-,Blade,,,,2.6,3.1,2.2,7.9,2.63,C,1.DEF Up II,1.Stun 2.DEF Down II,,,,,,1. Hp      2.Def ,,,,,,,"Main Stat-Def          Sub stat- Def Rate, Hp Rate, Effect Res","Main Stat-Effect Res    Sub stat- Hp Rate, Def Rate, Effect Res","Main Stat- Speed        Sub stat- Def Rate, Effect Res, Hp Rate"
-,Reeves,,,,3.3,3.2,2.8,9.3,3.10,B,1.Counterattack 2.Effect Hit Up I,1.Bleed,,,,,,1. Atk 2.Effect Hit  3.Mastery,,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit. Hp Rate, Mastery","Main Stat-Effect Hit    Sub stat- Effect Hit, Atk Rate, Hp Rate, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Hp Rate, Mastery"
-,Joseph,,,,2.7,3,1.6,7.3,2.43,D ,1.C.RATE Up I,1.Provoke 2.ATK Down II,,,,,,1. Atk 2.Effect Hit  3.Hp,,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit. Hp Rate, Mastery","Main Stat-Effect Hit    Sub stat- Effect Hit, Atk Rate, Hp Rate, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Hp Rate, Mastery"
-,Justy,,,,3.2,3.8,3,10,3.33,B,1.ATK Up I,1.Inferior Severe Wound 2. Severe Wound,,,,,,1. Atk 2.Effect Hit  3.C.Dmg,,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, C.Dmg. Spd","Main Stat-Atk    Sub stat- Spd, Atk Rate, Hp Rate","Main Stat- Speed        Sub stat- Atk Rate, Effect Res"
-,Verto,,,,3.6,3.2,2.4,9.2,3.07,B,1.ATK Up II,1.Effect Hit Down I 2.C.RATE Down I,,,,,,1. Atk 2.Effect Hit ,,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit. Spd","Main Stat-Effect Hit    Sub stat- Spd, Atk Rate, Hp Rate","Main Stat- Speed        Sub stat- Effect Hit, Effect Res"
-,Capello,,,,2.7,2.5,1.7,6.9,2.30,D ,1.Consolidation I 2.Consolidation II,1.Provoke 2.Stun,,,,,,1. Hp      2.Effect Hit,,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect hit, Effect Res","Main Stat-Effect Hit   Sub stat- Speed,Hp Rate, Effect Res, Effect Hit","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd,Effect Hit"
-,Oboro,,,,3.7,3.8,3,10.5,3.50,A,,1.Feebleness I 2.Bleed,,,,,,1. Atk 2.Effect Hit  3.C.rate,,,,,,,"Main Stat-C.Rate          Sub stat- Atk Rate, Effect Hit. Hp Rate, Mastery","Main Stat-Effect Hit    Sub stat- Effect Hit, Atk Rate, C.Rate, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, C.Rate, Mastery"
-,Kristian,,,,3.2,3.2,2.4,8.8,2.93,C,1.Shield,1.Stun,,,,,,1. Hp,,,,,,,"Main Stat-Hp        Sub stat- Spd, Hp Rate, Effect Res,Atk Rate","Main Stat-Hp        Sub stat- Spd, Hp Rate,Atk Rate","Main Stat- Speed        Sub stat- Hp Rate, Atk Rate"
-,Bakkins,,,,3,3,3,9,3.00,B,,1.Burn,,,,,,1. Atk 2.Effect Hit 3.Mastery,,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit. Hp Rate, Mastery","Main Stat-Effect Hit    Sub stat- Effect Hit, Atk Rate, Hp Rate, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Hp Rate, Mastery"
-,Ross,,,,3.2,3,2.8,9,3.00,B,,,,,,,,1. Spd,,,,,,,"Main Stat-C.Rate           Sub stat- Speed, C.Rate, C.Dmg, Atk Rate","Main Stat-Effect Res   Sub stat- Speed,Atk Rate, C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, Spd,C.Rate, C.Dmg"
-,Shapotite,,,,2.3,2.5,2,6.8,2.27,D ,,1.Effect Hit Down I 2.Inferior Severe Wound 3.RES Buff,,,,,,1. Atk 2.Effect Hit  ,,,,,,,"Main Stat-Atk           Sub stat- Speed, Hp Rate,Effect Res, Atk Rate","Main Stat-Effect Res   Sub stat- Speed,Atk Rate, ","Main Stat- Speed        Sub stat- Atk Rate, Spd,Effect Res"
-,Reliant,,,,3.5,2.8,2,8.3,2.77,C,1.SPD Up I 2.Shield,1.SPD Down I,,,,,,1. Def         2.Spd  ,,,,,,,"Main Stat-HP           Sub stat- Speed, Hp Rate,Effect Res, Atk Rate","Main Stat-Hp   Sub stat- Speed,Atk Rate, Hp Rate","Main Stat- Speed        Sub stat- Hp Rate, Spd,Effect Res"
-,Astic,,,,3,3.1,2.8,8.9,2.97,C,,1.SPD Down I 2.SPD Down II,,,,,,1. Atk 2.Effect Hit  ,,,,,,,"Main Stat-Atk           Sub stat- Speed, Hp Rate,Effect Res, Atk Rate","Main Stat-Effect Res   Sub stat- Speed,Atk Rate, ","Main Stat- Speed        Sub stat- Atk Rate, Spd,Effect Res"
-,Ruen,,,,3.6,3.3,2.7,9.6,3.20,B,1.Ally Protection,1.Stun 2.DEF Down I 3.Feebleness I,,,,,,1. Atk 2.Effect Hit  3.Spd,,,,,,,"Main Stat-Atk           Sub stat- Speed, Hp Rate,Effect Res, Atk Rate","Main Stat-Effect Res   Sub stat- Speed,Atk Rate, ","Main Stat- Speed        Sub stat- Atk Rate, Spd,Effect Res"
-,Lutz,,,,3.1,3.5,2.7,9.3,3.10,B,,1.SPD Down I,,,,,,1. Atk 2.C.rate  3.C.dmg ,,,,,,,"Main Stat-Atk           Sub stat- Speed, C.rate, C.Dmg, Atk Rate","Main Stat-Atk   Sub stat- Speed,Atk Rate, C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.rate,C.Dmg"
-,Melter,,,,,,,,,,,,,,,,,1.Atk                        2.Spd 3.C.Rate 4.C.DMG,,,,,,,,,
-,Malassa,,,,3.6,3.4,2.7,9.7,3.23,B,,1.Poison,,,,,,1. Atk        2.Effect Hit 3.Mastery,,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit. Hp Rate, Mastery","Main Stat-Effect Hit    Sub stat- Effect Hit, Atk Rate, Hp Rate, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Hp Rate, Mastery"
-,Maphka,,,,3,3,2.1,8.1,2.70,C,,1.Poison,,,,,,1. Hp           2.Spd  3.Healing Effect,,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect Res","Main Stat-Healing Effect    Sub stat- Speed,Hp Rate, Effect Res","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd"
-,Stan,,,,2.5,3,3,8.5,2.83,C,,1.Poison 2.Silence,,,,,,1. Atk        2.Effect Hit 3.Mastery,,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit. Hp Rate, Mastery","Main Stat-Effect Hit    Sub stat- Effect Hit, Atk Rate, Hp Rate, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Hp Rate, Mastery"
-,Dale,,,,3.1,3.2,2.4,8.7,2.90,C,,,,,,,,1. Atk      2.Spd  ,,,,,,,"Main Stat-C.Rate          Sub stat- Atk Rate, C.Rate,C.Dmg. Spd","Main Stat-Atk   Sub stat- Speed,Atk Rate, C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.Rate,C.Dmg"
-,Ofner,,,,3,3.4,2.9,9.3,3.10,B,,1.Bleed 2.RES Buff,,,,,,1. Atk 2.C.rate  3.C.dmg ,,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit. Hp Rate, Mastery","Main Stat-Effect Hit    Sub stat- Effect Hit, Atk Rate, Hp Rate, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Hp Rate, Mastery"
-,Pacchino,,,,3.2,3.5,2.4,9.1,3.03,B,1.Shield 2.Stealth 3.ATK Up I 4.SPD Up I,1.Inferior Severe Wound,,,,,,1. Hp        2.Spd  3.Effect Hit,,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect hit, Effect Res","Main Stat-Effect Hit   Sub stat- Speed,Hp Rate, Effect Res, Effect Hit","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd,Effect Hit"
-,Sylvan,,,,3.1,3.3,2.4,8.8,2.93,C,1.Shield,1.DEF Down I 2.ATK Down I 3.INtertwined,,,,,,1. Hp 2.Effect Hit 3.Spd,,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect hit, Effect Res","Main Stat-Effect Hit   Sub stat- Speed,Hp Rate, Effect Res, Effect Hit","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd,Effect Hit"
-,Feist,,,,3.2,2.9,2.3,8.4,2.80,C,1.Effect Hit Up II,1.Burn,,,,,,1. Atk 2.Effect Hit  3.Mastery,,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit. Hp Rate, Mastery","Main Stat-Effect Hit    Sub stat- Effect Hit, Atk Rate, Hp Rate, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Hp Rate, Mastery"
-,Norma,,,,2.8,3.1,2,7.9,2.63,C,1.Stealth,,,,,,,1. Hp 2.Healing Effect,,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect Res","Main Stat-Healing Effect    Sub stat- Speed,Hp Rate, Effect Res","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd"
-,Liz,,,,3.8,3.6,3,10.4,3.47,B,1.RES Debuff 2.Shield,1.HP Burning,,,,,,1. Hp      2.Spd  ,,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit. Hp Rate,Spd","Main Stat-Effect Hit    Sub stat- Effect Hit, Atk Rate, Hp Rate, Spd","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Hp Rate, Spd"
-,Leuf,,,,3,4,3.4,10.4,3.47,B,,1.HP Burning,,,,,,1. Hp 2.Effect Hit,,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect hit, Effect Res","Main Stat-Effect Hit   Sub stat- Speed,Hp Rate, Effect Res, Effect Hit","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd,Effect Hit"
-,Mobis,,,,3.1,3.2,2.6,8.9,2.97,C,,1.HP Connection,,,,,,1.Hp,,,,,,,"Main Stat-Hp        Sub stat- Spd, Hp Rate, Effect Res","Main Stat-Hp        Sub stat- Spd, Hp Rate, Effect Rex","Main Stat- Speed        Sub stat- Hp Rate, Effect Res"
-,Mondschka,,,,3,3,2.2,8.2,2.73,C,1.Counterattack,1.HP Burning 2.Provoke,,,,,,1.Hp          2.Effect Hit,,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect hit, Effect Res","Main Stat-Effect Hit   Sub stat- Speed,Hp Rate, Effect Res, Effect Hit","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd,Effect Hit"
-,Roselea,,,,3,3,3,9,3.00,B,1.C.DMG Up I,,,,,,,1. Atk      2.Spd  3.C.dmg ,,,,,,,"Main Stat-C.Dmg      Sub stat- Spd, Atk Rate, C.Rate, C.Dmg","Main Stat-Atk        Sub stat- Spd, Atk Rate, C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Spd, Atk Rate, C.Rate, C.Dmg"
-,Kaedo,,,,3.3,2.9,2.4,8.6,2.87,C,1.Shield 2.Immortal 3.Stealth,1.Stun,,,,,,1. Hp        2.Spd,,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect hit, Effect Res","Main Stat-Effect Hit   Sub stat- Speed,Hp Rate, Effect Res, Effect Hit","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd,Effect Hit"
-,Frey,,,,4,4,2.8,10.8,3.60,A,1.Shield,1.DEF Down II,,,,,,1. Atk 2.C.rate  3.C.dmg ,,,,,,,"Main Stat-Atk           Sub stat- Speed, C.rate, C.Dmg, Atk Rate","Main Stat-Atk   Sub stat- Speed,Atk Rate, C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.rate,C.Dmg"
-,Maya,,,,4,4,2.6,10.6,3.53,A,1.RES Debuff 2.Shield 3.Consolidation I,,,,,,,1. Hp 2.Healing Effect               3. Spd,,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect Res","Main Stat-Healing Effect    Sub stat- Speed,Hp Rate, Effect Res","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd"
-,Fegan,,,,3.1,3,2.3,8.4,2.80,C,1.DEF Up I 2.Shield,1.Stun,,,,,,1.Def          2.Effect Hit,,,,,,,"Main Stat-Hp          Sub stat- Speed, Hp Rate,Effect Res, Def Rate","Main Stat-Hp   Sub stat- Speed,Hp Rate, Def Rate","Main Stat- Speed        Sub stat- Def Rate, Spd,Hp Rate"
-,Lia,,,,4,3,2,9,3.00,B,,1.Hypnotize 2.SPD Down I,,,,,,1. Spd         2.Effect Hit,,,,,,,"Main Stat-Atk           Sub stat- Speed, Hp Rate,Effect Res, Atk Rate","Main Stat-Effect Res   Sub stat- Speed,Atk Rate, ","Main Stat- Speed        Sub stat- Atk Rate, Spd,Effect Res"
-,Deschanel,,,,3,3.7,2.3,9,3.00,B,,1.Inferior Severe Wound 2.Severe Wound  3.Effect Hit Down I,,,,,,1. Spd         2.Effect Hit,,,,,,,"Main Stat-Atk           Sub stat- Speed, Hp Rate,Effect Res, Atk Rate","Main Stat-Effect Res   Sub stat- Speed,Atk Rate, ","Main Stat- Speed        Sub stat- Atk Rate, Spd,Effect Res"
-,Aisi,,,,4,3,2,9,3.00,B,1.ATK Up I,1.Poison,,,,,,1. Atk ,,,,,,,"Main Stat-C.Rate           Sub stat- Speed, Atk Rate, C.Rate, C.Dmg","Main Stat-Atk   Sub stat- Speed,Atk Rate, ","Main Stat- Atk        Sub stat- Atk Rate, Spd,C.Rate C.Dmg"
-,Longbeard,,,,3.4,3.5,3,9.9,3.30,B,1.Atk Up I,1.Freeze,,,,,,1. Atk 2.C.rate  3.C.dmg ,,,,,,,"Main Stat-Atk           Sub stat- Speed, C.rate, C.Dmg, Atk Rate","Main Stat-Atk   Sub stat- Speed,Atk Rate, C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.rate,C.Dmg"
-,Iguli,,,,3.8,3.3,3,10.1,3.37,B,1.C.DMG Up I 2.C.RATE Up II ,1.Freeze 2.Feebleness I,,,,,,1. Atk         2.C.Dmg ,,,,,,,"Main Stat-C.Dmg           Sub stat- Speed, Effect Hit ,Effect Res, Atk Rate","Main Stat-Atk   Sub stat- Speed,Atk Rate, C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, Spd,C.Rate, C.Dmg"
-,Rumble,,,,3.9,3,2,8.9,2.97,C,1.Shield,1.Freeze  2.SPD Down I 3.SPD Down II,,,,,,1. Hp 2.Effect Hit            3.Def,,,,,,,"Main Stat-Def          Sub stat- Def Rate, Hp Rate, Effect hit","Main Stat-Effect hit    Sub stat- Hp Rate, Def Rate, Effect Res","Main Stat- Speed        Sub stat- Def Rate, Effect hit, Hp Rate"
-,Vedar,,,,3.3,3.4,2.6,9.3,3.10,B,1.Shield 2.Consolidation I,1.Stun,,,,,,1. Hp,,,,,,,"Main Stat-Hp           Sub stat- Speed, Hp Rate,Effect Hit, Atk Rate","Main Stat-Effect Res   Sub stat- Speed,Atk Rate, ","Main Stat- Speed        Sub stat- Atk Rate, Spd,Effect Res"
-,Biseden,,,,3,4,2,9,3.00,B,1.ATK Up II 2.C.RATE Up II 3.C.DMG Up II,1.DEF Down II 2.Inferior Severe Wound 3.ATK Down I 4.Effect RES Down I,,,,,,1. Spd         2.Effect Hit,,,,,,,"Main Stat-Def           Sub stat- Speed, Hp Rate,Effect Res, Def Rate","Main Stat-Effect Hit   Sub stat- Speed,Def Rate, Hp Rate","Main Stat- Speed        Sub stat- Def Rate, Hp Rate,Effect Hit"
-,Holder,,,,4,4,4,12,4.00,S,1.Counterattack 2.ATK Up I,1.Bleed,,,,,,1. Atk        2.Effect Hit 3.Mastery,,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit. Hp Rate, Mastery","Main Stat-Effect Hit    Sub stat- Effect Hit, Atk Rate, Hp Rate, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Hp Rate, Mastery"
-,Winnex,,,,3.6,3.3,2.1,9,3.00,B,1.DMG Immunity 2.ATK Up II 3.Consolidation II,1.Horrify,,,,,,1. Hp 2.Effect Hit            3.Spd,,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect hit, Effect Res","Main Stat-Effect Hit   Sub stat- Speed,Hp Rate, Effect Res, Effect Hit","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd,Effect Hit"
-,Guna,,,,3.3,3.1,3,9.4,3.13,B,,1.Burn,,,,,,1. Atk        2.Effect Hit 3.Mastery,,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit. Hp Rate, Mastery","Main Stat-Effect Hit    Sub stat- Effect Hit, Atk Rate, Hp Rate, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Hp Rate, Mastery"
-,Maguire,,,,2.8,3.3,2.2,8.3,2.77,C,1.Shield,1.Provoke 2.Severe Wound 1.DEF Down I,,,,,,1. Hp 2.Effect Hit            ,,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect hit, Effect Res","Main Stat-Effect Hit   Sub stat- Speed,Hp Rate, Effect Res, Effect Hit","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd,Effect Hit"
-,Egea,,,,3,3,3.2,9.2,3.07,B,1.Shield,1.DEF Down I,,,,,,1. Atk 2.C.rate  3.C.dmg ,,,,,,,"Main Stat-Atk           Sub stat- Speed, C.rate, C.Dmg, Atk Rate","Main Stat-Atk   Sub stat- Speed,Atk Rate, C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.rate,C.Dmg"
-,Wolsey,,,,3.2,3.6,2.8,9.6,3.20,B,1.Heal,1.Deep Poisoning 2.Poison 3.ATK Down I,,,,,,1. Atk 2.Effect Hit,,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit. Hp Rate, Mastery","Main Stat-Effect Hit    Sub stat- Effect Hit, Atk Rate, Hp Rate, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Hp Rate, Mastery"
-,Mori,,,,3,3.1,2.8,8.9,2.97,C,1.ATK Up I 2.Stealth,1.SPD Down II,,,,,,1. Atk 2.C.rate  3.C.dmg ,,,,,,,"Main Stat-Atk           Sub stat- Speed, Hp Rate,Effect Res, Atk Rate","Main Stat-Effect Res   Sub stat- Speed,Atk Rate, ","Main Stat- Speed        Sub stat- Atk Rate, Spd,Effect Res"
-,Lomas,,,,3.3,3.3,3,9.6,3.20,B,,1.Effect Res Down 2.SPD Down I 3.DEF Down I 4.Bleed,,,,,,1. Atk        2.Effect Hit 3.Mastery,,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit. Hp Rate, Mastery","Main Stat-Effect Hit    Sub stat- Effect Hit, Atk Rate, Hp Rate, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Hp Rate, Mastery"
-,Hardac,,,,3.5,3.3,2.3,9.1,3.03,B,1.Shield 2.Consolidation I,,,,,,,1. Hp          2.Def,,,,,,,"Main Stat-Def          Sub stat- Def Rate, Hp Rate, Effect Res","Main Stat-Def    Sub stat- Hp Rate, Def Rate, Effect Res","Main Stat- Speed        Sub stat- Def Rate, Effect Res, Hp Rate"
-,Moo,,,,3.7,3.6,2.4,9.7,3.23,B,1.Shield 2.DEF Up I,1.Burn 2.Provoke 3.DEF Down I,,,,,,1. Atk 2.Effect Hit  3.C.rate  4.C.dmg 5.Mastery,,,,,,,"Main Stat-C.Rate           Sub stat- Atk Rate, Effect Hit. C.Dmg, Mastery","Main Stat-Effect Hit    Sub stat- C.Rate, Atk Rate, C.Dmg, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, C.Rate, Mastery"
-,Lester,,,,3.8,3.5,3,10.3,3.43,B,,1.DEF Down I 2.DEF Down II,,,,,,1. Atk 2.C.rate  3.C.dmg ,,,,,,,"Main Stat-Atk           Sub stat- Speed, C.rate, C.Dmg, Atk Rate","Main Stat-Atk   Sub stat- Speed,Atk Rate, C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.rate,C.Dmg"
-,Vero,,,,3.8,3.1,2.8,9.7,3.23,B,,1.Silence,,,,,,1. Atk 2.Effect Hit  ,,,,,,,"Main Stat-Atk           Sub stat- Speed, Hp Rate,Effect Res, Atk Rate","Main Stat-Effect Res   Sub stat- Speed,Atk Rate, ","Main Stat- Speed        Sub stat- Atk Rate, Spd,Effect Res"
-,Eden,,,,3.4,3.6,2.3,9.3,3.10,B,1.ATK Up I 2.Heal,1.ATk Down I,,,,,,1. Hp          2.Spd  3.Healing Effect,,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect Res","Main Stat-Healing Effect    Sub stat- Speed,Hp Rate, Effect Res","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd"
-,Sadora,,,,3,3,3,9,3.00,B,,1.ATK Down I 2.Inferior Severe Wound 3.Severe Wound,,,,,,1. Hp          2.Spd  ,,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect hit, Effect Res","Main Stat-Effect Hit   Sub stat- Speed,Hp Rate, Effect Res, Effect Hit","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd,Effect Hit"
-,Magis,,,,3,3.7,2.9,9.6,3.20,B,1.heal,,,,,,,1. Hp 2.Healing Effect,,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect Res","Main Stat-Healing Effect    Sub stat- Speed,Hp Rate, Effect Res","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd"
-,Muller,,,,3.7,3.4,2.7,9.8,3.27,B,1.Shield 2.Ally Protection 3.Consolidation I,,,,,,,1. Hp                   2.Def ,,,,,,,"Main Stat-Hp          Sub stat- Def Rate, Hp Rate, Effect Res","Main Stat-Hp    Sub stat- Hp Rate, Def Rate, Effect Res","Main Stat- Speed        Sub stat- Def Rate, Effect Res, Hp Rate"
-,Visley,,,,3.1,3.6,3.2,9.9,3.30,B,1.C.RATE Up I 2.SPD Up I,1.SPD Down I 2.ATk Down II 3.Effect Res Down I,,,,,,1. Atk 2.Effect Hit  3.Spd,,,,,,,"Main Stat-Atk           Sub stat- Speed, Hp Rate,Effect Res, Atk Rate","Main Stat-Effect Res   Sub stat- Speed,Atk Rate, ","Main Stat- Speed        Sub stat- Atk Rate, Spd,Effect Res"
-,Sylvester,,,,3.3,3.1,2.8,9.2,3.07,B,,1.Tenacity Down I,,,,,,1. Atk 2.C.rate  3.C.dmg ,,,,,,,"Main Stat-Atk           Sub stat- Speed, C.rate, C.Dmg, Atk Rate","Main Stat-Atk   Sub stat- Speed,Atk Rate, C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.rate,C.Dmg"
+Name,Faction,Element,Class,Rarity,PvP,PvE,Guild Boss,Sum,Over All Rating,Rank,Buffs,Debuffs,Exclusives,Subs,Early Game Gear,,Mid Game Gear,End Game,,Artifact #1,Artifact #2,Artifact #3
+Brynhild,Dragon Tribe,Red,Defense,Mythic,3.6,4,3.4,11,3.67,A,1.RES Buff ,1.Silence  2.Hypnotize,"Lv.1 <Soul-scouring Impact>: There is an 80% Chance to inflict [Hypnotize] for 1 turn when it deals DMG. 
+
+Lv.2 Increases Brynhild's Turn Meter by 20% when she casts <Wolf Blade Slash>, or increases her Turn Meter by 40% when the target's HP is below 50%; Brynhild acts 1 extra action turn if this attack inflicts a kill. 
+
+Lv.3 Increases Brynhild's DEF by 60% for 2 turns when she casts <Heavy Sword Out>; resets the CD of all the allies' active skills when casting <Protean>. 
+
+Lv.4 Increase Speed +50
+
+Lv.5 Increase Speed + 50",1. DEF 2.SPD  3.C.RATE  4.C.DMG,N/A,N/A,,,,"Main Stat- C.rate        Sub stat- C.dmg, Spd, Def Rate","Main Stat- Effect Hit        Sub stat- C.Rate, C.Dmg, Spd,Def Rate","Main Stat- Speed        Sub stat- C.Rate,C.Dmg,Def Rate"
+Ben Austin,Sword Harbor Guards,Green,Support,Mythic,3.7,3.4,5,12.1,4.03,S,1.RES Buff ,1.DEF Down II  2.Effect RES II,"Lv.1 <Regal Might>: Additionally steals 10%
+of the target's Turn Meter when
+successfully increasing the cooldown of
+their skills.
+
+Lv.2 Targets who have control effects
+cleansed by <King's Benevolence>
+additionally gain 50% Effect RES for 2
+turns.
+
+Lv.3 <King's Majesty>: Resets its cooldown
+if it fails to kill the enemy target.
+
+Lv.4 Increases SPD by 50.
+
+Lv.5 Increases SPD bv 50.",1. Spd 2.Effect Hit,N/A,N/A,,,,"Main Stat- Hp          Sub stat- Speed, Effect Res, Effect Hit","Main Stat- Effect Hit        Sub stat- Effect Hit, Effect Res, Spd","Main Stat- Speed        Sub stat- Hp Rate, Effect Hit"
+Lucifer,Doom Legion,Red,Attack,Mythic,5,5,5,15,5.00,SS,1.Stealth,1.Severe Wound                                                2.DEF Down II,"Lv.1 <Hidden>: Inflicts [Feebleness II]
+instead and additionally inflicts [Severe
+Wound] for 2 turns.
+
+Lv.2 <Bow>: Gains an additional 15% Crit
+DMG, and additional attacks no longer
+reduce DMG.
+
+Lv.3 Reduces all enemies' DEF by 60% for 2
+turns if Lucifer inflicts a kill with
+<Karma>, then casts <Karma> once
+more on a random target. This effect
+can't be triggered repeatedly.
+
+Lv.4 Increases SPD by 50.
+
+Lv.5 Increases SPD by 50",1. DEF 2.SPD  3.C.rate  4.C.dmg,N/A,N/A,,,,"Main Stat- C.rate      Sub stat- Speed,Atk Rate, C.dmg","Main Stat- Effect Hit      Sub stat- C.rate C.dmg, Speed","Main Stat- Speed        Sub stat- Hp Rate, Effect Hit"
+Luna,Foresters,Force,Support,Mythic,5,5,5,15,5.00,SS,1.Stealth 2.Heal,1.Hypnotize,"Lv.1 <Moonlight Blessing> reduces 40%
+ATK now.
+Lv.2 Upgrades [Heal] granted by Luna to
+[Pure Energy]. When a turn starts, each
+layer of [Pure Energy] restores 10% of
+the Max HP for the caster.
+Lv.3 <Quietness>: HP restoration (no
+requirements now) and ATK increase
+take effect at the same time.
+Lv.4 Increases SPD by 50.
+Lv.5 Increases SPD by 50.",1. Hp         2.Spd  3.Healing Effect ,N/A,N/A,,,,"Main Stat- Hp      Sub stat- Speed,Hp Rate, Healing Effect","Main Stat- HP           Sub stat-effect res,Speed","Main Stat- Speed        Sub stat- Healing Effect, Hp Rate"
+Ulcaster,The Forgotten,Red,Attack,Mythic,4,4.3,4,12.3,4.10,S,1.ATK Up II,1.Horrify 2.DEF Down II,"Lv.1 Grants self [DMG Immunity] and
+immunity to Turn Meter reduction
+effects for 1 turn if self HP is below 50%
+after taking Direct DMG. This skill can
+only be triggered up to once every 2
+turns.
+Lv.2 <Reign> increases all allies' ATK by
+40% for 2 turns.
+Lv.3 Ulcaster gains 1 more action turn when
+he inflicts a kill.
+Lv.4 Increases SPD by 50.
+Lv.5 Increases SPD bv 50.",1. ATK 2.C.RATE  3.C.DMG,N/A,N/A,,,,"Main Stat- C.rate      Sub stat- Speed,ATK rate, C.Dmg,C.Rate","Main Stat- Effect Hit      Sub stat- C.rate C.dmg, Speed","Main Stat- Speed        Sub stat- Atk Rate, C.Rate, C.Dmg"
+Nita,Sunset Sages,Blue,Attack,Mythic,3.2,5,3,11.2,3.73,A,1.Heal,1.Poison 2.Deep Poisoning,"Lv.1 <Bondage>: Inflicts [RES Buff] for 1 turn
+when dealing DMG for the first time.
+Lv.2 Nita has a 25% chance to inflict 1 layer
+of [Poison] on all enemies for 2 turns at
+the start of her turn.
+Lv.3 <Bury>: Additionally triggers [Poison] 1
+time after dealing 3 stages of DMG, up
+to 6 layers.
+Lv.4 Increases SPD by 50.
+Lv.5 Increases SPD by 50.",1. SPD 2.Effect Hit  3.Mastery,N/A,N/A,,,,"Main Stat-Mastery     Sub stat- Speed, Effect Hit, Mastery","Main Stat- Effect Hit      Sub stat- Speed, Effect Hit, Mastery","Main Stat- Speed        Sub stat- Effect Hit, Mastery"
+Nordak,Holy Light Parliament,Green,Defense,Mythic,5,3.8,3,11.8,3.93,A,1.Shield 2.DEF Up I 3.C.Rate Up I 4.C.DMG Up I 5.SPD Up I 6.Effect Res Up I 7.Consolidation I 8. DMG Immunity,,"Grants [DMG Immunity] to all allies for 1 turn, and shares all self
+buffs with all allies.
+DMG Immunity
+Lv.2 Cooldown-1
+Lv.3 Cooldown-1
+Exclusive Lv.1
+<Holy Shelter>: Additionally inflicts [RES Debuff] for 1 turn.",1.Hp      2.Def  3.Spd,N/A,N/A,,,,"Main Stat-Def        Sub stat- Speed, Def Rate, Hp Rate","Main Stat- Def      Sub stat- Speed, Effect Res","Main Stat- Speed        Sub stat- Def Rate, Hp Rate"
+Madlaina,Eternal Sect,Force,Attack,Mythic,4,3.8,3.2,11,3.67,A,,1. DEF Down II,"Lv.1 <Darkness Torrent>: The first stage of
+DMG is guaranteed to reduce the
+target's DEF by 60% for 2 turns.
+Lv.2 Inflicts 10 layers of [Primordial Seed] on
+the target whenever an enemy unit
+inflicts a kill.
+Lv.3 <Spirit Parade>: For targets who have 5
+layers or more of [Primordial Seed],
+increases the Piercing Rate by 35%. For
+targets who have 10 layers of
+[Primordial Seed], every 1 layer of
+[Primordial Seed] increases the DMG
+taken to 8% (the increased DMG caps)",1. Atk 2.C.Rate  3.C.Dmg ,N/A,N/A,,,,"Main Stat- C.rate      Sub stat- Speed,ATK rate, C.Dmg,C.Rate","Main Stat- Effect Hit      Sub stat- Speed, C.Rate, C.dmg","Main Stat- Speed        Sub stat- Atk Rate, C.Rate, C.Dmg"
+Lukea,Nameless Brotherhood,Red,Attack,Mythic,4,4,5,13,4.33,S,,1.Bleed,"Lv.1 <Spirit Blade Full-out>: Lukea grants
+herself a [Shield] by 30% of Max HP and
+[Stealth] for 2 turns after casting it.
+Lv.2 Reduces the CD of a random active skill
+by 1 turn each time Lukea gains 1 piece
+of [Soul Fragment]. Each [Soul
+Fragment] additionally increases
+Lukea's Piercing Rate by 5%, and [Soul
+Core] increases her Piercing Rate by
+25%.
+Lv.3 <Spirit Blade Outburst>: Inflicts 1 layer
+of [Bleed] for 2 turns whenever the last
+5 stages land a Crit, or there is a 60%
+Lv.4 Increases SPD by 50.
+Lv.5 Increases SPD bv 50.",1. Atk 2.Effect Hit  3.C.rate  4.C.dmg 5.Mastery,N/A,N/A,,,,"Main Stat-Mastery     Sub stat- Speed, C.Rate, C.Dmg, Effect Hit","Main Stat- Effect Hit      Sub stat- Speed, C.Rate, C.dmg, Effect Hit","Main Stat- Speed        Sub stat- Effect Hit, Atk Rate, Mastery, C.rate"
+Melchio,Wizard's Eye,Force,Attack,Mythic,3.7,4.2,3.6,11.5,3.83,A,,1.Tenacity Down I 2.Stun 3.Tenacity Down II,"Lv.1 Melchio gains different effects when
+casting intermediate or advanced skills
+of different elements;
+Thunder: increases self Turn Meter by
+30%.
+Fire: cleanses all attribute debuffs from
+self.
+Darkness: restores self HP by 18% of
+Max HP.
+Lv.2 Melchio gains 1 additional layer of
+[Intermediate Elemental Charge] at the
+beginning of each wave;
+Melchio gains a layer of [Elemental
+Saturation], which increases self DMG
+dealt by 5% whenever he consumes 1
+layer of [Basic Elemental Charge] or
+[Intermediate Elemental Charge], up to
+6 layers.
+Ignores
+Lv.3 <Advanced Thunderstruck>:
+[Shield], [DMG Immunity], and
+[Immortal]. Meanwhile, each stage of
+attack reduces the target's Turn Meter:
+by 15%, or 25% when landing a Crit.
+<Advanced Blaze>: Crit is guaranteed.
+This attack has an additional 140% Crit
+DMG. Meanwhile, it has an additional
+25% Piercing Rate for targets with
+debuffs.
+<Advanced Dark Befalling>: Deals
+extra DMG (caps at 300% of Melchio's
+ATK) by 12% of the target's MAX HP.
+Lv.4 Increases SPD by 50.
+Lv.5 Increases SPD bv 50.",1. Atk 2.C.Rate  3.C.Dmg  4.Effect Hit,N/A,N/A,,,,"Main Stat- C.rate      Sub stat- Speed,ATK rate, C.Dmg,C.Rate","Main Stat- Effect Hit      Sub stat- Speed, C.Rate, C.dmg,Effect Hit","Main Stat- Speed        Sub stat- Atk Rate, C.Rate, C.Dmg, Effect Hit"
+Melia,Dragon Tribe,Force,Attack,Legendary,4.7,5,5,14.7,4.90,SS,,1.HP Burning,"Lv.1 Valkyrie status lasts for 1 more turn.
+Lv.2 Melia inflicts 1 layer of [HP Burning] on
+all enemies for 2 turns after casting
+<Valkyrie>.
+Lv.3 Increases the DMG dealt by [HP
+Burning] by 25% when Melia is under
+the Valkyrie status.
+Lv.4 Increases SPD by 50.
+Lv.5 Increases SPD by 50.",1. Hp 2.Effect Hit  3.Mastery,,,,,,"Main Stat- Mastery      Sub stat- Speed,Effect Hit","Main Stat- Effect Hit      Sub stat- Speed,Effect Hit,Mastery ","Main Stat- Speed        Sub stat- Hp Rate, Effect Hit, Mastery"
+Vera,Dragon Tribe,Red,Support,Legendary,3.5,3.5,3,10,3.33,B,1.Stealth 2.C.RATE Up II 3.Heal,1.Silence,"Lv.1 <Moonshadow>
+grants all allies an
+additional layer of [Heal] for 2 turns.
+Lv.2 Vera restores self HP by 10% of Max HP
+at the beginning of each turn.
+Lv.3 When Vera is killed, she inflicts
+[Silence] on the attacker for 3 turns.
+The effect can't be removed.
+Lv.4 Increases SPD by 50.
+Lv.5 Increases SPD by 50.",1. Hp       2.Spd  3.Healing Effect,,,,,,"Main Stat- Hp            Sub stat- Speed, Hp Rate, ","Main Stat- Hp            Sub stat- Speed,Effect Res","Main Stat- Speed        Sub stat- Hp Rate, Healing Effect"
+Hoff,Dragon Tribe,Red,Support,Legendary,3.8,4.2,4,12,4.00,S,,1.Effect RES Down II 2.DEF Down II 3.Tenacity Down II 4.HP Burning,"Lv.1 <Hunting Groove>: Inflicts [Hunting]
+on the enemy with the highest ATK
+instead. Increases all allies' ATK by 40%
+for 2 turns when the enemy target
+under [Hunting] status is killed.
+Lv.2 Hoff inflicts [Feebleness I] on all
+enemies for 2 turns before casting
+<Squall of Arrows>.
+Lv.3 Hoff casts [God of Archery's Arrival]
+one more time on the first target
+inflicted with [Hunting] at the
+beginning of each wave.
+Lv.4 Increases SPD by 50.
+Lv.5 Increases SPD by 50.",1. Atk 2.Effect Hit  3.Spd  ,,,,,,"Main Stat-Hp          Sub stat- Speed, Effect Hit, Hp Rate, Def Rate","Main Stat-Effect Hit    Sub stat- Speed,Effect Hit, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit"
+Hezonja,Dragon Tribe,Green,Attack,Legendary,4.6,5,4,13.6,4.53,SS,,1.HP Burning,"Lv.1 <Dragon Flame> additionally triggers
+[HP Burning] once.
+Lv.2 Hezonja can deal 15% more [HP
+Burning] DMG.
+Lv.3 <Bully>: Increases each layer's extra
+DMG to 5% of the target's Max HP.
+Meanwhile, increases each layer's Max
+DMG to 16% of Hezonja's Max HP.
+Lv.4 Increases SPD by 50.
+Lv.5 Increases SPD by 50.",1. Hp 2.Effect Hit  5.Mastery,,,,,,"Main Stat-Hp           Sub stat- Speed, Effect Hit, Hp Rate, Def Rate","Main Stat-Effect Hit    Sub stat- Speed,Effect Hit, ","Main Stat- Speed        Sub stat- Effect Hit,  Hp Rate"
+Greta,Dragon Tribe,Green,Attack,Legendary,3.2,4,2.6,9.8,3.27,B,,1.Freeze 2.Feebleness II 3.DEF Down II,"Lv.1 <Freaky Deadly>: Reduces the target's
+DEF by 60% for 2 turns before
+attacking.
+Lv.2 Greta reflects all attribute debuffs.
+Lv.3 <Freaky Deadly> starts to steal instead
+of removal.
+Lv.4 Increases SPD by 50.
+Lv.5 Increases SPD by 50.",1. Atk   2.C.rate  3.C.dmg ,,,,,,"Main Stat-C.Rate           Sub stat- C.Rate, C.Dmg, Atk Rate","Main Stat-Atk    Sub stat- Speed,C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.Rate, C.Dmg"
+Ariel,Dragon Tribe,Green,Attack,Legendary,4,4,4,12,4.00,S,1.Stealth,,"Lv.1 <Hidden Arrow Attack>: Increases the
+extra DMG by 20%.
+Lv.2 If Ariel is not under [Concealment]
+status, she will enter [Concealment]
+status when a turn ends. Skill CD: 3
+turns.
+Lv.3 Ariel gains 20% more Crit Rate and 30%
+more Crit DMG when she is under
+[Stealth] or [Concealment] status.
+Lv.4 Increases SPD by 50.
+Lv.5 Increases SPD by 50.",1. Atk   2.C.rate  3.C.dmg ,,,,,,"Main Stat-C.Rate           Sub stat- C.Rate, C.Dmg, Atk Rate","Main Stat-Atk    Sub stat- Speed,C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.Rate, C.Dmg"
+Natalie,Dragon Tribe,Blue,Attack,Legendary,3.8,3.5,3,10.3,3.43,B,,1.Bleed 2.Effect Res Down II,"Lv.1 There is a 50% chance to reset the
+duration of [Bleed] of the target when
+Natalie attacks actively.
+Lv.2 Restore Natalie's HP by
+1%/2%/3%/5%/7% of Max HP based on
+the layers of [Bleed] the target has
+when she deals DMG to enemies under
+[Bleed] status. If the target has more
+than 5 layers of [Bleed], the restored HP
+is still based on 5 layers.
+Lv.3 Increases Natalie's ATK by 1% (up to
+50%) for every 1 layer of [Bleed] she
+inflicted on an enemy. The buff can't be
+removed.
+Lv.4 Increases SPD by 50.
+Lv.5 Increases SPD by 50.",1. Atk 2.Effect Hit  5.Mastery,,,,,,"Main Stat-Mastery        Sub stat- Atk Rate, Effect Hit, Mastery","Main Stat-Effect Hit    Sub stat- Atk Rate, Effect Hit, Mastery","Main Stat- Speed        Sub stat- Effect Hit, Mastery, Atk Rate"
+Naseal,Dragon Tribe,Blue,Defense,Legendary,3.4,3.6,2,9,3.00,B,1.Ally Protection ,1.Freeze 2.Stun,"Lv.1 Naseal casts <Giant Ice Shield>
+immediately at the beginning of each
+wave. He is immune to this death when
+taking Fatal DMG. Meanwhile, restores
+his HP by 15% of Max HP. This effect
+only takes effect up to once per wave.
+Lv.2 <Frigid Shield>: Increases the
+restoration amount to 30% of Max HP,
+before which cleanses all debuffs from
+self.
+Lv.3 <Shield Support>: Up to 3 allies can be
+protected at the same time, and
+protected allies take 15% less DMG.
+Lv.4 Increases SPD by 50.
+Lv.5 Increases SPD by 50",1. Hp 2.Effect Hit ,,,,,,"Main Stat- Hp      Sub stat- Speed,Effect Hit, Hp Rate","Main Stat- Effect Hit     Sub stat- Speed,Effect Hit, Hp Rate","Main Stat- Speed        Sub stat- Effect Hit, Hp Rate"
+Xia,Sword Harbor Guards,Force,Attack,Legendary,5,4,3.6,12.6,4.20,S,,,"Lv.1 <Concentration Increase>: Additionally
+increases Piercing Rate by 30%, and Xia
+gains immunity to control effects while
+this skill is in effect.
+Lv.2 <Shadow of Master>: Deals 50% of the
+DMG dealt by this skill to all enemies
+other than the target of the attack.
+Lv.3 <Broken Snow>: Resets its cooldown
+and increases self Turn Meter by 50%
+when it inflicts a kill. Xia acts 1 more
+turn if she is under [Concentration
+Increase] status at this time.
+Lv.4 Increases SPD by 50.
+Lv.5 Increases SPD by 50.",1. Atk   2.C.rate  3.C.dmg ,,,,,,"Main Stat-C.Rate           Sub stat- C.Rate, C.Dmg, Atk Rate","Main Stat-Atk    Sub stat- Speed,C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.Rate, C.Dmg"
+Soli,Sword Harbor Guards,Force,Defense,Legendary,5,3.3,2.4,10.7,3.57,A,1.Shield 2.Ally Protection,1.DEF Down I 2.Stun 3.Provoke 4.Consolidation II,"Lv.1 <Commander's Poise>: Additionally
+grants Soli [Consolidation II] for 2
+turns.
+Lv.2 <United Front>: Increases the DEF
+reduction to 60%.
+Lv.3 Gains a layer of [Army Morale] and
+increases the DMG of Soli's next active
+attack by 20% and the chance of
+inflicting [Stun] by 5% every time Soli
+takes Direct DMG once while under
+[Commander] status.
+Lv.4 Increases SPD by 50.",1. Hp 2.Effect Hit 3. Def,,,,,,"Main Stat-Def          Sub stat- Def Rate, Hp Rate, Effect Res","Main Stat-Effect Res    Sub stat- Hp Rate, Def Rate, Effect Res","Main Stat- Speed        Sub stat- Def Rate, Effect Res, Hp Rate"
+Sigmund,Sword Harbor Guards,Red,Defense,Legendary,4,5,4.6,13.6,4.53,SS,1.Shield,1.Hp Burning,"Lv.1 <Searing Pain>: Ignores [Shield] and
+[DMG Immunity]. Meanwhile, increases
+additional DMG by 50%.
+Lv.2 Grants Sigmund immunity to [Freeze]
+and [HP Burning]. Meanwhile, when he
+is inflicted with [HP Burning], it will be
+converted to [Heal].
+Lv.3 <Flame Bombardment>: It has a 50%
+chance to additionally inflict 1 layer of
+[HP Burning] for 2 turns.
+Lv.4 Increases SPD by 50.
+Lv.5 Increases SPD bv 50.",1. Def 2.Effect Hit 3. Hp 4. Mastery,,,,,,"Main Stat-Def          Sub stat- Def Rate, Effect Hit, Hp Rate","Main Stat-Effect Hit    Sub stat- Hp Rate, Def Rate, Effect hit, ","Main Stat- Speed        Sub stat- Def Rate, Effect Res, Hp Rate, Effect Hit"
+Luz,Sword Harbor Guards,Red,Attack,Legendary,4,4,4,12,4.00,S,,1.DEF Down II,"Lv.1 Double Strike: Its each stage deals
+extra DMG (caps at 200% of Luz's ATK)
+by 3% of the target's Max HP.
+Lv.2 <Submerged Dragon>: Doubles the
+extra DMG and its cap.
+Lv.3 <Victorious Pursuit> also increases
+Luz's Crit DMG by the same amount.
+Lv.4 Increases SPD by 50.
+Lv.5 Increases SPD by 50.",1. Atk 2.Effect Hit  3.C.rate  4.C.dmg 5.Mastery,,,,,,"Main Stat-C.Rate         Sub stat- C.Rate, C.Dmg, Effect Hit, Atk Rate","Main Stat-Effect Hit    Sub stat- C.Rate, C.Dmg, Effect Hit, Atk Rate","Main Stat- Speed        Sub stat- C.Rate, C.Dmg, Atk Rate, Effect Hit"
+Melina,Sword Harbor Guards,Green,Support,Legendary,4.2,3.7,2.6,10.5,3.50,A,1.Effect RES Up I,,"Lv.1 <Sword Blast Guardian>: Additionally
+grants all allies a [Shield] by 20% of
+Max HP for 2 turns.
+Lv.2 [Chivalry]: Each layer's DMG
+increases by 50%.
+Lv.3 <Hexagram Array>: Increases the
+restoration effect to 35% of the DMG
+dealt.
+Lv.4 Increases SPD by 50.
+Lv.5 Increases SPD by 50.",1. Hp      2.Spd,,,,,,"Main Stat-Hp        Sub stat- Spd, Hp Rate, Effect Res","Main Stat-Hp        Sub stat- Spd, Hp Rate, Effect Rex","Main Stat- Speed        Sub stat- Hp Rate, Effect Res"
+Katherine,Sword Harbor Guards,Red,Support,Legendary,5,5,5,15,5.00,SS,1.Counterattack 2.Shield,1.Feebleness II,"Lv.1 Cleanses 1 layer of debuff for every ally
+at random when <Burst of Energy> is
+triggered.
+Lv.2 <High-spirited> increases the shield
+value to 60% of Max HP.
+Lv.3 Katherine gains 1 more action turn
+after she releases <Solid Guardian>.
+Lv.4 Increases SPD by 50.
+Lv.5 Increases SPD by 50.",1. Hp 2.Effect Hit 3.Spd,,,,,,"Main Stat-Hp        Sub stat- Spd, Hp Rate, Effect Hit, Spd","Main Stat-Effect Hit        Sub stat- Spd, Effect Hit, Hp Rate","Main Stat- Speed        Sub stat- Hp Rate, Effect Hit, Spd"
+Yoko,Sword Harbor Guards,Blue,Attack,Legendary,5,4,3.2,12.2,4.07,S,1.Shield,,"Lv.1 Cleanses 1 layer of debuff for every ally
+at random when <Burst of Energy> is
+triggered.
+Lv.2 <High-spirited> increases the shield
+value to 60% of Max HP.
+Lv.3 Katherine gains 1 more action turn
+after she releases <Solid Guardian>.
+Lv.4 Increases SPD by 50.
+Lv.5 Increases SPD by 50.",1. Atk   2.C.rate  3.C.dmg ,,,,,,"Main Stat-C.Rate           Sub stat- C.Rate, C.Dmg, Atk Rate","Main Stat-Atk    Sub stat- Speed,C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.Rate, C.Dmg"
+Slackdo,Sunset Sages,Force,Attack,Legendary,3.7,3.5,3,10.2,3.40,B,,1.RES Buff,"Lv.1 <Dust Storm Roar>: Removes all of the
+target's buffs before attacking.
+Lv.2 <Hammer of Stealth>: Steals all of the
+target's attribute buffs, and reduces
+the target's Turn Meter by 25% if they
+has no attribute buffs.
+Lv.3 <Frenzied Hammer Blows>: Increases 2
+stages of attack. The final stage
+increases 100% DMG to targets under
+[RES Buff] status.
+Lv.4 Increases SPD by 50.
+Lv.5 Increases SPD bv 50.",1. Atk 2.Effect Hit 3.Spd,,,,,,"Main Stat-Atk          Sub stat- Speed, Effect Hit, Hp Rate, Atk Rate","Main Stat-Effect Hit    Sub stat- Speed,Atk Rate, Effect Res","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit"
+Alahan,Sunset Sages,Force,Support,Legendary,5,3,3,11,3.67,A,1.Shield 2. ATK Up II,1.Stun,,1. Hp 2.Effect Hit 3.Spd,,,,,,"Main Stat-Hp          Sub stat- Speed, Effect Hit, Hp Rate, Def Rate","Main Stat-Effect Hit    Sub stat- Speed,Effect Hit, Hp Rate","Main Stat- Speed        Sub stat- Hp Rate, Effect Hit, Spd"
+Sana,Sunset Sages,Red,Attack,Legendary,4,4,3.8,11.8,3.93,A,1.C.RATE Up II,,,1. Atk   2.C.rate  3.C.dmg ,,,,,,"Main Stat-C.Rate           Sub stat- C.Rate, C.Dmg, Atk Rate","Main Stat-Atk    Sub stat- Speed,C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.Rate, C.Dmg"
+Walter,Sunset Sages,Green,Attack,Legendary,5,4.3,4,13.3,4.43,S,,1.Poison,,1. Atk   2.Effect Hit 3.Mastery,,,,,,"Main Stat-Mastery           Sub stat- Atk Rate, Effect Hit, Mastery","Main Stat-Effect Hit    Sub stat- Speed,Effect Hit, Effect Res","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Mastery"
+Horus,Sunset Sages,Red,Attack,Legendary,3.5,4,3.6,11.1,3.70,A,,1.Inferior Severe Wound,,1. Atk   2.C.rate  3.C.dmg ,,,,,,"Main Stat-C.Rate           Sub stat- C.Rate, C.Dmg, Atk Rate","Main Stat-Atk    Sub stat- Speed,C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.Rate, C.Dmg"
+Guhanna,Sunset Sages,Blue,Support,Legendary,3.7,3.6,2.8,10.1,3.37,B,1.SPD Up I 2.ATK Up I,1.Inferior Severe Wound 2.SPD Down II,,1. Hp 2.Healing Effect      3.Spd,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect Res","Main Stat-Healing Effect    Sub stat- Speed,Hp Rate, Effect Res","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd"
+Nasakhma,Sunset Sages,Blue,Support,Legendary,5,3.6,2.3,10.9,3.63,A,,1.Inferior Severe Wound 2.Horrify 3.HP Connection,,1. Hp 2.Effect Hit ,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect Res","Main Stat-Effect Hit   Sub stat- Speed,Hp Rate, Effect Res","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd"
+Serena,Foresters,Force,Attack,Legendary,4,4,3.2,11.2,3.73,A,1.Stealth 2.Shield,,,1. Atk   2.C.rate  3.C.dmg ,,,,,,"Main Stat-C.Rate           Sub stat- C.Rate, C.Dmg, Atk Rate","Main Stat-Atk    Sub stat- Speed,C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.Rate, C.Dmg"
+Gru,Foresters,Red,Support,Legendary,4.3,4.3,3.5,12.1,4.03,S,1.HP Up I 2.Ally Protection,,,1. Hp,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect Res","Main Stat-Hp   Sub stat- Speed,Hp Rate, Effect Res","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd"
+Megan,Foresters,Red,Attack,Legendary,5,3.8,3.6,12.4,4.13,S,1.C.RATE Up II,1.Inferior Severe Wound 2.Severe Wound 3.DEF Down I 4.Tenacity Down I,,1. Atk   2.C.Dmg 3.Effect Hit,,,,,,"Main Stat-C.Rate           Sub stat- C.Rate,Atk Rate, C.Dmg, Effect Hit","Main Stat-Effect Hit   Sub stat- Speed,C.Dmg, Atk Rate","Main Stat- Speed        Sub stat- Atk Rate, C.Dmg, Effect Hit"
+Maeve,Foresters,Green,Attack,Legendary,4,4.4,5,13.4,4.47,S,,1.Hypnotize 2.DEF Down II,,1. Atk   2.C.rate  3.C.dmg ,,,,,,"Main Stat-C.Rate           Sub stat- C.Rate, C.Dmg, Atk Rate","Main Stat-Atk    Sub stat- Speed,C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.Rate, C.Dmg"
+Taff,Foresters,Green,Support,Legendary,3.7,3.6,3.2,10.5,3.50,A,1.Heal,1.Poison 2.Deep Poisoning 3.Intertwined,,1. Atk 2.Effect Hit 3. Mastery,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit. Hp Rate, Mastery","Main Stat-Effect Hit    Sub stat- Effect Hit, Atk Rate, Hp Rate, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Hp Rate, Mastery"
+Besmok,Doom Legion,Red,Attack,Legendary,3.7,4.6,5,13.3,4.43,S,1.ATK UP II 2.C.DMG Up II,1.Tenacity Down I,,1. Atk   2.C.rate  3.C.dmg ,,,,,,"Main Stat-C.Rate           Sub stat- C.Rate, C.Dmg, Atk Rate","Main Stat-Atk    Sub stat- Speed,C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.Rate, C.Dmg"
+Phocas,Doom Legion,Green,Support,Legendary,5,4.4,4,13.4,4.47,S,1.Immortal 2.ATK Up II,1.ATK Down I,,1. Hp         2.Spd,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect Res","Main Stat-Hp   Sub stat- Speed,Hp Rate, Effect Res","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd"
+Eilat,Doom Legion,Green,Defense,Legendary,3.6,3.1,2.4,9.1,3.03,B,1.RES Debuff 2.DEF Up II 3.DMG Reflect Up I,1.Effect Hit Down II 2.Provoke,,1. Hp     2.Effect Hit  3.Def  ,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect Res, Def Rate","Main Stat-Effect Hit   Sub stat- Speed,Hp Rate, Effect Res, Def Rate","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd, Def Rate"
+Jennifer,Doom Legion,Blue,Attack,Legendary,3.4,3.4,2.8,9.6,3.20,B,1.Stealth,1.Severe Wound,,1. Atk 2.Effect Hit  3.C.rate  4.C.dmg ,,,,,,"Main Stat-C.Rate           Sub stat- C.Rate, C.Dmg, Atk Rate, Effect Hit","Main Stat-Effect Hit    Sub stat- Speed,C.Rate, C.Dmg, Effect Hit","Main Stat- Speed        Sub stat- Atk Rate, C.Rate, C.Dmg, Effect Hit"
+Margarita,Doom Legion,Blue,Attack,Legendary,4.5,4,3.7,12.2,4.07,S,,,,1. Atk   2.C.rate  3.C.dmg ,,,,,,"Main Stat-C.Rate           Sub stat- C.Rate, C.Dmg, Atk Rate","Main Stat-Atk    Sub stat- Speed,C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.Rate, C.Dmg"
+Okmin,Doom Legion,Force,Attack,Legendary,4.2,3.9,3.9,12,4.00,S,,1.Burn 2.HP Burning,,1. Hp     2.Atk  3.Effect Hit  4.Mastery,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit. Hp Rate, Mastery","Main Stat-Effect Hit    Sub stat- Effect Hit, Atk Rate, Hp Rate, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Hp Rate, Mastery"
+Gunner,Doom Legion,Force,Defense,Legendary,3.5,3.8,3.1,10.4,3.47,B,1.Shield,1.Burn 2.HP Burning,,1. Def 2.Effect Hit  5.Mastery,,,,,,"Main Stat-Def           Sub stat- Def Rate, Effect Hit. Hp Rate, Mastery","Main Stat-Effect Hit    Sub stat- Effect Hit, Def Rate, Hp Rate, Mastery","Main Stat- Speed        Sub stat- Def Rate, Effect Hit, Hp Rate, Mastery"
+Elleena,Holy Light Parliament,Force,Attack,Legendary,4,3.7,3.6,11.3,3.77,A,1.Counterattack 2.Effect Hit Up II,1.Bleed,,1. Atk     2.Effect Hit  ,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Speed, Effect Hit, Mastery","Main Stat-Effect Hit   Sub stat- Speed,Atk Rate, Effect Hit, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Speed, Mastery"
+Fiona,Holy Light Parliament,Red,Support,Legendary,4.7,4.3,3.3,12.3,4.10,S,1.Revive 2.ATK Up II 3.Stealth,1.Inferior Severe Wound 2.Stun 3.Freeze 4.Silence 4.Hypnotize 5.Provoke 6.Horrify,,1. Hp     2.Effect Hit  3.Spd,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect hit, Effect Res","Main Stat-Effect Hit   Sub stat- Speed,Hp Rate, Effect Res, Effect Hit","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd,Effect Hit"
+Schilder,Holy Light Parliament,Green,Defense,Legendary,4,3.4,2.5,9.9,3.30,B,1.DEF Up I 2.Shield,1.DEF Down I 2.Shield,,1. Def,,,,,,"Main Stat-Def           Sub stat- Def Rate, Speed, Effect Res","Main Stat-Def   Sub stat- Speed,Def Rate, Effect Res","Main Stat- Speed        Sub stat- Def Rate, Effect Res, Spd"
+Elaina,Holy Light Parliament,Green,Support,Legendary,3.4,4,3.3,10.7,3.57,A,,1.DEF Down I,,1. Hp     2.Spd,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect Res","Main Stat-Hp   Sub stat- Speed,Hp Rate, Effect Res","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd"
+Hisaro,The Forgotten,Blue,Attack,Legendary,3.2,3.4,2.8,9.4,3.13,B,,1.Bleed 2.Inferior Severe Wound 3. Severe Wound,,1. Atk        2.Effect Hit ,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Speed, Effect Hit, Mastery","Main Stat-Effect Hit   Sub stat- Speed,Atk Rate, Effect Hit, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Speed, Mastery"
+Amalic,The Forgotten,Force,Support,Legendary,3.3,3.6,3,9.9,3.30,B,,1.Freeze 2.DEF Down II 3.Tenacity Down II,,1. Spd 2.Effect Hit  ,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Speed, Effect Hit, ","Main Stat-Effect Hit   Sub stat- Speed,Atk Rate, Effect Hit, ","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Speed,"
+Zyra,The Forgotten,Force,Support,Legendary,4,3.3,2.8,10.1,3.37,B,,1.ATK Down I 2.DEF Down I 3.Silence 4.Freeze 5.Stun 6.Hypnotize 7.Horrify,,1. Atk        2.Effect Hit  3.Spd,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Speed, Effect Hit, ","Main Stat-Effect Hit   Sub stat- Speed,Atk Rate, Effect Hit,","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Speed,"
+Gramndi,The Forgotten,Red,Attack,Legendary,4.1,3.8,3.2,11.1,3.70,A,,1.SPD Down I 2.SPD Down II 3.Freeze,,1. Hp         2.Effect Hit  3. Def,,,,,,"Main Stat-Def           Sub stat- Def Rate, Speed, Effect Hit,Hp Rate","Main Stat-Effect Hit   Sub stat- Speed,Def Rate, Effect Hit, Hp Rate","Main Stat- Speed        Sub stat- Def Rate, Effect Hit, Speed, Hp Rate"
+Mae,The Forgotten,Red,Attack,Legendary,3.7,4,3.4,11.1,3.70,A,,1.Horrify 2.ATK Down II,,1. Atk        2.Effect Hit  ,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Speed, Effect Hit,Hp Rate","Main Stat-Effect Hit   Sub stat- Speed,Atk Rate, Effect Hit, Hp Rate","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Speed, Hp Rate"
+Lam,Eternal Sect,Green,Support,Legendary,3.7,3.2,3,9.9,3.30,B,1.DMG Immunity,,,1. Hp     ,,,,,,"Main Stat-Hp           Sub stat-Spd, Hp Rate,Effect Res, Atk Rate","Main Stat-Hp   Sub stat- Speed,Atk Rate, Effect Res, Hp Rate","Main Stat- Speed        Sub stat- Spd, Effect Res, Speed, Hp Rate"
+Dario,Eternal Sect,Blue,Attack,Legendary,4.5,5,3.6,13.1,4.37,S,,,,1. Atk ,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Speed, C.Rate, C.Dmg","Main Stat-Atk   Sub stat- Speed,Atk Rate, C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.Rate, C.Dmg,Effect Res"
+Turf,Eternal Sect,Blue,Attack,Legendary,3.8,4,4,11.8,3.93,A,1.Shield 2.Counterattack,1.Poison 2.Deep Poison,,1. Atk 2.Effect Hit   3.Mastery,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit, Mastery, Effect Res","Main Stat-Effect Hit   Sub stat- Atk Rate, Mastery, Effect Hit, Effect Res","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Mastery"
+Carrie,Eternal Sect,Force,Attack,Legendary,3.7,3.9,3.2,10.8,3.60,A,,1.Horrify,,1. Atk        2.Effect Hit  3.Spd,,,,,,"Main Stat-Atk           Sub stat- Speed, Hp Rate,Effect Res, Atk Rate","Main Stat-Effect Res   Sub stat- Speed,Atk Rate, ","Main Stat- Speed        Sub stat- Atk Rate, Spd,Effect Res"
+Zachzulu,Eternal Sect,Force,Attack,Legendary,3.7,3.4,3,10.1,3.37,B,,1.ATK Down I,,1. Atk   2.C.rate  3.C.dmg ,,,,,,"Main Stat-Atk           Sub stat- Speed, C.rate, C.Dmg, Atk Rate","Main Stat-Atk   Sub stat- Speed,Atk Rate, C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.rate,C.Dmg"
+Asindo,Eternal Sect,Red,Support,Legendary,5,4,2,11,3.67,A,,1.Silence,,1. Spd       2.Effect Hit  ,,,,,,"Main Stat-Hp           Sub stat- Speed, Effect Hit,Effect Res","Main Stat-Effect Hit   Sub stat- Speed, Effect Res","Main Stat- Speed        Sub stat- Effect Hit, Effect Rex"
+Karid,Eternal Sect,Red,Attack,Legendary,3.6,3.4,3.2,10.2,3.40,B,,1.RES Buff 2.Horrify,,1. Atk   2.Spd  3.C.dmg ,,,,,,"Main Stat-C.Rate           Sub stat- Speed, Effect Hit, C.Dmg","Main Stat-Effect Hit   Sub stat- Speed,Atk Rate, C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.rate,C.Dmg"
+Agatha,Eternal Sect,Red,Attack,Legendary,4.5,4,3.6,12.1,4.03,S,1.Heal 2.Shield,1.Inferior Severe Wound 2.Severe Wound,,1. Atk   2.C.rate  3.C.dmg ,,,,,,"Main Stat-Atk           Sub stat- Speed, C.rate, C.Dmg, Atk Rate","Main Stat-Atk   Sub stat- Speed,Atk Rate, C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.rate,C.Dmg"
+Gustave,Nameless Brotherhood,Green,Attack,Legendary,3.8,3.4,2.8,10,3.33,B,1.Immortal,,,1. Atk   2.C.rate  3.C.dmg ,,,,,,"Main Stat-Atk           Sub stat- Speed, C.rate, C.Dmg, Atk Rate","Main Stat-Atk   Sub stat- Speed,Atk Rate, C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.rate,C.Dmg"
+Sinton,Nameless Brotherhood,Blue,Defense,Legendary,5,3.4,2,10.4,3.47,B,1.DEF Up II,1.Provoke,,1. Hp 2.Effect Hit               3.Def  ,,,,,,"Main Stat-Def           Sub stat- Def Rate, Speed, Effect Hit,Hp Rate","Main Stat-Effect Hit   Sub stat- Speed,Def Rate, Effect Hit, Hp Rate","Main Stat- Speed        Sub stat- Def Rate, Effect Hit, Speed, Hp Rate"
+Eric,Nameless Brotherhood,Blue,Attack,Legendary,4,4,3.2,11.2,3.73,A,,1.Burn 2.Stun 3.DEF Down II,,1. Atk 2.Effect Hit  3.Mastery,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit. Hp Rate, Mastery","Main Stat-Effect Hit    Sub stat- Effect Hit, Atk Rate, Hp Rate, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Hp Rate, Mastery"
+Mutu,Nameless Brotherhood,Force,Attack,Legendary,3.8,4.2,3.4,11.4,3.80,A,1.ATK Up I 2.ATK Up II,,,1. Atk   2.C.rate  3.C.dmg ,,,,,,"Main Stat-Atk           Sub stat- Speed, C.rate, C.Dmg, Atk Rate","Main Stat-Atk   Sub stat- Speed,Atk Rate, C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.rate,C.Dmg"
+Gerina,Nameless Brotherhood,Force,Support,Legendary,3.7,3.2,2.9,9.8,3.27,B,1.Immortal 2.Heal,1.DEF Down I,,1. Hp         2.Spd  3.Healing Effect ,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect Res","Main Stat-Healing Effect    Sub stat- Speed,Hp Rate, Effect Res","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd"
+Aisha,Nameless Brotherhood,Red,Attack,Legendary,5,4.2,3.7,12.9,4.30,S,1.DMG Immunity,,,1. Atk   2.C.rate  3.C.dmg ,,,,,,"Main Stat-Atk           Sub stat- Speed, C.rate, C.Dmg, Atk Rate","Main Stat-Atk   Sub stat- Speed,Atk Rate, C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.rate,C.Dmg"
+Timi,Nameless Brotherhood,Red,Support,Legendary,3.4,4,3.6,11,3.67,A,1.Consolidation I,1.SPD Down II 2.ATK Down II 3.C.RATE Down II,,1. Hp         2.Spd  3.Effect Hit,,,,,,"Main Stat-Hp           Sub stat- Speed, Effect Hit,Effect Res","Main Stat-Effect Hit   Sub stat- Speed, Effect Res","Main Stat- Speed        Sub stat- Effect Hit, Effect Rex"
+Frich,Nameless Brotherhood,Green,Defense,Legendary,,,,0,0.00,,1.Taunt 2. Shield                          3.Res Debuff 1                            4.DMG Reflect 1,1.Provoke 2. Attack Down        3 C.Dmg Down 2,,1. Hp         2.Def  3.Effect Hit 4.Tenacity,,,,,,"Main Stat-Def           Sub stat- Def Rate, Tenacity, Effect Hit,Hp Rate","Main Stat-Effect Hit   Sub stat- Tenacity,Def Rate, Effect Hit, Hp Rate","Main Stat- Speed        Sub stat- Def Rate, Effect Hit,Tenacity, Hp Rate"
+Space,Wizard's Eye,Green,Support,Legendary,4,4,4,12,4.00,S,1.SPD Up I 1.Heal,1.SPD Down II,,1. Spd          2.Effect Hit ,,,,,,"Main Stat-Hp           Sub stat- Speed, Effect Hit,Effect Res","Main Stat-Effect Hit   Sub stat- Speed, Effect Res","Main Stat- Speed        Sub stat- Effect Hit, Effect Rex"
+Ellic,Wizard's Eye,Green,Defense,Legendary,3.8,3.4,2.9,10.1,3.37,B,1.DEF Up II 2.Tenacity Up I 3.Consolidation II,1.Stun,,1. Hp         2.Def  3.Effect Hit,,,,,,"Main Stat-Def           Sub stat- Def Rate, Speed, Effect Hit,Hp Rate","Main Stat-Effect Hit   Sub stat- Speed,Def Rate, Effect Hit, Hp Rate","Main Stat- Speed        Sub stat- Def Rate, Effect Hit, Speed, Hp Rate"
+Valentin,Wizard's Eye,Blue,Attack,Legendary,5,3.8,3.5,12.3,4.10,S,1.Stealth,1.DEF Down I,,1. Atk   2.C.rate  3.C.dmg ,,,,,,"Main Stat-Atk           Sub stat- Speed, C.rate, C.Dmg, Atk Rate","Main Stat-Atk   Sub stat- Speed,Atk Rate, C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.rate,C.Dmg"
+Hal9000,Wizard's Eye,Blue,Defense,Legendary,3.9,3,2.2,9.1,3.03,B,1.Taunt 2.Immortal 3.Consolidation I,,,1.Hp,,,,,,"Main Stat-Hp        Sub stat- Spd, Hp Rate, Effect Res","Main Stat-Hp        Sub stat- Spd, Hp Rate, Effect Rex","Main Stat- Speed        Sub stat- Hp Rate, Effect Res"
+Anna,Wizard's Eye,Red,Attack,Legendary,3.4,3.7,3.5,10.6,3.53,A,,1.Burn,,1. Atk 2.Effect Hit  3.Mastery,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit. Hp Rate, Mastery","Main Stat-Effect Hit    Sub stat- Effect Hit, Atk Rate, Hp Rate, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Hp Rate, Mastery"
+Nid Rold,Wizard's Eye,Force,Attack,Legendary,3.8,4,3.3,11.1,3.70,A,,1.Bleed,,1. Atk 2.Effect Hit  3.Mastery,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit. Hp Rate, Mastery","Main Stat-Effect Hit    Sub stat- Effect Hit, Atk Rate, Hp Rate, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Hp Rate, Mastery"
+Slivelle,Wizard's Eye,Green,Attack,Legendary,5,5,3,13,4.33,S,1.Control Immunity 2.ATK Up II,1.DEF Down I,,1. Atk     2.C.dmg ,,,,,,"Main Stat-Atk           Sub stat- Speed, C.Dmg, Atk Rate","Main Stat-Atk   Sub stat- Speed,Atk Rate, , C.Dmg","Main Stat- Speed        Sub stat- Atk Rate,,C.Dmg"
+Wim,Dragon Tribe,Red,Defense,Epic,4,4,2.2,10.2,3.40,B,1.Consolidation I 2.Shield,,,1. Hp,,,,,,"Main Stat-Hp        Sub stat- Spd, Hp Rate, Effect Res","Main Stat-Hp        Sub stat- Spd, Hp Rate, Effect Rex","Main Stat- Speed        Sub stat- Hp Rate, Effect Res"
+Teres,Dragon Tribe,Green,Attack,Epic,3.1,3.6,3,9.7,3.23,B,,1.Effect RES Down I 2.Burn 3. Def Down I,,1. Atk 2.Effect Hit  ,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit. Hp Rate, Mastery","Main Stat-Effect Hit    Sub stat- Effect Hit, Atk Rate, Hp Rate, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Hp Rate, Mastery"
+Shtar,Dragon Tribe,Green,Attack,Epic,3,2.8,2.4,8.2,2.73,C,1.C.RATE Up I 2.C.RATE Up II 3.Immortal,1.DEF Down I,,1. Atk 2.C.rate  3.C.dmg ,,,,,,"Main Stat-Atk           Sub stat- Speed, C.rate, C.Dmg, Atk Rate","Main Stat-Atk   Sub stat- Speed,Atk Rate, C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.rate,C.Dmg"
+Naya,Dragon Tribe,Blue,Attack,Epic,2.8,3.3,3.5,9.6,3.20,B,1.ATK Up I,1.Bleed 2. DEF Down I 3.DEF Down II,,1. Atk 2.Effect Hit  3.Mastery,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit. Hp Rate, Mastery","Main Stat-Effect Hit    Sub stat- Effect Hit, Atk Rate, Hp Rate, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Hp Rate, Mastery"
+Blade,Dragon Tribe,Blue,Defense,Epic,2.6,3.1,2.2,7.9,2.63,C,1.DEF Up II,1.Stun 2.DEF Down II,,1. Hp      2.Def ,,,,,,"Main Stat-Def          Sub stat- Def Rate, Hp Rate, Effect Res","Main Stat-Effect Res    Sub stat- Hp Rate, Def Rate, Effect Res","Main Stat- Speed        Sub stat- Def Rate, Effect Res, Hp Rate"
+Reeves,Dragon Tribe,Red,Attack,Epic,3.3,3.2,2.8,9.3,3.10,B,1.Counterattack 2.Effect Hit Up I,1.Bleed,,1. Atk 2.Effect Hit  3.Mastery,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit. Hp Rate, Mastery","Main Stat-Effect Hit    Sub stat- Effect Hit, Atk Rate, Hp Rate, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Hp Rate, Mastery"
+Joseph,Dragon Tribe,Force,Defense,Epic,2.7,3,1.6,7.3,2.43,D ,1.C.RATE Up I,1.Provoke 2.ATK Down II,,1. Atk 2.Effect Hit  3.Hp,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit. Hp Rate, Mastery","Main Stat-Effect Hit    Sub stat- Effect Hit, Atk Rate, Hp Rate, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Hp Rate, Mastery"
+Justy,Sword Harbor Guards,Red,Attack,Epic,3.2,3.8,3,10,3.33,B,1.ATK Up I,1.Inferior Severe Wound 2. Severe Wound,,1. Atk 2.Effect Hit  3.C.Dmg,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, C.Dmg. Spd","Main Stat-Atk    Sub stat- Spd, Atk Rate, Hp Rate","Main Stat- Speed        Sub stat- Atk Rate, Effect Res"
+Verto,Sword Harbor Guards,Red,Support,Epic,3.6,3.2,2.4,9.2,3.07,B,1.ATK Up II,1.Effect Hit Down I 2.C.RATE Down I,,1. Atk 2.Effect Hit ,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit. Spd","Main Stat-Effect Hit    Sub stat- Spd, Atk Rate, Hp Rate","Main Stat- Speed        Sub stat- Effect Hit, Effect Res"
+Capello,Sword Harbor Guards,Green,Defense,Epic,2.7,2.5,1.7,6.9,2.30,D ,1.Consolidation I 2.Consolidation II,1.Provoke 2.Stun,,1. Hp      2.Effect Hit,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect hit, Effect Res","Main Stat-Effect Hit   Sub stat- Speed,Hp Rate, Effect Res, Effect Hit","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd,Effect Hit"
+Oboro,Sword Harbor Guards,Green,Attack,Epic,3.7,3.8,3,10.5,3.50,A,,1.Feebleness I 2.Bleed,,1. Atk 2.Effect Hit  3.C.rate,,,,,,"Main Stat-C.Rate          Sub stat- Atk Rate, Effect Hit. Hp Rate, Mastery","Main Stat-Effect Hit    Sub stat- Effect Hit, Atk Rate, C.Rate, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, C.Rate, Mastery"
+Kristian,Sword Harbor Guards,Blue,Defense,Epic,3.2,3.2,2.4,8.8,2.93,C,1.Shield,1.Stun,,1. Hp,,,,,,"Main Stat-Hp        Sub stat- Spd, Hp Rate, Effect Res,Atk Rate","Main Stat-Hp        Sub stat- Spd, Hp Rate,Atk Rate","Main Stat- Speed        Sub stat- Hp Rate, Atk Rate"
+Bakkins,Sword Harbor Guards,Blue,Attack,Epic,3,3,3,9,3.00,B,,1.Burn,,1. Atk 2.Effect Hit 3.Mastery,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit. Hp Rate, Mastery","Main Stat-Effect Hit    Sub stat- Effect Hit, Atk Rate, Hp Rate, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Hp Rate, Mastery"
+Ross,Sword Harbor Guards,Force,Support,Epic,3.2,3,2.8,9,3.00,B,,,,1. Spd,,,,,,"Main Stat-C.Rate           Sub stat- Speed, C.Rate, C.Dmg, Atk Rate","Main Stat-Effect Res   Sub stat- Speed,Atk Rate, C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, Spd,C.Rate, C.Dmg"
+Shapotite,Sunset Sages,Green,Attack,Epic,2.3,2.5,2,6.8,2.27,D ,,1.Effect Hit Down I 2.Inferior Severe Wound 3.RES Buff,,1. Atk 2.Effect Hit  ,,,,,,"Main Stat-Atk           Sub stat- Speed, Hp Rate,Effect Res, Atk Rate","Main Stat-Effect Res   Sub stat- Speed,Atk Rate, ","Main Stat- Speed        Sub stat- Atk Rate, Spd,Effect Res"
+Reliant,Sunset Sages,Force,Support,Epic,3.5,2.8,2,8.3,2.77,C,1.SPD Up I 2.Shield,1.SPD Down I,,1. Def         2.Spd  ,,,,,,"Main Stat-HP           Sub stat- Speed, Hp Rate,Effect Res, Atk Rate","Main Stat-Hp   Sub stat- Speed,Atk Rate, Hp Rate","Main Stat- Speed        Sub stat- Hp Rate, Spd,Effect Res"
+Astic,Sunset Sages,Red,Attack,Epic,3,3.1,2.8,8.9,2.97,C,,1.SPD Down I 2.SPD Down II,,1. Atk 2.Effect Hit  ,,,,,,"Main Stat-Atk           Sub stat- Speed, Hp Rate,Effect Res, Atk Rate","Main Stat-Effect Res   Sub stat- Speed,Atk Rate, ","Main Stat- Speed        Sub stat- Atk Rate, Spd,Effect Res"
+Ruen,Sunset Sages,Red,Defense,Epic,3.6,3.3,2.7,9.6,3.20,B,1.Ally Protection,1.Stun 2.DEF Down I 3.Feebleness I,,1. Atk 2.Effect Hit  3.Spd,,,,,,"Main Stat-Atk           Sub stat- Speed, Hp Rate,Effect Res, Atk Rate","Main Stat-Effect Res   Sub stat- Speed,Atk Rate, ","Main Stat- Speed        Sub stat- Atk Rate, Spd,Effect Res"
+Lutz,Sunset Sages,Blue,Attack,Epic,3.1,3.5,2.7,9.3,3.10,B,,1.SPD Down I,,1. Atk 2.C.rate  3.C.dmg ,,,,,,"Main Stat-Atk           Sub stat- Speed, C.rate, C.Dmg, Atk Rate","Main Stat-Atk   Sub stat- Speed,Atk Rate, C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.rate,C.Dmg"
+Melter,Sunset Sages,Force,Attack,Epic,,,,,,,,,,1.Atk                        2.Spd 3.C.Rate 4.C.DMG,,,,,,,,
+Malassa,Foresters,Green,Attack,Epic,3.6,3.4,2.7,9.7,3.23,B,,1.Poison,,1. Atk        2.Effect Hit 3.Mastery,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit. Hp Rate, Mastery","Main Stat-Effect Hit    Sub stat- Effect Hit, Atk Rate, Hp Rate, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Hp Rate, Mastery"
+Maphka,Foresters,Green,Support,Epic,3,3,2.1,8.1,2.70,C,,1.Poison,,1. Hp           2.Spd  3.Healing Effect,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect Res","Main Stat-Healing Effect    Sub stat- Speed,Hp Rate, Effect Res","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd"
+Stan,Foresters,Blue,Defense,Epic,2.5,3,3,8.5,2.83,C,,1.Poison 2.Silence,,1. Atk        2.Effect Hit 3.Mastery,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit. Hp Rate, Mastery","Main Stat-Effect Hit    Sub stat- Effect Hit, Atk Rate, Hp Rate, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Hp Rate, Mastery"
+Dale,Foresters,Blue,Attack,Epic,3.1,3.2,2.4,8.7,2.90,C,,,,1. Atk      2.Spd  ,,,,,,"Main Stat-C.Rate          Sub stat- Atk Rate, C.Rate,C.Dmg. Spd","Main Stat-Atk   Sub stat- Speed,Atk Rate, C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.Rate,C.Dmg"
+Ofner,Foresters,Force,Attack,Epic,3,3.4,2.9,9.3,3.10,B,,1.Bleed 2.RES Buff,,1. Atk 2.C.rate  3.C.dmg ,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit. Hp Rate, Mastery","Main Stat-Effect Hit    Sub stat- Effect Hit, Atk Rate, Hp Rate, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Hp Rate, Mastery"
+Pacchino,Foresters,Force,Support,Epic,3.2,3.5,2.4,9.1,3.03,B,1.Shield 2.Stealth 3.ATK Up I 4.SPD Up I,1.Inferior Severe Wound,,1. Hp        2.Spd  3.Effect Hit,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect hit, Effect Res","Main Stat-Effect Hit   Sub stat- Speed,Hp Rate, Effect Res, Effect Hit","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd,Effect Hit"
+Sylvan,Foresters,Red,Support,Epic,3.1,3.3,2.4,8.8,2.93,C,1.Shield,1.DEF Down I 2.ATK Down I 3.INtertwined,,1. Hp 2.Effect Hit 3.Spd,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect hit, Effect Res","Main Stat-Effect Hit   Sub stat- Speed,Hp Rate, Effect Res, Effect Hit","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd,Effect Hit"
+Feist,Doom Legion,Green,Support,Epic,3.2,2.9,2.3,8.4,2.80,C,1.Effect Hit Up II,1.Burn,,1. Atk 2.Effect Hit  3.Mastery,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit. Hp Rate, Mastery","Main Stat-Effect Hit    Sub stat- Effect Hit, Atk Rate, Hp Rate, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Hp Rate, Mastery"
+Norma,Doom Legion,Blue,Support,Epic,2.8,3.1,2,7.9,2.63,C,1.Stealth,,,1. Hp 2.Healing Effect,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect Res","Main Stat-Healing Effect    Sub stat- Speed,Hp Rate, Effect Res","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd"
+Liz,Doom Legion,Force,Support,Epic,3.8,3.6,3,10.4,3.47,B,1.RES Debuff 2.Shield,1.HP Burning,,1. Hp      2.Spd  ,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit. Hp Rate,Spd","Main Stat-Effect Hit    Sub stat- Effect Hit, Atk Rate, Hp Rate, Spd","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Hp Rate, Spd"
+Leuf,Doom Legion,Blue,Attack,Epic,3,4,3.4,10.4,3.47,B,,1.HP Burning,,1. Hp 2.Effect Hit,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect hit, Effect Res","Main Stat-Effect Hit   Sub stat- Speed,Hp Rate, Effect Res, Effect Hit","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd,Effect Hit"
+Mobis,Doom Legion,Force,Defense,Epic,3.1,3.2,2.6,8.9,2.97,C,,1.HP Connection,,1.Hp,,,,,,"Main Stat-Hp        Sub stat- Spd, Hp Rate, Effect Res","Main Stat-Hp        Sub stat- Spd, Hp Rate, Effect Rex","Main Stat- Speed        Sub stat- Hp Rate, Effect Res"
+Mondschka,Doom Legion,Blue,Defense,Epic,3,3,2.2,8.2,2.73,C,1.Counterattack,1.HP Burning 2.Provoke,,1.Hp          2.Effect Hit,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect hit, Effect Res","Main Stat-Effect Hit   Sub stat- Speed,Hp Rate, Effect Res, Effect Hit","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd,Effect Hit"
+Roselea,Holy Light Parliament,Green,Attack,Epic,3,3,3,9,3.00,B,1.C.DMG Up I,,,1. Atk      2.Spd  3.C.dmg ,,,,,,"Main Stat-C.Dmg      Sub stat- Spd, Atk Rate, C.Rate, C.Dmg","Main Stat-Atk        Sub stat- Spd, Atk Rate, C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Spd, Atk Rate, C.Rate, C.Dmg"
+Kaedo,Holy Light Parliament,Green,Support,Epic,3.3,2.9,2.4,8.6,2.87,C,1.Shield 2.Immortal 3.Stealth,1.Stun,,1. Hp        2.Spd,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect hit, Effect Res","Main Stat-Effect Hit   Sub stat- Speed,Hp Rate, Effect Res, Effect Hit","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd,Effect Hit"
+Frey,Holy Light Parliament,Blue,Attack,Epic,4,4,2.8,10.8,3.60,A,1.Shield,1.DEF Down II,,1. Atk 2.C.rate  3.C.dmg ,,,,,,"Main Stat-Atk           Sub stat- Speed, C.rate, C.Dmg, Atk Rate","Main Stat-Atk   Sub stat- Speed,Atk Rate, C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.rate,C.Dmg"
+Maya,Holy Light Parliament,Blue,Support,Epic,4,4,2.6,10.6,3.53,A,1.RES Debuff 2.Shield 3.Consolidation I,,,1. Hp 2.Healing Effect               3. Spd,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect Res","Main Stat-Healing Effect    Sub stat- Speed,Hp Rate, Effect Res","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd"
+Fegan,Holy Light Parliament,Force,Defense,Epic,3.1,3,2.3,8.4,2.80,C,1.DEF Up I 2.Shield,1.Stun,,1.Def          2.Effect Hit,,,,,,"Main Stat-Hp          Sub stat- Speed, Hp Rate,Effect Res, Def Rate","Main Stat-Hp   Sub stat- Speed,Hp Rate, Def Rate","Main Stat- Speed        Sub stat- Def Rate, Spd,Hp Rate"
+Lia,The Forgotten,Green,Support,Epic,4,3,2,9,3.00,B,,1.Hypnotize 2.SPD Down I,,1. Spd         2.Effect Hit,,,,,,"Main Stat-Atk           Sub stat- Speed, Hp Rate,Effect Res, Atk Rate","Main Stat-Effect Res   Sub stat- Speed,Atk Rate, ","Main Stat- Speed        Sub stat- Atk Rate, Spd,Effect Res"
+Deschanel,The Forgotten,Green,Support,Epic,3,3.7,2.3,9,3.00,B,,1.Inferior Severe Wound 2.Severe Wound  3.Effect Hit Down I,,1. Spd         2.Effect Hit,,,,,,"Main Stat-Atk           Sub stat- Speed, Hp Rate,Effect Res, Atk Rate","Main Stat-Effect Res   Sub stat- Speed,Atk Rate, ","Main Stat- Speed        Sub stat- Atk Rate, Spd,Effect Res"
+Aisi,The Forgotten,Force,Attack,Epic,4,3,2,9,3.00,B,1.ATK Up I,1.Poison,,1. Atk ,,,,,,"Main Stat-C.Rate           Sub stat- Speed, Atk Rate, C.Rate, C.Dmg","Main Stat-Atk   Sub stat- Speed,Atk Rate, ","Main Stat- Atk        Sub stat- Atk Rate, Spd,C.Rate C.Dmg"
+Longbeard,The Forgotten,Force,Attack,Epic,3.4,3.5,3,9.9,3.30,B,1.Atk Up I,1.Freeze,,1. Atk 2.C.rate  3.C.dmg ,,,,,,"Main Stat-Atk           Sub stat- Speed, C.rate, C.Dmg, Atk Rate","Main Stat-Atk   Sub stat- Speed,Atk Rate, C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.rate,C.Dmg"
+Iguli,The Forgotten,Red,Attack,Epic,3.8,3.3,3,10.1,3.37,B,1.C.DMG Up I 2.C.RATE Up II ,1.Freeze 2.Feebleness I,,1. Atk         2.C.Dmg ,,,,,,"Main Stat-C.Dmg           Sub stat- Speed, Effect Hit ,Effect Res, Atk Rate","Main Stat-Atk   Sub stat- Speed,Atk Rate, C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, Spd,C.Rate, C.Dmg"
+Rumble,The Forgotten,Red,Defense,Epic,3.9,3,2,8.9,2.97,C,1.Shield,1.Freeze  2.SPD Down I 3.SPD Down II,,1. Hp 2.Effect Hit            3.Def,,,,,,"Main Stat-Def          Sub stat- Def Rate, Hp Rate, Effect hit","Main Stat-Effect hit    Sub stat- Hp Rate, Def Rate, Effect Res","Main Stat- Speed        Sub stat- Def Rate, Effect hit, Hp Rate"
+Vedar,Eternal Sect,Green,Defense,Epic,3.3,3.4,2.6,9.3,3.10,B,1.Shield 2.Consolidation I,1.Stun,,1. Hp,,,,,,"Main Stat-Hp           Sub stat- Speed, Hp Rate,Effect Hit, Atk Rate","Main Stat-Effect Res   Sub stat- Speed,Atk Rate, ","Main Stat- Speed        Sub stat- Atk Rate, Spd,Effect Res"
+Biseden,Eternal Sect,Blue,Support,Epic,3,4,2,9,3.00,B,1.ATK Up II 2.C.RATE Up II 3.C.DMG Up II,1.DEF Down II 2.Inferior Severe Wound 3.ATK Down I 4.Effect RES Down I,,1. Spd         2.Effect Hit,,,,,,"Main Stat-Def           Sub stat- Speed, Hp Rate,Effect Res, Def Rate","Main Stat-Effect Hit   Sub stat- Speed,Def Rate, Hp Rate","Main Stat- Speed        Sub stat- Def Rate, Hp Rate,Effect Hit"
+Holder,Eternal Sect,Force,Attack,Epic,4,4,4,12,4.00,S,1.Counterattack 2.ATK Up I,1.Bleed,,1. Atk        2.Effect Hit 3.Mastery,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit. Hp Rate, Mastery","Main Stat-Effect Hit    Sub stat- Effect Hit, Atk Rate, Hp Rate, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Hp Rate, Mastery"
+Winnex,Eternal Sect,Force,Support,Epic,3.6,3.3,2.1,9,3.00,B,1.DMG Immunity 2.ATK Up II 3.Consolidation II,1.Horrify,,1. Hp 2.Effect Hit            3.Spd,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect hit, Effect Res","Main Stat-Effect Hit   Sub stat- Speed,Hp Rate, Effect Res, Effect Hit","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd,Effect Hit"
+Guna,Eternal Sect,Red,Attack,Epic,3.3,3.1,3,9.4,3.13,B,,1.Burn,,1. Atk        2.Effect Hit 3.Mastery,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit. Hp Rate, Mastery","Main Stat-Effect Hit    Sub stat- Effect Hit, Atk Rate, Hp Rate, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Hp Rate, Mastery"
+Maguire,Eternal Sect,Red,Defense,Epic,2.8,3.3,2.2,8.3,2.77,C,1.Shield,1.Provoke 2.Severe Wound 1.DEF Down I,,1. Hp 2.Effect Hit            ,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect hit, Effect Res","Main Stat-Effect Hit   Sub stat- Speed,Hp Rate, Effect Res, Effect Hit","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd,Effect Hit"
+Egea,Nameless Brotherhood,Green,Attack,Epic,3,3,3.2,9.2,3.07,B,1.Shield,1.DEF Down I,,1. Atk 2.C.rate  3.C.dmg ,,,,,,"Main Stat-Atk           Sub stat- Speed, C.rate, C.Dmg, Atk Rate","Main Stat-Atk   Sub stat- Speed,Atk Rate, C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.rate,C.Dmg"
+Wolsey,Nameless Brotherhood,Green,Support,Epic,3.2,3.6,2.8,9.6,3.20,B,1.Heal,1.Deep Poisoning 2.Poison 3.ATK Down I,,1. Atk 2.Effect Hit,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit. Hp Rate, Mastery","Main Stat-Effect Hit    Sub stat- Effect Hit, Atk Rate, Hp Rate, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Hp Rate, Mastery"
+Mori,Nameless Brotherhood,Blue,Attack,Epic,3,3.1,2.8,8.9,2.97,C,1.ATK Up I 2.Stealth,1.SPD Down II,,1. Atk 2.C.rate  3.C.dmg ,,,,,,"Main Stat-Atk           Sub stat- Speed, Hp Rate,Effect Res, Atk Rate","Main Stat-Effect Res   Sub stat- Speed,Atk Rate, ","Main Stat- Speed        Sub stat- Atk Rate, Spd,Effect Res"
+Lomas,Nameless Brotherhood,Blue,Attack,Epic,3.3,3.3,3,9.6,3.20,B,,1.Effect Res Down 2.SPD Down I 3.DEF Down I 4.Bleed,,1. Atk        2.Effect Hit 3.Mastery,,,,,,"Main Stat-Atk           Sub stat- Atk Rate, Effect Hit. Hp Rate, Mastery","Main Stat-Effect Hit    Sub stat- Effect Hit, Atk Rate, Hp Rate, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, Hp Rate, Mastery"
+Hardac,Nameless Brotherhood,Force,Defense,Epic,3.5,3.3,2.3,9.1,3.03,B,1.Shield 2.Consolidation I,,,1. Hp          2.Def,,,,,,"Main Stat-Def          Sub stat- Def Rate, Hp Rate, Effect Res","Main Stat-Def    Sub stat- Hp Rate, Def Rate, Effect Res","Main Stat- Speed        Sub stat- Def Rate, Effect Res, Hp Rate"
+Moo,Nameless Brotherhood,Red,Defense,Epic,3.7,3.6,2.4,9.7,3.23,B,1.Shield 2.DEF Up I,1.Burn 2.Provoke 3.DEF Down I,,1. Atk 2.Effect Hit  3.C.rate  4.C.dmg 5.Mastery,,,,,,"Main Stat-C.Rate           Sub stat- Atk Rate, Effect Hit. C.Dmg, Mastery","Main Stat-Effect Hit    Sub stat- C.Rate, Atk Rate, C.Dmg, Mastery","Main Stat- Speed        Sub stat- Atk Rate, Effect Hit, C.Rate, Mastery"
+Lester,Nameless Brotherhood,Force,Attack,Epic,3.8,3.5,3,10.3,3.43,B,,1.DEF Down I 2.DEF Down II,,1. Atk 2.C.rate  3.C.dmg ,,,,,,"Main Stat-Atk           Sub stat- Speed, C.rate, C.Dmg, Atk Rate","Main Stat-Atk   Sub stat- Speed,Atk Rate, C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.rate,C.Dmg"
+Vero,Wizard's Eye,Blue,Attack,Epic,3.8,3.1,2.8,9.7,3.23,B,,1.Silence,,1. Atk 2.Effect Hit  ,,,,,,"Main Stat-Atk           Sub stat- Speed, Hp Rate,Effect Res, Atk Rate","Main Stat-Effect Res   Sub stat- Speed,Atk Rate, ","Main Stat- Speed        Sub stat- Atk Rate, Spd,Effect Res"
+Eden,Wizard's Eye,Force,Support,Epic,3.4,3.6,2.3,9.3,3.10,B,1.ATK Up I 2.Heal,1.ATk Down I,,1. Hp          2.Spd  3.Healing Effect,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect Res","Main Stat-Healing Effect    Sub stat- Speed,Hp Rate, Effect Res","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd"
+Sadora,Wizard's Eye,Force,Support,Epic,3,3,3,9,3.00,B,,1.ATK Down I 2.Inferior Severe Wound 3.Severe Wound,,1. Hp          2.Spd  ,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect hit, Effect Res","Main Stat-Effect Hit   Sub stat- Speed,Hp Rate, Effect Res, Effect Hit","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd,Effect Hit"
+Magis,Wizard's Eye,Red,Support,Epic,3,3.7,2.9,9.6,3.20,B,1.heal,,,1. Hp 2.Healing Effect,,,,,,"Main Stat-Hp           Sub stat- Hp Rate, Speed, Effect Res","Main Stat-Healing Effect    Sub stat- Speed,Hp Rate, Effect Res","Main Stat- Speed        Sub stat- Hp Rate, Effect Res, Spd"
+Muller,Wizard's Eye,Red,Defense,Epic,3.7,3.4,2.7,9.8,3.27,B,1.Shield 2.Ally Protection 3.Consolidation I,,,1. Hp                   2.Def ,,,,,,"Main Stat-Hp          Sub stat- Def Rate, Hp Rate, Effect Res","Main Stat-Hp    Sub stat- Hp Rate, Def Rate, Effect Res","Main Stat- Speed        Sub stat- Def Rate, Effect Res, Hp Rate"
+Visley,Wizard's Eye,Red,Support,Epic,3.1,3.6,3.2,9.9,3.30,B,1.C.RATE Up I 2.SPD Up I,1.SPD Down I 2.ATk Down II 3.Effect Res Down I,,1. Atk 2.Effect Hit  3.Spd,,,,,,"Main Stat-Atk           Sub stat- Speed, Hp Rate,Effect Res, Atk Rate","Main Stat-Effect Res   Sub stat- Speed,Atk Rate, ","Main Stat- Speed        Sub stat- Atk Rate, Spd,Effect Res"
+Sylvester,Wizard's Eye,Green,Attack,Epic,3.3,3.1,2.8,9.2,3.07,B,,1.Tenacity Down I,,1. Atk 2.C.rate  3.C.dmg ,,,,,,"Main Stat-Atk           Sub stat- Speed, C.rate, C.Dmg, Atk Rate","Main Stat-Atk   Sub stat- Speed,Atk Rate, C.Rate, C.Dmg","Main Stat- Speed        Sub stat- Atk Rate, C.rate,C.Dmg"

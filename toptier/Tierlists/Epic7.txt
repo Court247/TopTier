@@ -1,5 +1,5 @@
 {
-  "gameName": "Dislyte",
+  "gameName": "Epic7",
   "creator": "Epic7x",
   "Characters": [
     {

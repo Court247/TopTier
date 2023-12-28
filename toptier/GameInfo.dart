@@ -31,9 +31,10 @@ class GameInfo {
       this.stats});
 
   ToJson() {
-    Map data = new Map();
-
+    Map<String, dynamic> data = new Map<String, dynamic>();
+    data['id'] = this.id;
     data['name'] = this.name;
+    data['title'] = this.title;
     data['image'] = this.image;
     data['class'] = this.characterClass;
     data['element'] = this.element;
@@ -45,23 +46,7 @@ class GameInfo {
     data['description'] = this.description;
     data['link'] = this.link;
     data['stats'] = this.stats;
-    return data;
-  }
 
-  ToJsonDislyte() {
-    Map data = new Map();
-    data['id'] = this.id;
-    data['name'] = this.name;
-    data['title'] = this.title;
-    data['image'] = this.image;
-    data['class'] = this.characterClass;
-    data['element'] = this.element;
-    data['rarity'] = this.rarity;
-    data['rating'] = this.rating;
-    data['sets'] = this.sets;
-    data['description'] = this.description;
-    data['link'] = this.link;
-    data['stats'] = this.stats;
     return data;
   }
 

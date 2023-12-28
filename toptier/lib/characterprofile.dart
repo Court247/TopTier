@@ -6,13 +6,15 @@ import 'package:url_launcher/url_launcher.dart';
 import 'GameInfo.dart';
 
 /// Shows profile information of character
-class Epic7Profile extends StatelessWidget {
+class CharacterProfile extends StatelessWidget {
   final String gameName;
+  final String creator;
   final GameInfo character;
 
-  const Epic7Profile({
+  const CharacterProfile({
     super.key,
     required this.gameName,
+    required this.creator,
     required this.character,
   });
 
@@ -40,25 +42,31 @@ class Epic7Profile extends StatelessWidget {
           ),
         ),
         backgroundColor: Colors.pink.shade50,
-        body: Epic7Character(gameName: gameName, character: character),
+        body: Character(
+            gameName: gameName, creator: creator, character: character),
       ),
     );
   }
 }
 
-class Epic7Character extends StatefulWidget {
+class Character extends StatefulWidget {
   final String gameName;
+  final String creator;
   final GameInfo character;
-  const Epic7Character(
-      {super.key, required this.gameName, required this.character});
+  const Character(
+      {super.key,
+      required this.gameName,
+      required this.creator,
+      required this.character});
 
   @override
-  State<Epic7Character> createState() =>
-      Epic7CharacterState(gameName: gameName, character: character);
+  State<Character> createState() => CharacterState(
+      gameName: gameName, creator: creator, character: character);
 }
 
-class Epic7CharacterState extends State<Epic7Character> {
+class CharacterState extends State<Character> {
   String gameName;
+  String creator;
   GameInfo character;
 
   List<Color> colorss = [
@@ -74,10 +82,11 @@ class Epic7CharacterState extends State<Epic7Character> {
   );
   String overAll = '';
   int i = 0;
+  CharacterState(
+      {required this.gameName, required this.creator, required this.character});
 
   initState() {
     super.initState();
-    overAllRating();
   }
 
   /// Documentation for overAllRating
@@ -85,21 +94,20 @@ class Epic7CharacterState extends State<Epic7Character> {
   ///
   ///Calculates the over all rating score of the character
   overAllRating() {
-    //take value of each rating number and parse it into doubles. Then divide by number of values
-    var sum = (double.parse(character.rating['world']) +
-            double.parse(character.rating['abyss']) +
-            double.parse(character.rating['boss']) +
-            double.parse(character.rating['raid']) +
-            double.parse(character.rating['guild_wars']) +
-            double.parse(character.rating['arena'])) /
-        (character.rating.length);
-    //Notifies that the value number has changed
+    // Convert each rating to a double and sum them up
+    var sum = character.rating.values
+        .map((rating) => double.parse(rating))
+        .reduce((value, element) => value + element);
+
+    // Divide by the number of ratings
+    var average = sum / character.rating.length;
+
+    // Notifies that the value number has changed
     setState(() {
-      overAll = sum.toStringAsFixed(1);
+      overAll = average.toStringAsFixed(1);
     });
   }
 
-  Epic7CharacterState({required this.gameName, required this.character});
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -132,21 +140,23 @@ class Epic7CharacterState extends State<Epic7Character> {
                       ),
                     ],
                   ),
-                  Row(
-                    children: [
-                      const Text(
-                        'Horoscope: ',
-                        style: TextStyle(
-                            fontSize: 15, fontWeight: FontWeight.bold),
-                      ),
-                      Text(
-                        '${character.horoscope}',
-                        style: const TextStyle(
-                          fontSize: 15,
-                        ),
-                      ),
-                    ],
-                  ),
+                  character.horoscope != null
+                      ? Row(
+                          children: [
+                            const Text(
+                              'Horoscope: ',
+                              style: TextStyle(
+                                  fontSize: 15, fontWeight: FontWeight.bold),
+                            ),
+                            Text(
+                              '${character.horoscope}',
+                              style: const TextStyle(
+                                fontSize: 15,
+                              ),
+                            ),
+                          ],
+                        )
+                      : Container(),
                   Row(
                     children: [
                       const Text(
@@ -225,25 +235,15 @@ class Epic7CharacterState extends State<Epic7Character> {
           DataTable(
             columnSpacing: 20,
             dividerThickness: 4.0,
-            columns: const <DataColumn>[
-              DataColumn(label: Expanded(child: Text('World'))),
-              DataColumn(label: Expanded(child: Text('Abyss'))),
-              DataColumn(label: Expanded(child: Text('Boss'))),
-              DataColumn(label: Expanded(child: Text('Raid'))),
-              DataColumn(label: Expanded(child: Text('Arena'))),
-              DataColumn(label: Expanded(child: Text('Guild War'))),
-              DataColumn(label: Expanded(child: Text('OverAll')))
-            ],
+            columns: character.rating.keys
+                .map((key) => DataColumn(label: Expanded(child: Text(key))))
+                .toList(),
             rows: <DataRow>[
-              DataRow(cells: <DataCell>[
-                DataCell(Text(character.rating['world'])),
-                DataCell(Text(character.rating['abyss'])),
-                DataCell(Text(character.rating['boss'])),
-                DataCell(Text(character.rating['raid'])),
-                DataCell(Text(character.rating['arena'])),
-                DataCell(Text(character.rating['guild_wars'])),
-                DataCell(Text(overAll)),
-              ])
+              DataRow(
+                cells: character.rating.values
+                    .map((value) => DataCell(Text(value)))
+                    .toList(),
+              ),
             ],
           ),
           Container(
@@ -264,25 +264,16 @@ class Epic7CharacterState extends State<Epic7Character> {
           DataTable(
             columnSpacing: 17,
             dividerThickness: 3.0,
-            columns: const <DataColumn>[
-              DataColumn(label: Expanded(child: Text('MaxLvl'))),
-              DataColumn(label: Expanded(child: Text('Stars'))),
-              DataColumn(label: Expanded(child: Text('CP'))),
-              DataColumn(label: Expanded(child: Text('Atk'))),
-              DataColumn(label: Expanded(child: Text('HP'))),
-              DataColumn(label: Expanded(child: Text('DEF'))),
-              DataColumn(label: Expanded(child: Text('SPD'))),
-            ],
+            columns: character.stats.keys
+                .map((key) =>
+                    DataColumn(label: Expanded(child: Text(key.toUpperCase()))))
+                .toList(),
             rows: <DataRow>[
-              DataRow(cells: <DataCell>[
-                DataCell(Text(character.stats['max_level'])),
-                DataCell(Text(character.stats['stars'])),
-                DataCell(Text(character.stats['cp'])),
-                DataCell(Text(character.stats['attack'])),
-                DataCell(Text(character.stats['health'])),
-                DataCell(Text(character.stats['defense'])),
-                DataCell(Text(character.stats['speed'].toString())),
-              ])
+              DataRow(
+                cells: character.stats.values
+                    .map((value) => DataCell(Text(value.toString())))
+                    .toList(),
+              ),
             ],
           ),
           ListView.builder(
@@ -290,35 +281,38 @@ class Epic7CharacterState extends State<Epic7Character> {
             shrinkWrap: true,
             itemCount: character.artifact?.length,
             itemBuilder: ((context, i) {
-              return Column(
-                children: [
-                  Container(
-                    width: double.infinity,
-                    decoration: BoxDecoration(
-                        gradient: LinearGradient(colors: colorss)),
-                    padding: const EdgeInsets.all(10),
-                    child: Text(
-                      '${character.artifact?[i]['title']}',
-                      style: const TextStyle(
-                          color: Colors.white,
-                          fontFamily: 'Horizon',
-                          fontStyle: FontStyle.italic,
-                          shadows: [
-                            Shadow(color: Colors.white, blurRadius: 8.0)
-                          ]),
-                    ),
-                  ),
-                  Text(character.artifact?[i]['custom_title'],
-                      style: const TextStyle(
-                          fontSize: 25, fontWeight: FontWeight.bold)),
-                  Image.network(character.artifact?[i]['image'], scale: 2.0),
-                  Text(
-                    character.artifact?[i]['description'],
-                    style: const TextStyle(fontSize: 20),
-                    textAlign: TextAlign.center,
-                  ),
-                ],
-              );
+              return character.artifact != null
+                  ? Column(
+                      children: [
+                        Container(
+                          width: double.infinity,
+                          decoration: BoxDecoration(
+                              gradient: LinearGradient(colors: colorss)),
+                          padding: const EdgeInsets.all(10),
+                          child: Text(
+                            '${character.artifact?[i]['title']}',
+                            style: const TextStyle(
+                                color: Colors.white,
+                                fontFamily: 'Horizon',
+                                fontStyle: FontStyle.italic,
+                                shadows: [
+                                  Shadow(color: Colors.white, blurRadius: 8.0)
+                                ]),
+                          ),
+                        ),
+                        Text(character.artifact?[i]['custom_title'],
+                            style: const TextStyle(
+                                fontSize: 25, fontWeight: FontWeight.bold)),
+                        Image.network(character.artifact?[i]['image'],
+                            scale: 2.0),
+                        Text(
+                          character.artifact?[i]['description'],
+                          style: const TextStyle(fontSize: 20),
+                          textAlign: TextAlign.center,
+                        ),
+                      ],
+                    )
+                  : Container();
             }),
           ),
           Container(

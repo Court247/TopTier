@@ -1,15 +1,13 @@
 import 'dart:ui';
-
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_storage/firebase_storage.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:firebase_app_check/firebase_app_check.dart';
 
 import 'package:toptier/Games.dart';
-import 'dislytetierlistpage.dart';
-import 'epic7tierlistpage.dart';
-import 'Gaming.dart';
+import 'package:toptier/charactertierlistpage.dart';
+import 'WebClient.dart';
 import 'GameInfo.dart';
 import 'favorites.dart';
 
@@ -43,8 +41,6 @@ class TopTierGamesPageState extends State<TopTierGamesPage> {
   List<Games> games = [];
   List<GameInfo> gameInfo = [];
   List<Games> gamingList = [];
-  late Gaming game;
-  late List gameNames;
   List<Color> colorings = [
     Colors.white,
     Colors.pink.shade50,
@@ -57,72 +53,149 @@ class TopTierGamesPageState extends State<TopTierGamesPage> {
     super.initState();
     db = Provider.of<FirebaseFirestore>(context, listen: false);
     storage = Provider.of<FirebaseStorage>(context, listen: false);
-    //getCharacters();
-    listAllFiles();
-    //getPath('Epic7');
+    keepUpdated();
   }
 
-  listAllFiles({int retryCount = 0}) async {
+  keepUpdated() async {
     final storageRef = storage.ref().child("Tierlists/");
     final listResult = await storageRef.listAll();
 
-    for (var ref in listResult.items) {
-      setState(() {
-        gameNames.add(ref.name);
+    for (int i = 0; i < listResult.items.length; i++) {
+      print('Reference Name: ${listResult.items[i].name}');
+      var ref = listResult.items[i];
+      print("Ref: ${ref.name}");
+      var refName = ref.name.replaceAll('.txt', '');
+      print("RefName: $refName");
+      final url = await getPath(ref.name);
+      print("URL: $url");
+      await addCharacters(url);
+    }
+  }
+
+  getPath(gameName) async {
+    String? url;
+    try {
+      Reference ref = storage.ref('Tierlists/${gameName}');
+
+      url = await ref.getDownloadURL();
+      // Use the URL to download or read the file
+    } catch (e) {
+      // Handle any errors
+      print(e);
+    }
+    return url;
+  }
+
+  addCharacters(url) async {
+    // Gets response json string
+    var temp = WebClient(url).getInfo();
+
+    //Converts from Future<String> to String
+    var getInfo = await temp;
+    addCollection(getInfo);
+    setCollection(getInfo);
+    getCharacters(getInfo);
+  }
+
+  void addCollection(gameInfo) async {
+    var countDoc = await db.collection('Games').doc(gameInfo.gameName).get();
+    var docInfo = countDoc.data();
+
+    if (docInfo == null) {
+      db.collection('GameData').doc(gameInfo.gameName).set({
+        'name': gameInfo.gameName,
+        'creator': gameInfo.creator,
+        'count': gameInfo.characters.length,
       });
     }
   }
 
-  /// Documentation for getCharacters
-  /// > _`@returns: [void]`_
-  ///
-  /// Gets the characters from the collection.
-  /// Sets the variables in proper spaces using the setCharacters method
-  void getCharacters() async {
+  setCollection(gameInfo) async {
     int i = 0;
-    while (i < games.length) {
-      final gameName = games[i].gameName;
-      final creator = games[i].creator;
-      final gameRef = db.collection(gameName);
-      final gameDoc = await gameRef.get();
-      final gameData = gameDoc.docs.map((doc) => doc.data()).toList();
-      gameData
-          .map((data) => gameInfo.add(GameInfo(
-              name: data['name'],
-              title: data['title'],
-              image: data['image'],
-              characterClass: data['class'],
-              element: data['element'],
-              horoscope: data['horoscope'],
-              rarity: data['rarity'],
-              rating: data['rating'],
-              artifact: data['artifact'],
-              sets: data['sets'],
-              description: data['description'],
-              stats: data['stats'],
-              link: data['link'],
-              isFavorite: data['isFavorite'],
-              canAdd: data['canAdd'],
-              isOwned: data['isOwned'])))
-          .toList();
-      addToGames(gameInfo, gameName, creator);
-      gameInfo = [];
+
+    while (i < gameInfo.characters.length) {
+      bool exists = await searchCollection(
+          gameInfo.characters[i]['name'], gameInfo.gameName);
+
+      if (!exists) {
+        db.collection(gameInfo.gameName).doc((i + 1).toString()).set({
+          'name': gameInfo.characters[i]['name'],
+          'title': gameInfo.characters[i]['title'],
+          'image': gameInfo.characters[i]['image'],
+          'class': gameInfo.characters[i]['class'],
+          'element': gameInfo.characters[i]['element'],
+          'horoscope': gameInfo.characters[i]['horoscope'],
+          'rarity': gameInfo.characters[i]['rarity'],
+          'rating': gameInfo.characters[i]['rating'],
+          'artifact': gameInfo.characters[i]['artifact'],
+          'sets': gameInfo.characters[i]['sets'],
+          'description': gameInfo.characters[i]['description'],
+          'stats': gameInfo.characters[i]['stats'],
+          'link': gameInfo.characters[i]['link'],
+          'isFavorite': gameInfo.characters[i]['isFavorite'] ?? false,
+          'canAdd': gameInfo.characters[i]['canAdd'] ?? true,
+          'isOwned': gameInfo.characters[i]['isOwned'] ?? false,
+        });
+      } else {
+        var docRef = db.collection(gameInfo.gameName).doc((i + 1).toString());
+
+        Map<String, dynamic> oldData = {};
+
+        docRef.snapshots().listen((docSnapshot) {
+          if (docSnapshot.exists) {
+            Map<String, dynamic> newData = docSnapshot.data();
+
+            if (oldData != null && !mapEquals(oldData, newData)) {
+              docRef.update(newData);
+            }
+          }
+        });
+      }
       i++;
     }
-    gamingList = games;
   }
 
-  void addCollection() async {
-    // Add a new collection
-    // ...
+  searchCollection(name, gameName) async {
+    var querySnapshot =
+        await db.collection(gameName).where('name', isEqualTo: name).get();
 
-    // Increment the count
-    var countDoc = await db.collection('metadata').doc('collectionCount').get();
-    var count = countDoc.data()['count'];
-    await db
-        .collection('metadata')
-        .doc('collectionCount')
-        .update({'count': count + 1});
+    if (querySnapshot.docs.isNotEmpty) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+
+  void getCharacters(data) async {
+    final gameRef = db.collection(data.gameName);
+    final gameDoc = await gameRef.get();
+    final gameData = gameDoc.docs.map((doc) => doc.data()).toList();
+    gameData
+        .map((data) => gameInfo.add(GameInfo(
+            name: data['name'],
+            title: data['title'],
+            image: data['image'],
+            characterClass: data['class'],
+            element: data['element'],
+            horoscope: data['horoscope'],
+            rarity: data['rarity'],
+            rating: data['rating'],
+            artifact: data['artifact'],
+            sets: data['sets'],
+            description: data['description'],
+            stats: data['stats'],
+            link: data['link'],
+            isFavorite: data['isFavorite'],
+            canAdd: data['canAdd'],
+            isOwned: data['isOwned'])))
+        .toList();
+    addToGames(gameInfo, data.gameName, data.creator);
+    gameInfo = [];
+    print("Games: ${games.length}");
+    setState(() {
+      gamingList = games;
+    });
+    print("GamingList: ${gamingList.length}");
   }
 
   addToGames(List<GameInfo> gameInfo, String gameName, String creator) {
@@ -131,21 +204,6 @@ class TopTierGamesPageState extends State<TopTierGamesPage> {
 
     setState(() => games.add(
         Games(gameName: gameName, creator: creator, characters: gameInfo)));
-  }
-
-  getPath(gameName) async {
-    String? url;
-    try {
-      Reference ref = storage.ref('Tierlists/${gameName}.txt');
-
-      url = await ref.getDownloadURL();
-      // Use the URL to download or read the file
-    } catch (e) {
-      // Handle any errors
-      print(e);
-    }
-    print(url);
-    return url;
   }
 
   /// Documentation for searchGame
@@ -272,26 +330,14 @@ class TopTierGamesPageState extends State<TopTierGamesPage> {
                           color: Colors.black45, fontStyle: FontStyle.italic),
                     ),
                     onTap: () {
-                      if (g.gameName.toLowerCase() == 'Epic7'.toLowerCase()) {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => Epic7(
-                                      gameName: g.gameName,
-                                      creator: g.creator,
-                                      gameInfo: g.characters,
-                                    )));
-                      } else if (g.gameName.toLowerCase() ==
-                          'Dislyte'.toLowerCase()) {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => Dislyte(
-                                      gameName: g.gameName,
-                                      creator: g.creator,
-                                      gameInfo: g.characters,
-                                    )));
-                      }
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => CharacterTierList(
+                                    gameName: g.gameName,
+                                    creator: g.creator,
+                                    gameInfo: g.characters,
+                                  )));
                     },
                   );
                 }),

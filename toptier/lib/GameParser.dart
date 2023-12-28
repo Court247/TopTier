@@ -18,7 +18,7 @@ class GameParser {
     var decoder = json.decode(response!.body);
 
     //Returns class Info with json String allocating information
-    return Info(decoder['gameName'], decoder['Characters']);
+    return Info(decoder['gameName'], decoder['creator'], decoder['Characters']);
     /*if (decoder.containsKey('tag')) {
       return Info.constr(decoder['characters']);
     } else {

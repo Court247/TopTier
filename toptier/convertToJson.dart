@@ -1,13 +1,21 @@
 import 'dart:convert';
 import 'dart:io';
+import 'package:csv/csv.dart';
 
 import 'GameInfo.dart';
 import 'Generate.dart';
 import 'Info.dart';
 
 void main() async {
-  String file = 'D:\\TopTier\\toptier\\Tierlists\\Epic7.txt';
-  String file2 = 'D:\\TopTier\\toptier\\Tierlists\\Epic7Characters.txt';
+  String file = 'D:\\TopTier\\toptier\\Tierlists\\DislyteTier.txt';
+
+  // read CSV files
+  // final input = new File(file).openRead();
+  // var fields = await GameList().readCSV(input);
+  // fields = GameList().removeSpaces(fields);
+  // GameList().printCSV(fields);
+
+  String file2 = 'D:\\TopTier\\toptier\\Tierlists\\DislyteCharacters.txt';
 
   var d = GameList().readJson(file);
   var c = GameList().readJson(file2);
@@ -19,11 +27,11 @@ void main() async {
 
   List<GameInfo> gameInfo = GameList().setGameInfoList(info, info2);
 
-  File zt = File('D:\\TopTier\\toptier\\Tierlists\\Epic7.txt');
+  File zt = File('D:\\TopTier\\toptier\\Tierlists\\Dislyte.txt');
 
   gameInfo = GameList().removeEachTag(gameInfo);
   var generateGame =
-      Generate(gameName: 'Dislyte', creator: 'Epic7x', characters: gameInfo);
+      Generate(gameName: 'Dislyte', creator: 'Gachax', characters: gameInfo);
 
   var toJson = generateGame.toJson();
   JsonEncoder encoder = new JsonEncoder.withIndent('  ');
@@ -62,9 +70,9 @@ class GameList {
       addCharacter(GameInfo(
         name: gameData.characters[i]['name'],
         image: gameData.characters[i]['image'],
-        title: gameData.characters[i]['title'],
-        characterClass: gameData.characters[i]['class'] ??
-            gameData.characters[i]['element'],
+        title: gameData.characters[i]['title'] ?? gameData2.characters[i]['title'],
+        characterClass:
+            gameData.characters[i]['class'] ?? gameData.characters[i]['type'],
         element: gameData.characters[i]['element'],
         rarity: gameData.characters[i]['rarity'],
         rating:
@@ -83,7 +91,8 @@ class GameList {
             gameData2[findCharacter(gameData2, gameData[i]['name'])]['stats'],
         id: gameData.characters[i]['id'] != null
             ? gameData.characters[i]['id'].toString()
-            : gameData2[findCharacter(gameData2, gameData[i]['name'])]['id'],
+            : gameData2[findCharacter(gameData2, gameData[i]['name'])]['id']
+                .toString(),
       ));
       i++;
     }
@@ -108,6 +117,37 @@ class GameList {
         return i;
       }
       i++;
+    }
+  }
+
+  readCSV(input) {
+    var fields = input
+        .transform(utf8.decoder)
+        .transform(new CsvToListConverter())
+        .toList();
+    return fields;
+  }
+
+  removeSpaces(fields) {
+    var trimmedList = fields.map((subList) {
+      return subList.map((item) => item.toString().trim()).toList()
+        ..removeWhere((item) => item == '');
+    }).toList();
+    return trimmedList;
+  }
+
+  printCSV(fields) {
+    // for (var row in fields) {
+    //   print(row);
+    // }
+    for (int i = 0; i < fields.length; i++) {
+      if (fields[i][0].toLowerCase() == "Mythic".toLowerCase() ||
+          fields[i][0].toLowerCase() == "Legendary".toLowerCase() ||
+          fields[i][0].toLowerCase() == "Epic".toLowerCase()) {
+        continue;
+      }
+      print(' ');
+      print(fields[i][0]);
     }
   }
 }
