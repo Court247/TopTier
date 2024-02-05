@@ -233,7 +233,7 @@ class CharacterState extends State<Character> {
             ],
           ),
           DataTable(
-            columnSpacing: 20,
+            columnSpacing: 10,
             dividerThickness: 4.0,
             columns: character.rating.keys
                 .map((key) => DataColumn(label: Expanded(child: Text(key))))
@@ -276,6 +276,8 @@ class CharacterState extends State<Character> {
               ),
             ],
           ),
+
+          //This is why the app freezes
           ListView.builder(
             scrollDirection: Axis.vertical,
             shrinkWrap: true,
@@ -315,105 +317,107 @@ class CharacterState extends State<Character> {
                   : Container();
             }),
           ),
-          Container(
-            width: double.infinity,
-            decoration:
-                BoxDecoration(gradient: LinearGradient(colors: colorss)),
-            child: const Text(
-              'Overview',
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                  fontSize: 40,
-                  fontStyle: FontStyle.italic,
-                  fontFamily: 'Horizon',
-                  color: Colors.white,
-                  shadows: [Shadow(color: Colors.white, blurRadius: 20.0)]),
-            ),
-          ),
-          SizedBox(
-            width: double.infinity,
-            child: Text(
-              '${character.description}',
-              textAlign: TextAlign.center,
-              style: const TextStyle(fontSize: 20),
-            ),
-          ),
-          ListView.builder(
-            scrollDirection: Axis.vertical,
-            shrinkWrap: true,
-            itemCount: character.sets.length,
-            itemBuilder: ((context, i) {
-              return Column(
-                children: [
-                  Container(
-                    width: double.infinity,
-                    decoration: BoxDecoration(
-                        gradient: LinearGradient(colors: colorss)),
-                    padding: const EdgeInsets.all(10),
-                    child: Text(
-                      '${character.sets[i]['title']}',
-                      style: const TextStyle(
-                          color: Colors.white,
-                          fontFamily: 'Horizon',
-                          fontStyle: FontStyle.italic,
-                          shadows: [
-                            Shadow(color: Colors.white, blurRadius: 8.0)
-                          ]),
-                    ),
-                  ),
-                  Text(
-                      '${character.sets[i]['set_1']}/${character.sets[i]['set_2']}\n',
-                      style: const TextStyle(
-                          fontSize: 20, fontWeight: FontWeight.bold)),
-                  const Text('Necklace',
-                      style:
-                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
-                  Text('${character.sets[i]['necklace']}\n',
-                      style: const TextStyle(fontSize: 20)),
-                  const Text('Ring',
-                      style:
-                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
-                  Text('${character.sets[i]['ring']}\n',
-                      style: const TextStyle(fontSize: 20)),
-                  const Text('Boots',
-                      style:
-                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
-                  Text('${character.sets[i]['boots']}\n',
-                      style: const TextStyle(fontSize: 20)),
-                ],
-              );
-            }),
-          ),
-          Container(
-            width: double.infinity,
-            decoration:
-                BoxDecoration(gradient: LinearGradient(colors: colorss)),
-            child: const Text(
-              'Links',
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                  fontSize: 40,
-                  fontStyle: FontStyle.italic,
-                  fontFamily: 'Horizon',
-                  color: Colors.white,
-                  shadows: [Shadow(color: Colors.white, blurRadius: 20.0)]),
-            ),
-          ),
-          Text(
-            character.link,
-            style: const TextStyle(fontSize: 20),
-          ),
-          IconButton(
-            onPressed: () async {
-              var url = Uri.parse(character.link);
-              launchUrl(url, mode: LaunchMode.externalApplication);
-            },
-            icon: const Icon(
-              Icons.favorite,
-              size: 40,
-              color: Colors.pinkAccent,
-            ),
-          )
+          // Container(
+          //   width: double.infinity,
+          //   decoration:
+          //       BoxDecoration(gradient: LinearGradient(colors: colorss)),
+          //   child: const Text(
+          //     'Overview',
+          //     textAlign: TextAlign.center,
+          //     style: TextStyle(
+          //         fontSize: 40,
+          //         fontStyle: FontStyle.italic,
+          //         fontFamily: 'Horizon',
+          //         color: Colors.white,
+          //         shadows: [Shadow(color: Colors.white, blurRadius: 20.0)]),
+          //   ),
+          // ),
+          // SizedBox(
+          //   width: double.infinity,
+          //   child: Text(
+          //     '${character.description}',
+          //     textAlign: TextAlign.center,
+          //     style: const TextStyle(fontSize: 20),
+          //   ),
+          // ),
+          // ListView.builder(
+          //   scrollDirection: Axis.vertical,
+          //   shrinkWrap: true,
+          //   itemCount: character.sets.length,
+          //   itemBuilder: ((context, i) {
+          //     return character.artifact != null
+          //         ? Column(
+          //             children: [
+          //               Container(
+          //                 width: double.infinity,
+          //                 decoration: BoxDecoration(
+          //                     gradient: LinearGradient(colors: colorss)),
+          //                 padding: const EdgeInsets.all(10),
+          //                 child: Text(
+          //                   '${character.sets[i]['title']}',
+          //                   style: const TextStyle(
+          //                       color: Colors.white,
+          //                       fontFamily: 'Horizon',
+          //                       fontStyle: FontStyle.italic,
+          //                       shadows: [
+          //                         Shadow(color: Colors.white, blurRadius: 8.0)
+          //                       ]),
+          //                 ),
+          //               ),
+          //               Text(
+          //                   '${character.sets[i]['set_1']}/${character.sets[i]['set_2']}\n',
+          //                   style: const TextStyle(
+          //                       fontSize: 20, fontWeight: FontWeight.bold)),
+          //               const Text('Necklace',
+          //                   style: TextStyle(
+          //                       fontSize: 20, fontWeight: FontWeight.bold)),
+          //               Text('${character.sets[i]['necklace']}\n',
+          //                   style: const TextStyle(fontSize: 20)),
+          //               const Text('Ring',
+          //                   style: TextStyle(
+          //                       fontSize: 20, fontWeight: FontWeight.bold)),
+          //               Text('${character.sets[i]['ring']}\n',
+          //                   style: const TextStyle(fontSize: 20)),
+          //               const Text('Boots',
+          //                   style: TextStyle(
+          //                       fontSize: 20, fontWeight: FontWeight.bold)),
+          //               Text('${character.sets[i]['boots']}\n',
+          //                   style: const TextStyle(fontSize: 20)),
+          //             ],
+          //           )
+          //         : Column();
+          //   }),
+          // ),
+          // Container(
+          //   width: double.infinity,
+          //   decoration:
+          //       BoxDecoration(gradient: LinearGradient(colors: colorss)),
+          //   child: const Text(
+          //     'Links',
+          //     textAlign: TextAlign.center,
+          //     style: TextStyle(
+          //         fontSize: 40,
+          //         fontStyle: FontStyle.italic,
+          //         fontFamily: 'Horizon',
+          //         color: Colors.white,
+          //         shadows: [Shadow(color: Colors.white, blurRadius: 20.0)]),
+          //   ),
+          // ),
+          // Text(
+          //   character.link,
+          //   style: const TextStyle(fontSize: 20),
+          // ),
+          // IconButton(
+          //   onPressed: () async {
+          //     var url = Uri.parse(character.link);
+          //     launchUrl(url, mode: LaunchMode.externalApplication);
+          //   },
+          //   icon: const Icon(
+          //     Icons.favorite,
+          //     size: 40,
+          //     color: Colors.pinkAccent,
+          //   ),
+          // )
         ],
       ),
     );
