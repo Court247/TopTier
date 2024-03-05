@@ -93,7 +93,7 @@ public class RunGameList {
         System.out.println("Input 'Exit' to quit");
         String gameName =  game.nextLine();
 
-        if(gameName.equalsIgnoreCase("Exit")){
+        if("Exit".equalsIgnoreCase(gameName)){
             return;
         }
         run.readGameInfo(gameName);
