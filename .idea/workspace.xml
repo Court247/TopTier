@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3e0e53a3-3d40-47fa-b9f3-18fbd2ee8c6b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/toptier/Generate.dart" beforeDir="false" afterPath="$PROJECT_DIR$/toptier/Generate.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toptier/Tierlists/Dislyte.txt" beforeDir="false" afterPath="$PROJECT_DIR$/toptier/Tierlists/Dislyte.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toptier/Tierlists/DislyteCharacters.txt" beforeDir="false" afterPath="$PROJECT_DIR$/toptier/Tierlists/DislyteCharacters.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toptier/Tierlists/Epic7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/toptier/Tierlists/Epic7.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toptier/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/toptier/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toptier/convertToJson.dart" beforeDir="false" afterPath="$PROJECT_DIR$/toptier/convertToJson.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toptier/lib/Games.dart" beforeDir="false" afterPath="$PROJECT_DIR$/toptier/lib/Games.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toptier/lib/Gaming.dart" beforeDir="false" afterPath="$PROJECT_DIR$/toptier/lib/Gaming.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toptier/lib/createaccount.dart" beforeDir="false" afterPath="$PROJECT_DIR$/toptier/lib/createaccount.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toptier/lib/dislytetierlistpage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/toptier/lib/dislytetierlistpage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toptier/lib/epic7tierlistpage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/toptier/lib/epic7tierlistpage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toptier/lib/gamelistpage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/toptier/lib/gamelistpage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toptier/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/toptier/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toptier/lib/signin.dart" beforeDir="false" afterPath="$PROJECT_DIR$/toptier/lib/signin.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toptier/macos/Flutter/GeneratedPluginRegistrant.swift" beforeDir="false" afterPath="$PROJECT_DIR$/toptier/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toptier/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/toptier/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toptier/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/toptier/pubspec.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ZzNsMRZPHNfWWsPtJloofpJvOe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  }
+}</component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle signingReport" />
+      <command value="./gradlew signingReport" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.D:/TopTier [signingReport]">
+    <configuration name="D:/TopTier [signingReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="signingReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="D:/TopTier/toptier/android/build.gradle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/toptier/android/build.gradle" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.D:/TopTier [signingReport]" />
+        <item itemvalue="Gradle.D:/TopTier/toptier/android/build.gradle" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e0e53a3-3d40-47fa-b9f3-18fbd2ee8c6b" name="Changes" comment="" />
+      <created>1703421155290</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703421155290</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
