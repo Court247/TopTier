@@ -7,7 +7,7 @@ import 'Generate.dart';
 import 'Info.dart';
 
 void main() async {
-  String file = 'D:\\TopTier\\toptier\\Tierlists\\DislyteTier.txt';
+  String file = 'D:\\TopTier\\toptier\\Tierlists\\Epic7Tier.txt';
 
   // read CSV files
   // final input = new File(file).openRead();
@@ -15,7 +15,7 @@ void main() async {
   // fields = GameList().removeSpaces(fields);
   // GameList().printCSV(fields);
 
-  String file2 = 'D:\\TopTier\\toptier\\Tierlists\\DislyteCharacters.txt';
+  String file2 = 'D:\\TopTier\\toptier\\Tierlists\\Epic7Characters.txt';
 
   var d = GameList().readJson(file);
   var c = GameList().readJson(file2);
@@ -27,11 +27,11 @@ void main() async {
 
   List<GameInfo> gameInfo = GameList().setGameInfoList(info, info2);
 
-  File zt = File('D:\\TopTier\\toptier\\Tierlists\\Dislyte.txt');
+  File zt = File('D:\\TopTier\\toptier\\Tierlists\\Epic7.txt');
 
   gameInfo = GameList().removeEachTag(gameInfo);
   var generateGame =
-      Generate(gameName: 'Dislyte', creator: 'Gachax', characters: gameInfo);
+      Generate(gameName: 'Epic7', creator: 'Epic7x', characters: gameInfo);
 
   var toJson = generateGame.toJson();
   JsonEncoder encoder = new JsonEncoder.withIndent('  ');
@@ -70,7 +70,8 @@ class GameList {
       addCharacter(GameInfo(
         name: gameData.characters[i]['name'],
         image: gameData.characters[i]['image'],
-        title: gameData.characters[i]['title'] ?? gameData2.characters[i]['title'],
+        title:
+            gameData.characters[i]['title'] ?? gameData2.characters[i]['title'],
         characterClass:
             gameData.characters[i]['class'] ?? gameData.characters[i]['type'],
         element: gameData.characters[i]['element'],
