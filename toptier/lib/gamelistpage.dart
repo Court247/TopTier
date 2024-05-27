@@ -48,6 +48,7 @@ class TopTierGamesPageState extends State<TopTierGamesPage> {
     Colors.pink.shade300,
     Colors.pink
   ];
+
   @override
   initState() {
     super.initState();
@@ -227,6 +228,21 @@ class TopTierGamesPageState extends State<TopTierGamesPage> {
     setState(() => gamingList = suggestions);
   }
 
+  Future<void> _refreshData() async {
+    // Clear your existing data
+    setState(() {
+      games.clear();
+    });
+
+    // Fetch your new data
+    await keepUpdated();
+
+    // Update your state with the new data
+    setState(() {
+      games;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -296,51 +312,54 @@ class TopTierGamesPageState extends State<TopTierGamesPage> {
             ),
           ),
           Expanded(
-            child: ListView.builder(
-                scrollDirection: Axis.vertical,
-                shrinkWrap: true,
-                padding: const EdgeInsets.all(5),
-                itemCount: gamingList.length,
-                itemBuilder: (context, index) {
-                  final g = gamingList[index];
-                  return ListTile(
-                    title: Text(
-                      '${g.gameName}',
-                      style: TextStyle(
-                        fontSize: 30,
-                        fontFamily: 'Horizon',
-                        color: Colors.pink.shade200,
-                      ),
-                    ),
-                    subtitle: Text(
-                      ' Created by: ${g.creator}',
-                      style: const TextStyle(fontStyle: FontStyle.italic),
-                    ),
-                    selected: false,
-                    selectedColor: Colors.pink.shade50,
-                    hoverColor: Colors.pink.shade50,
-                    shape: BeveledRectangleBorder(
-                        borderRadius: BorderRadius.circular(8.5),
-                        side: const BorderSide(
-                            color: Color.fromARGB(255, 254, 205, 222),
-                            strokeAlign: BorderSide.strokeAlignInside)),
-                    trailing: Text(
-                      '${g.characters.length} characters',
-                      style: const TextStyle(
-                          color: Colors.black45, fontStyle: FontStyle.italic),
-                    ),
-                    onTap: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => CharacterTierList(
-                                    gameName: g.gameName,
-                                    creator: g.creator,
-                                    gameInfo: g.characters,
-                                  )));
-                    },
-                  );
-                }),
+            child: RefreshIndicator(
+                onRefresh: _refreshData,
+                child: ListView.builder(
+                    scrollDirection: Axis.vertical,
+                    shrinkWrap: true,
+                    padding: const EdgeInsets.all(5),
+                    itemCount: gamingList.length,
+                    itemBuilder: (context, index) {
+                      final g = gamingList[index];
+                      return ListTile(
+                        title: Text(
+                          '${g.gameName}',
+                          style: TextStyle(
+                            fontSize: 30,
+                            fontFamily: 'Horizon',
+                            color: Colors.pink.shade200,
+                          ),
+                        ),
+                        subtitle: Text(
+                          ' Created by: ${g.creator}',
+                          style: const TextStyle(fontStyle: FontStyle.italic),
+                        ),
+                        selected: false,
+                        selectedColor: Colors.pink.shade50,
+                        hoverColor: Colors.pink.shade50,
+                        shape: BeveledRectangleBorder(
+                            borderRadius: BorderRadius.circular(8.5),
+                            side: const BorderSide(
+                                color: Color.fromARGB(255, 254, 205, 222),
+                                strokeAlign: BorderSide.strokeAlignInside)),
+                        trailing: Text(
+                          '${g.characters.length} characters',
+                          style: const TextStyle(
+                              color: Colors.black45,
+                              fontStyle: FontStyle.italic),
+                        ),
+                        onTap: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => CharacterTierList(
+                                        gameName: g.gameName,
+                                        creator: g.creator,
+                                        gameInfo: g.characters,
+                                      )));
+                        },
+                      );
+                    })),
           ),
         ],
       ),

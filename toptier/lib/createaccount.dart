@@ -74,7 +74,7 @@ class _CreateAccountPageState extends State<CreateAccountPage> {
         'Password': _pass.currentState?.value,
         'Username': _user.currentState?.value
       };
-      
+
   createUser() async {
     final auth = Provider.of<FirebaseAuth>(context, listen: false);
     final db = Provider.of<FirebaseFirestore>(context, listen: false);
@@ -95,6 +95,7 @@ class _CreateAccountPageState extends State<CreateAccountPage> {
           'email': _email.currentState!.value!,
           'uid': user.uid,
           'profileImage': '',
+          'isAdmin': false,
         });
         success();
       }
@@ -126,7 +127,6 @@ class _CreateAccountPageState extends State<CreateAccountPage> {
     _email.currentState?.save();
     return true;
   }
-
 
   @override
   Widget build(BuildContext context) {

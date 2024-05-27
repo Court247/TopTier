@@ -117,7 +117,7 @@ class _LoginPageState extends State<LoginPage> {
       } else if (e.code.toLowerCase() == 'invalid-credential'.toLowerCase()) {
         print(e.code);
 
-        message = 'Invalid email.';
+        message = 'Invalid email or password.';
       } else if (e.code.toLowerCase() ==
           'network-request-failed'.toLowerCase()) {
         print(e.code);
