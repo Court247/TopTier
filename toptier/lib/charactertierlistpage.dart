@@ -98,6 +98,7 @@ class _CharacterTierListPageState extends State<CharacterTierListPage> {
     setState(() => gInfo = suggestions);
   }
 
+
   @override
   Widget build(BuildContext context) {
     final provider = Provider.of<FavoriteProvider>(context, listen: true);
