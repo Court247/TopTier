@@ -95,7 +95,7 @@ class _FavoriteListState extends State<FavoriteList> {
 
                         Navigator.pop(context);
                       },
-                      child: const Text('Yes')),
+                      child: const Text('Ok')),
                   TextButton(
                       onPressed: () {
                         Navigator.pop(context);
@@ -196,11 +196,12 @@ class _FavoriteListState extends State<FavoriteList> {
                   iconColor: Colors.pinkAccent.shade400,
                   iconSize: 35.5,
                   isFavorite: favs.isFavorite,
+                  //make it so that "canAdd is changed "
                   valueChanged: (fav) {
                     favs.isFavorite = fav;
-                    if (fav) {
-                      favs.canAdd = false;
-                    }
+                    // if (fav) {
+                    //   favs.canAdd = false;
+                    // }
                     provider.addFav(favs);
                   },
                 ),

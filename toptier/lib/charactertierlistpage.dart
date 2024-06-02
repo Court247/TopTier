@@ -160,12 +160,6 @@ class _CharacterTierListPageState extends State<CharacterTierListPage> {
               valueChanged: (fav) {
                 //Set character favorite to the value of fav
                 character.isFavorite = fav;
-
-                //if fav is true, set can add to false
-                if (fav) {
-                  character.canAdd = false;
-                }
-
                 //Adds GameInfo character instance to fav list in provider
                 provider.addFav(character);
               },

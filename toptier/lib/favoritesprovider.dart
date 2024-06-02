@@ -11,14 +11,13 @@ class FavoriteProvider extends ChangeNotifier {
   /// > _`@returns: [void]`_
   ///
   /// adds character to favorites list
+  /// Some reason it keeps removing the character below the one you click on
   void addFav(GameInfo character) {
-    //calls method to check if the character is a favorite
+    String charName = character.name;
     final isFav = character.isFavorite;
     if (isFav) {
       _favorites.add(character);
-
-      //if theres already a character in the list remove it
-    } else if (!character.canAdd) {
+    } else if (!isFav) {
       _favorites.remove(character);
     }
     notifyListeners();
